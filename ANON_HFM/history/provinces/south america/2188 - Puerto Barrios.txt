@@ -1,0 +1,18 @@
+owner = VNS
+controller = VNS
+add_core = VNS
+add_core = UCA
+add_core = GUA
+trade_goods = wool
+life_rating = 31
+terrain = montane_jungle
+1836.1.1 = {
+        owner = UCA
+        controller = UCA
+
+}
+1861.1.1 = {
+	owner = GUA
+	controller = GUA
+	remove_core = UCA
+}

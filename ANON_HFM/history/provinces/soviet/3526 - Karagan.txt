@@ -1,0 +1,13 @@
+
+add_core = KHI
+add_core = J02
+terrain = semidesert
+trade_goods = fish
+life_rating = 20
+1836.1.1 = {
+        owner = RUS
+        controller = RUS
+        fort = 1
+        colonial = 2
+}
+

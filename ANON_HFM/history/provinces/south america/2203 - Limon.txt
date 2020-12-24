@@ -1,0 +1,17 @@
+#owner = UCA
+#controller = UCA
+#Bocas del Toro territory to CLM
+owner = VNS
+controller = VNS
+add_core = VNS
+add_core = COS
+add_core = CLM
+add_core = UCA
+trade_goods = coffee
+life_rating = 31
+terrain = jungle_farmland
+
+1836.1.1 = {
+       owner = CLM
+       controller = CLM
+}

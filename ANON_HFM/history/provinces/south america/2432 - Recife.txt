@@ -1,0 +1,18 @@
+owner = PBR
+controller = PBR
+add_core = PBR
+add_core = BRZ
+add_core = PNB
+trade_goods = coffee
+terrain = recife
+
+#state_building = {
+#	level = 1
+#	building = rum_distillery
+#	upgrade = yes
+#}
+life_rating = 35
+1836.1.1 = {
+         owner = BRZ
+         controller = BRZ
+}

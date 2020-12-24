@@ -1,0 +1,19 @@
+owner = SPA
+controller = SPA
+add_core = HAI
+add_core = DOM
+trade_goods = tobacco
+life_rating = 35
+colonial = 2
+terrain = santodomingodm
+is_slave = yes
+
+1836.1.1 = {
+owner = HAI
+controller = HAI
+is_slave = no
+}
+1861.1.1 = {
+owner = DOM
+controller = DOM
+}

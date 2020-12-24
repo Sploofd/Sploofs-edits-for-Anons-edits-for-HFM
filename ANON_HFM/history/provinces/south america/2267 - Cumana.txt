@@ -1,0 +1,13 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = VNZ
+trade_goods = fish
+life_rating = 35
+terrain = dryforest
+1836.1.1 = {
+         controller = VNZ
+         owner = VNZ
+}
+
+

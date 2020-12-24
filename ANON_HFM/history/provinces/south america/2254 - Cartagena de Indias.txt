@@ -1,0 +1,14 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = CLM
+#trade_goods = coal
+trade_goods = fish
+life_rating = 33
+naval_base = 1
+terrain = floodplain_farmland
+1836.1.1 = {
+         controller = CLM
+         owner = CLM
+}
+

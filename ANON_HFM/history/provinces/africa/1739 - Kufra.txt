@@ -1,0 +1,11 @@
+owner = SNR
+controller = SNR
+add_core = SNR
+trade_goods = cattle
+life_rating = 10
+colonial = 2
+terrain = semidesert
+1836.1.1 = {
+        owner = SUC
+        controller = SUC
+}

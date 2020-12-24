@@ -1,0 +1,13 @@
+owner = SNR
+controller = SNR
+add_core = SNR
+add_core = SUD
+trade_goods = wool
+terrain = dry_forest_hills
+life_rating = 32
+1836.1.1 = {
+     owner = EGY
+     controller = EGY
+     add_core = EGY
+}
+

@@ -1,0 +1,17 @@
+owner = LPL
+controller = LPL
+add_core = LPL
+add_core = ARC
+trade_goods = sulphur
+life_rating = 35
+terrain = dry_forest_hills
+1836.1.1 = {
+        owner = ARC
+        controller = ARC
+}
+
+1861.1.1 = { 
+	owner = ARG
+	controller = ARG
+	add_core = ARG
+}

@@ -1,0 +1,12 @@
+owner = OM1
+controller = OM1
+add_core = OMA
+add_core = OM1
+trade_goods = fruit
+life_rating = 35
+terrain = montane_desert
+1836.1.1 = {
+       owner = OMA
+       controller = OMA
+}
+

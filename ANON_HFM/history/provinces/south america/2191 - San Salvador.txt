@@ -1,0 +1,17 @@
+owner = VNS
+controller = VNS
+add_core = VNS
+add_core = ELS
+trade_goods = coffee
+life_rating = 35
+naval_base = 1
+terrain = sansalvador
+
+1836.1.1 = {
+        owner = UCA
+        controller = UCA
+}
+1861.1.1 = {
+	owner = ELS
+	controller = ELS
+}

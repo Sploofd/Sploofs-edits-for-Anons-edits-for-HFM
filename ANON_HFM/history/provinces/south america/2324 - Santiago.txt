@@ -1,0 +1,12 @@
+owner = VOP
+controller = VOP
+add_core = VOP
+add_core = CHL
+trade_goods = grain
+life_rating = 35
+terrain = santiago
+1836.1.1 = {
+         controller = CHL
+         owner = CHL
+}
+

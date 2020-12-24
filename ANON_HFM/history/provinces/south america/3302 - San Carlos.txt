@@ -1,0 +1,13 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = VNZ
+add_core = B4R
+trade_goods = cattle
+terrain = savannahills
+life_rating = 35
+1836.1.1 = {
+         owner = VNZ
+         controller = VNZ
+}
+

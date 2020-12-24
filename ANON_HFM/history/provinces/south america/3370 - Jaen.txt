@@ -1,0 +1,17 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = ECU
+#owner = PEU
+#controller = PEU
+#add_core = ECU
+add_core = PEU
+terrain = montane_jungle
+trade_goods = coffee
+life_rating = 35
+1836.1.1 = {
+         owner = ECU
+         controller = ECU
+}
+
+

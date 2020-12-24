@@ -1,0 +1,36 @@
+political_decisions = { 
+ abolish_the_russian_american_company = {
+		picture = LSK
+		potential = {
+			tag = RUS
+		        has_country_flag = russification_of_the_baltic_states 
+                        NOT = {has_country_flag = alaska_abolished}
+			is_our_vassal = LSK
+				
+		}
+		
+		allow = {
+			war = no
+			LSK = { exists = yes }	
+		}
+		
+		effect = {
+			set_country_flag = alaska_abolished
+                        LSK = {any_owned_province = { add_core = RUS}
+                        LSK = {any_owned_province = { secede_province = RUS}
+			
+				
+			
+			any_pop = {
+				limit = {
+					has_pop_culture = alaskan
+					}
+				}
+			consciousness = 5
+			militancy = 3
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+  }
+}

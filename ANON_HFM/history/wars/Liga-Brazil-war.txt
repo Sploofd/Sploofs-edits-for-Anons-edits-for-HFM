@@ -1,0 +1,30 @@
+name = "Seizure of Uraguay "
+
+1815.1.1 = {        
+        add_attacker = POR
+	add_attacker = PBR
+	add_defender = LIG
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = acquire_all_cores
+		actor = PBR
+		receiver = LIG
+	}
+	war_goal = {
+		casus_belli = status_quo
+		actor = LIG
+		receiver = PBR
+	}
+
+}
+
+1820.1.1 = {
+       rem_attacker = POR
+	rem_attacker = PBR
+	rem_defender = LIG
+}

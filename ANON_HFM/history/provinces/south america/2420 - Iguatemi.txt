@@ -1,0 +1,13 @@
+owner = PBR
+controller = PBR
+add_core = PBR
+add_core = PRG
+add_core = BRZ
+trade_goods = sulphur
+terrain = savannahills
+life_rating = 25
+1836.1.1 = {
+         owner = PRG
+         controller = PRG
+}
+

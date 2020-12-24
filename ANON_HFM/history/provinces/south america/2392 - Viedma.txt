@@ -1,0 +1,13 @@
+owner = LPL
+controller = LPL
+add_core = LPL
+add_core = ARC
+add_core = PTG
+trade_goods = wool
+terrain = steppehills
+life_rating = 15
+1836.1.1 = {
+        owner = ARC
+        controller = ARC
+}
+

@@ -1,0 +1,13 @@
+owner = OM1
+controller = OM1
+add_core = OMA
+add_core = BLC
+add_core = MAK
+trade_goods = fish
+terrain = semidesert
+life_rating = 31
+1836.1.1 = {
+       owner = OMA
+       controller = OMA
+}
+

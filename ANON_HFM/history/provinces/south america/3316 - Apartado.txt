@@ -1,0 +1,14 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = CLM
+add_core = ANQ
+trade_goods = fruit
+life_rating = 35
+terrain = jungle_farmland
+1836.1.1 = {
+         owner = CLM
+         controller = CLM
+}
+
+

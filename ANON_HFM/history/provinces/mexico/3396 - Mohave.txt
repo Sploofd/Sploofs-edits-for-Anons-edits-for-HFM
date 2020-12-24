@@ -1,0 +1,20 @@
+owner = VNS
+controller = VNS
+add_core = VNS
+add_core = MEX
+trade_goods = coal
+life_rating = 35
+colonial = 2
+terrain = montane_desert
+1836.1.1 = {
+      owner = MEX
+      controller = MEX
+}
+
+1861.1.1 = {
+	controller = USA
+	owner = USA
+	add_core = USA
+	add_core = CSA
+	remove_core = MEX
+}

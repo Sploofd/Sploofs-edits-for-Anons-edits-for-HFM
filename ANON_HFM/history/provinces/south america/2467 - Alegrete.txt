@@ -1,0 +1,17 @@
+owner = PBR
+controller = PBR
+add_core = PBR
+add_core = RGS
+add_core = BRZ
+trade_goods = cattle
+terrain = pampas
+life_rating = 35
+1836.1.1 = {
+         owner = RGS
+         controller = RGS
+}
+
+1860.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}

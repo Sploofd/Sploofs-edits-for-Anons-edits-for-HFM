@@ -1,0 +1,14 @@
+owner = SNR
+controller = SNR
+add_core = SNR
+add_core = SHK
+add_core = EGY
+add_core = SUD
+trade_goods = cattle
+terrain = semidesert
+life_rating = 34
+1836.1.1 = {
+      owner = SHK
+      controller = SHK
+}
+

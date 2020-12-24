@@ -1,0 +1,14 @@
+owner = MTH
+controller = MTH
+add_core = MTH
+add_core = IND
+add_core = HND
+trade_goods = opium
+life_rating = 32
+terrain = farmlandhills
+1836.1.1 = {
+        owner = IND
+        controller = IND
+}
+
+

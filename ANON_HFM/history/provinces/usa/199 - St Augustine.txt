@@ -1,0 +1,30 @@
+owner = SPA
+controller = SPA
+add_core = USA
+trade_goods = cotton
+life_rating = 35
+colonial = 2
+terrain = forest
+
+party_loyalty = {
+	ideology = conservative
+	loyalty_value = 5
+}
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 12
+}
+
+1836.1.1 = {
+         owner = USA
+         controller = USA
+         is_slave = yes
+}
+
+1861.1.1 = {
+	colonial = 0
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+	railroad = 3 
+}

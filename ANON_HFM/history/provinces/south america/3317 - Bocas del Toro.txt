@@ -1,0 +1,13 @@
+owner = VNS
+controller = VNS
+add_core = VNS
+add_core = CLM
+add_core = PNM
+trade_goods = fish
+life_rating = 32
+terrain = jungle_farmland
+1836.1.1 = {
+       owner = CLM
+       controller = CLM
+}
+

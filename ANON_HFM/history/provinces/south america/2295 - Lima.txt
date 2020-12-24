@@ -1,0 +1,16 @@
+owner = VOP
+controller = VOP
+add_core = VOP
+add_core = PEU
+trade_goods = cattle
+life_rating = 35
+naval_base = 1
+terrain = lima
+1836.1.1 = {
+         controller = PEU
+         owner = PEU
+}
+1861.1.1 = { 
+	railroad = 1
+	naval_base = 1
+}

@@ -1,0 +1,10 @@
+owner = LVN
+controller = LVN
+#add_core = UBD
+add_core = LVN
+add_core = RUS
+add_core = EST
+trade_goods = cattle
+life_rating = 35
+terrain = forest_farmland
+

@@ -1,0 +1,15 @@
+owner = MTH
+controller = MTH
+add_core = MTH
+add_core = BHO
+add_core = HND
+trade_goods = dye
+life_rating = 32
+terrain = dry_forest_hills
+1836.1.1 = {
+        owner = EIC
+        controller = EIC
+        colonial = 2
+}
+
+

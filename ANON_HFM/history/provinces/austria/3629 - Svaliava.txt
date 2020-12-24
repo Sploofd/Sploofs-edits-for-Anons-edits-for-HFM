@@ -1,0 +1,11 @@
+owner = AUS
+controller = AUS
+add_core = RUT
+add_core = HUN
+add_core = SLV
+add_core = CPU
+add_core = CZH
+trade_goods = iron #lead
+life_rating = 35
+terrain = montane_forest
+

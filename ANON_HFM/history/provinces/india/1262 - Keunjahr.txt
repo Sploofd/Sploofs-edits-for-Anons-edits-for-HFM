@@ -1,0 +1,14 @@
+owner = MTH
+controller = MTH
+add_core = MTH
+add_core = ORI
+add_core = HND
+trade_goods = grain
+life_rating = 32
+terrain = farmlandhills
+1836.1.1 = {
+        owner = ORI
+        controller = ORI
+}
+
+

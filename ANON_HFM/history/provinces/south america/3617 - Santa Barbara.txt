@@ -1,0 +1,13 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = VNZ
+add_core = ZLA
+trade_goods = cattle
+life_rating = 35
+terrain = floodplain_farmland
+1836.1.1 = {
+         owner = VNZ
+         controller = VNZ
+}
+

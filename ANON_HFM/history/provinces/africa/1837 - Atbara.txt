@@ -1,0 +1,14 @@
+owner = HWW
+controller = HWW
+add_core = HWW
+add_core = SUD
+trade_goods = tropical_wood
+life_rating = 32
+terrain = semidesert
+1836.1.1 = {
+     owner = EGY
+     controller = EGY
+     add_core = EGY
+}
+
+

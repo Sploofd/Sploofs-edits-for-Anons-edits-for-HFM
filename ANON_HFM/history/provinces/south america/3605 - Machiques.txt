@@ -1,0 +1,15 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = VNZ
+add_core = CLM
+add_core = ZLA
+trade_goods = coal
+terrain = montane_jungle
+life_rating = 30
+colonial = 2
+1836.1.1 = {
+         owner = VNZ
+         controller = VNZ
+}
+

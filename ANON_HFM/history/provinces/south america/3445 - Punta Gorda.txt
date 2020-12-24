@@ -1,0 +1,19 @@
+owner = VNS
+controller = VNS
+add_core = VNS
+add_core = BLZ
+add_core = UCA
+add_core = GUA
+add_core = MEX
+trade_goods = tropical_wood
+life_rating = 30
+colonial = 2
+terrain = new_world_jungle
+
+1836.1.1 = {
+        owner = UCA
+        controller = UCA
+}
+1861.1.1 = {
+	remove_core = UCA
+}

@@ -1,0 +1,15 @@
+owner = MUS
+controller = MUS
+add_core = PER
+add_core = OMA
+add_core = BLC
+trade_goods = fruit
+life_rating = 35
+naval_base = 1
+
+terrain = bandarabbas
+1836.1.1 = {
+       owner = OMA
+       controller = OMA
+}
+

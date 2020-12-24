@@ -1,0 +1,10 @@
+owner = VNS
+controller = VNS
+add_core = VNS
+add_core = MEX
+trade_goods = cattle
+life_rating = 35
+1836.1.1 = {
+     controller = TEX
+     owner = TEX
+}

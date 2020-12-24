@@ -1,0 +1,14 @@
+owner = VOP
+controller = VOP
+add_core = VOP
+add_core = BOL
+#add_core = ARC
+trade_goods = grain
+life_rating = 30
+terrain = altiplano
+#Now Santa Rosa
+
+1836.1.1 = {
+         owner = PBC
+         controller = PBC
+}

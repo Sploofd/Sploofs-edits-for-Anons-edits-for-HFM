@@ -1,0 +1,17 @@
+owner = LIG
+controller = PBR
+add_core = PBR
+add_core = LIG
+add_core = URU
+trade_goods = fish
+terrain = pampas
+life_rating = 35
+
+party_loyalty = {
+	ideology = conservative
+	loyalty_value = 25
+}
+1836.1.1 = {
+        owner = URU
+        controller = URU
+}

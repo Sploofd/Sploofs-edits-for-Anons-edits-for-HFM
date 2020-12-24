@@ -1,0 +1,14 @@
+owner = VNS
+controller = VNS
+add_core = VNS
+add_core = MEX
+add_core = CHP
+add_core = UCA
+trade_goods = cotton
+life_rating = 30
+terrain = montane_jungle
+1836.1.1 = {
+      owner = MEX
+      controller = MEX
+}
+

@@ -1,0 +1,12 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = ECU
+trade_goods = cattle
+life_rating = 32
+terrain = montane_farmlands
+1836.1.1 = {
+         controller = ECU
+         owner = ECU
+}
+

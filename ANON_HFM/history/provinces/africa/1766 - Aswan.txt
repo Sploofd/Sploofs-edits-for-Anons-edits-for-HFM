@@ -1,0 +1,12 @@
+owner = HWW
+controller = HWW
+add_core = HWW
+add_core = KHM
+trade_goods = grain
+life_rating = 35
+terrain = floodplain_farmland
+1836.1.1 = {
+     owner = EGY
+     controller = EGY
+     add_core = EGY
+}

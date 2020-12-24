@@ -1,0 +1,17 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = CLM
+trade_goods = iron
+life_rating = 35
+terrain = montane_forest
+1836.1.1 = {
+         controller = CLM
+         owner = CLM
+          state_building = {
+	   level = 1
+	   building = steel_factory
+	   upgrade = yes
+          }
+}
+

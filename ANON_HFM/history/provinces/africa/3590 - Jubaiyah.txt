@@ -1,0 +1,17 @@
+owner = SNR
+controller = SNR
+add_core = SNR
+add_core = SHK
+add_core = EGY
+add_core = SUD
+trade_goods = wool
+life_rating = 32
+terrain = dry_forest_hills
+1836.1.1 = {
+        owner = SHK
+        controller = SHK
+}
+1861.1.1 = { 
+	owner = EGY
+	controller = EGY
+}

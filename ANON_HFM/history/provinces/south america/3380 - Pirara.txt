@@ -1,0 +1,15 @@
+owner = PBR
+controller = PBR
+add_core = PBR
+add_core = BRZ
+add_core = VNZ
+#add_core = GUY
+terrain = savannahills
+trade_goods = cattle
+life_rating = 15
+colonial = 2
+1836.1.1 = {
+         owner = BRZ
+         controller = BRZ
+}
+
