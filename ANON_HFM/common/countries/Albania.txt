@@ -3,7 +3,7 @@ graphical_culture = EuropeanGC
 
 party = {
 	name = "ALB_conservative"
-	start_date = 1835.1.1
+	start_date = 1815.1.1
 	end_date = 1912.1.1
 
 	ideology = conservative
@@ -63,7 +63,7 @@ party = {
 
 party = {
 	name = "ALB_liberal_2"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 1911.1.1
 
 	ideology = liberal
@@ -78,7 +78,7 @@ party = {
 
 party = {
 	name = "ALB_reactionary_2"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 1877.1.1
 
 	ideology = reactionary

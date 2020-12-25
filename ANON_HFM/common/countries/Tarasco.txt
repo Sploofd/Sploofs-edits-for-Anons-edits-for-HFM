@@ -33,7 +33,7 @@ party = {
 
 party = {
 	name = "OAX_reactionary"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = reactionary

@@ -1,8 +1,8 @@
-owner = CLA
-controller = CLA
+owner = SPA
+controller = SPA
 add_core = CLA
 add_core = ARO
 trade_goods = tropical_wood
 life_rating = 35
-
+colonial = 2
 terrain = junglehills

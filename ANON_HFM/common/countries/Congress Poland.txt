@@ -4,7 +4,7 @@ graphical_culture = EuropeanGC
 
 party = {
 	name = "CPL_conservative"
-	start_date = 1836.1.1
+	start_date = 1815.1.1
 	end_date = 1863.1.1
 
 	ideology = conservative
@@ -34,7 +34,7 @@ party = {
 
 party = {
 	name = "POL_liberal"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 1936.1.1
 
 	ideology = liberal
@@ -49,7 +49,7 @@ party = {
 
 party = {
 	name = "POL_reactionary"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = reactionary

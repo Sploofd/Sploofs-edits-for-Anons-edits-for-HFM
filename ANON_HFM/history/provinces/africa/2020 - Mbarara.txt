@@ -1,3 +1,6 @@
+controller = AOL
+owner = AOL
+add_core = AOL
 add_core = BUG
 trade_goods = cotton
 life_rating = 10

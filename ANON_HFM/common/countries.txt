@@ -868,6 +868,10 @@ SKY             = "countries/Shamakhy.txt"
 SNR             = "countries/Sennar.txt"
 HWW             = "countries/Hawwara.txt"
 MTH             = "countries/Maratha.txt"
+OUU             = "countries/Orungu.txt"
+AOL             = "countries/Ankole.txt"
+BNY             = "countries/Bunyoro.txt"
+
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

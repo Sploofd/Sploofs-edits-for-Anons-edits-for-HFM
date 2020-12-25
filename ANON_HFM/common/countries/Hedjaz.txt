@@ -17,7 +17,7 @@ party = {
 
 party = {
 	name = "HEJ_liberal"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 1936.1.1
 
 	ideology = liberal
@@ -32,7 +32,7 @@ party = {
 
 party = {
 	name = "HEJ_reactionary"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = reactionary

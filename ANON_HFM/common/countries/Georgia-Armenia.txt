@@ -46,7 +46,7 @@ party = {
 
 party = {
 	name = "GEO_liberal"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 1936.1.1
 
 	ideology = liberal
@@ -74,7 +74,7 @@ party = {
 }
 party = {
 	name = "ARM_liberal_2"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 1863.1.1
 
 	ideology = liberal
@@ -103,7 +103,7 @@ party = {
 
 party = {
 	name = "GEO_reactionary"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = reactionary
@@ -117,7 +117,7 @@ party = {
 }
 party = {
 	name = "ARM_reactionary"
-	start_date = 1820.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = reactionary

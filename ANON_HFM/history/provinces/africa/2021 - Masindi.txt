@@ -1,3 +1,6 @@
+owner = BNY
+controller = BNY
+add_core = BNY
 add_core = BUG
 trade_goods = coffee
 terrain = savanna
