@@ -30,7 +30,7 @@ ENG_74 = { 74 75 76 77 2625 } #Newfoundland
 
 ### United States
 
-USA_78 = { 78 79 80 } #Washington
+USA_78 = { 78 79 80 3690 } #Washington
 
 USA_81 = { 81 82 83 3388 3394 } #Oregon
 
@@ -38,11 +38,11 @@ MEX_85 = { 87 89 88 90 3400 } #Southern California, edited by ANON
 
 MEX_104 = { 104 84 86 85 3307 3308 3389 3390 } #Northern California, added by ANON
 
-USA_91 = { 91 92 93 } #Idaho
+USA_91 = { 91 92 93 3689 3691 } #Idaho
 
 MEX_94 = { 3393 94 96 95 } #Nevada
 
-MEX_97 = { 97 98 99 3688 3689 3690 3691 } #Utah
+MEX_97 = { 97 98 99 } #Utah
 
 MEX_100 = { 100 101 102 3396 } #Arizona
 
@@ -50,7 +50,7 @@ MEX_103 = { 105 2148 2662 3397 } #New Mexico
 
 USA_106 = { 103 106 108 109 3398 3399 } #Colorado
 
-USA_111 = { 112 107 110 111 3395 } #Wyoming
+USA_111 = { 112 107 110 111 3395 3688} #Wyoming
 
 USA_116 = { 113 116 115 114 } #Montana
 
