@@ -3,7 +3,7 @@ graphical_culture = SouthAmericanGC
 
 party = {
 	name = "ENT_conservative"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1872.1.1
 
 	ideology = conservative
@@ -33,7 +33,7 @@ party = {
 
 party = {
 	name = "ENT_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1903.1.1
 
 	ideology = liberal
@@ -138,7 +138,7 @@ party = {
 
 party = {
 	name = "ENT_anarcho_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = anarcho_liberal

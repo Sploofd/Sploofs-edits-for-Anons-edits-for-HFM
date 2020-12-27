@@ -1,6 +1,6 @@
-owner = KON
-controller = KON
-add_core = KON
+owner = KKG
+controller = KKG
+add_core = KKG
 trade_goods = fruit
 life_rating = 35
 terrain = junglehills

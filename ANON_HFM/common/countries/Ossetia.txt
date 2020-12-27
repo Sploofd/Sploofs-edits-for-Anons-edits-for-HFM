@@ -3,7 +3,7 @@ graphical_culture = RussianGC
 
 party = {
 	name = "OSS_reactionary"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 	
 	ideology = reactionary
@@ -18,7 +18,7 @@ party = {
 
 party = {
 	name = "OSS_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = liberal
@@ -33,7 +33,7 @@ party = {
 
 party = {
 	name = "OSS_conservative"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = conservative
@@ -48,7 +48,7 @@ party = {
 
 party = {
 	name = "OSS_anarcho_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = anarcho_liberal
@@ -93,7 +93,7 @@ party = {
 
 party = {
 	name = "OSS_fascist"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = fascist

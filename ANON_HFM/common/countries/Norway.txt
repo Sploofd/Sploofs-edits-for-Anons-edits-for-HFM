@@ -124,7 +124,7 @@ party = {
 
 party = {
 	name = "NOR_reactionary" #Konge Partiet
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = reactionary
@@ -139,7 +139,7 @@ party = {
 
 party = {
 	name = "NOR_anarcho_liberal" #Radicals
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1901.1.1
 
 	ideology = anarcho_liberal
@@ -169,7 +169,7 @@ party = {
 
 party = {
 	name = "NOR_socialist" #Socialists
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1887.8.21
 
 	ideology = socialist

@@ -4,7 +4,7 @@ graphical_culture = BritishGC
 
 party = {
 	name = "EIC_reactionary"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1875.1.1
 
 	ideology = conservative
@@ -19,7 +19,7 @@ party = {
 
 party = {
 	name = "EIC_reactionary"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1875.1.1
 
 	ideology = reactionary
@@ -34,7 +34,7 @@ party = {
 
 party = {
 	name = "EIC_reactionary" #EIC Liberal
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1875.1.1
 
 	ideology = liberal

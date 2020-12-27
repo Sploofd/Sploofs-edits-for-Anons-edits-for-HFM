@@ -3,7 +3,7 @@ graphical_culture = ConfederateGC
 
 party = {
 	name = "TEX_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1864.1.1
 
 	ideology = liberal
@@ -32,7 +32,7 @@ party = {
 
 party = {
 	name = "TEX_conservative"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1864.1.1
 
 	ideology = conservative

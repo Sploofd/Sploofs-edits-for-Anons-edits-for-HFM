@@ -3,7 +3,7 @@ graphical_culture = EuropeanGC
 
 party = {
 	name = "FRO_liberal" # Sjálvstýrisflokkurin
-	start_date = 1830.1.1 # Actually founded in 1909
+	start_date = 1815.1.1 # Actually founded in 1909
 	end_date = 9000.1.1
 
 	ideology = liberal
@@ -18,7 +18,7 @@ party = {
 
 party = {
 	name = "FRO_conservative" # Sambandsflokkurin
-	start_date = 1830.1.1 # Actually founded in 1906
+	start_date = 1815.1.1 # Actually founded in 1906
 	end_date = 9000.1.1
 
 	ideology = conservative
@@ -33,7 +33,7 @@ party = {
 
 party = {
 	name = "FRO_reactionary" # Hin Føroyski Flokkurin
-	start_date = 1830.1.1 # Anachronistic
+	start_date = 1815.1.1 # Anachronistic
 	end_date = 9000.1.1
 
 	ideology = conservative

@@ -1,0 +1,6 @@
+owner = HOO
+controller = HOO
+add_core = HOO
+add_core = KON
+trade_goods = grain
+life_rating = 10

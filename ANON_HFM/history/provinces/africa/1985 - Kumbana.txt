@@ -1,3 +1,6 @@
+owner = NZK
+controller = NZK
+add_core = NZK
 add_core = KON
 trade_goods = grain
 life_rating = 10

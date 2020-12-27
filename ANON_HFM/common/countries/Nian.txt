@@ -18,7 +18,7 @@ party = {
 
 party = {
 	name = "TPG_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1991.1.1
 
 	ideology = liberal
@@ -33,7 +33,7 @@ party = {
 
 party = {
 	name = "TPG_reactionary"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 1999.1.1
 
 	ideology = reactionary
@@ -48,7 +48,7 @@ social_policy = no_position_set
 
 party = {
 	name = "TPG_anarcho_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = anarcho_liberal

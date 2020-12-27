@@ -871,6 +871,13 @@ MTH             = "countries/Maratha.txt"
 OUU             = "countries/Orungu.txt"
 AOL             = "countries/Ankole.txt"
 BNY             = "countries/Bunyoro.txt"
+KKG             = "countries/Kakongo.txt"
+KNZ             = "countries/Kasanze.txt"           
+MAA             = "countries/Matamba.txt"     
+NZK             = "countries/Anziko.txt"   
+HOO             = "countries/Holo.txt"  
+NGO             = "countries/Ngoyo.txt"                                         
+                                      
 
 
 ##HoD Dominions

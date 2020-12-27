@@ -7,7 +7,7 @@ graphical_culture = PrussianGC
 
 party = {
 	name = "GER_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = liberal
@@ -112,7 +112,7 @@ party = {
 
 party = {
 	name = "GER_reactionary"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = reactionary
@@ -127,7 +127,7 @@ party = {
 
 party = {
 	name = "GER_conservative_2"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = conservative
@@ -157,7 +157,7 @@ party = {
 
 party = {
 	name = "GER_anarcho_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = anarcho_liberal

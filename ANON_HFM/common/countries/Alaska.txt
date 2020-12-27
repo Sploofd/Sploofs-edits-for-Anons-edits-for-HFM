@@ -5,7 +5,7 @@ graphical_culture = RussianGC
 
 party = {
 	name = "LSK_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = liberal
@@ -20,7 +20,7 @@ party = {
 
 party = {
 	name = "LSK_conservative"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = conservative
@@ -65,7 +65,7 @@ party = {
 
 party = {
 	name = "LSK_anarcho_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = anarcho_liberal

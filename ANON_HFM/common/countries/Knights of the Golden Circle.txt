@@ -9,7 +9,7 @@ proletarian_dictatorship = { 134 52 52 }
 
 party = {
 	name = "MXM_anarcho_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = anarcho_liberal
@@ -24,7 +24,7 @@ party = {
 
 party = {
 	name = "CSA_conservative"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = conservative
@@ -55,7 +55,7 @@ party = {
 
 party = {
 	name = "MXM_liberal"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = liberal
@@ -71,7 +71,7 @@ party = {
 
 party = {
 	name = "CSA_liberal_3"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = liberal
@@ -101,7 +101,7 @@ party = {
 
 party = {
 	name = "MEX_reactionary"
-	start_date = 1830.1.1
+	start_date = 1815.1.1
 	end_date = 9000.1.1
 
 	ideology = reactionary
