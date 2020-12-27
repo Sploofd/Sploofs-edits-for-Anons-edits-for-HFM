@@ -1,0 +1,9 @@
+
+add_core = HAL
+trade_goods = fruit
+life_rating = 10
+terrain = deserthills
+1836.1.1 = {
+  owner = HAL
+  controller = HAL
+}
