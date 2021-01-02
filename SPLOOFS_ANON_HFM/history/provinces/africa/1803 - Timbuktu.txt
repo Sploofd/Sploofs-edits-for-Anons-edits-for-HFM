@@ -1,8 +1,12 @@
-owner = MAS
-controller = MAS
+owner = SEG
+controller = SEG
 add_core = SEG
 add_core = MAS
 add_core = DND
 trade_goods = cattle
 life_rating = 35
 terrain = timbuktu
+1836.1.1 = {
+     owner = MAS
+     controller = MAS
+}

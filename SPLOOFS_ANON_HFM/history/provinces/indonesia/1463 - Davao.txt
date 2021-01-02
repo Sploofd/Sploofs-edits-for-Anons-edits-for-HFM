@@ -1,5 +1,6 @@
-owner = SPA
-controller = SPA
+owner = MAG
+controller = MAG
+add_core = MAG
 add_core = PHL
 trade_goods = iron
 life_rating = 35

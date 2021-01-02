@@ -1,7 +1,11 @@
-owner = EIC
-controller = EIC
+owner = BUR
+controller = BUR
 add_core = BUR
 trade_goods = grain
 life_rating = 35
 colonial = 2
 terrain = junglehills
+1836.1.1 = {
+     owner = EIC
+     controller = EIC
+}

@@ -1,6 +1,6 @@
-owner = SLW
-controller = SLW
-add_core = SLW
+owner = MNF
+controller = MNF
+add_core = MNF
 trade_goods = grain
 life_rating = 30
 

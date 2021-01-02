@@ -1,7 +1,8 @@
-owner = NET
-controller = NET
+owner = KLM
+controller = KLM
 add_core = KLM
 trade_goods = sulphur
 life_rating = 38
 colonial = 2
 terrain = jungle
+

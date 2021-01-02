@@ -1,8 +1,13 @@
-owner = ATJ
-controller = NET
+owner = PAD
+controller = PAD
+add_core = PAD
 add_core = ATJ
 add_core = SAK
 trade_goods = tobacco
 life_rating = 32
 
 terrain = montane_jungle
+1836.1.1 = {
+    owner = NET
+    controller = NET
+}

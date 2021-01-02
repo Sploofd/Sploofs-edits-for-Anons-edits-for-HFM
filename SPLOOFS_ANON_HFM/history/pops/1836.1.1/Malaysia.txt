@@ -590,7 +590,7 @@
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 12300
+		size = 6300
 	}
 
 	aristocrats = {
@@ -620,7 +620,7 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 3000
+		size = 1000
 	}
 	
 	farmers = {
@@ -644,7 +644,7 @@
 	slaves = {
 		culture = asian_minor
 		religion = animist
-		size = 3000
+		size = 1000
 	}
 
 	clergymen = {
@@ -694,7 +694,7 @@
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 4725
+		size = 8725
 	}
 
 	aristocrats = {
@@ -724,13 +724,13 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 3000
+		size = 6000
 	}
 	
 	slaves = {
 		culture = asian_minor
 		religion = animist
-		size = 2000
+		size = 4000
 	}
 	
 	farmers = {

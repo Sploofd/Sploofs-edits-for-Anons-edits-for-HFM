@@ -1128,3 +1128,33 @@ vassal = {
 	start_date = 1815.1.1
 	end_date = 1920.1.1
 }       
+
+#Sokoto and GBI
+
+vassal = {
+        first = SOK
+	second = GBI
+	start_date = 1815.1.1
+	end_date = 1920.1.1
+}       
+
+
+#Portugal and Matamba
+
+vassal = {
+        first = POR
+	second = MAA
+	start_date = 1815.1.1
+	end_date = 1920.1.1
+}       
+
+
+
+#Hawwai and Kauai
+
+vassal = {
+        first = HAW
+	second = KAA
+	start_date = 1815.1.1
+	end_date = 1920.1.1
+}       

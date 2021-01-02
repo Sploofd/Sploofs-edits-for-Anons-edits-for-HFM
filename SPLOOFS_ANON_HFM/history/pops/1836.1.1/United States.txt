@@ -14621,37 +14621,173 @@
 
 3688 = {
 
+	aristocrats = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 75
+	}
 	clergymen = {
-		culture = norteno
-		religion = catholic
-		size = 25
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 75
+	}
+	artisans = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 100
+	}
+	soldiers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 100
+	}
+	farmers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 750
 	}
 }
 
 3689 = {
 
+	aristocrats = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 75
+	}
 	clergymen = {
-		culture = norteno
-		religion = catholic
-		size = 25
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 75
+	}
+	artisans = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 100
+	}
+	soldiers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 100
+	}
+	farmers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 750
 	}
 }
 
 3690 = {
 
+        aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 5
+	}
+	
+	officers = {
+		culture = yankee
+		religion = protestant
+		size = 5
+	}
+	
 	clergymen = {
-		culture = norteno
-		religion = catholic
-		size = 25
+		culture = yankee
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = yankee
+		religion = protestant
+		size = 5
+	}
+
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 20
+	}
+
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 30
+	}
+
+	aristocrats = {
+		culture = yurok #Pacific Coast Indian
+		religion = animist
+		size = 75
+	}
+	clergymen = {
+		culture = yurok #Pacific Coast Indian
+		religion = animist
+		size = 75
+	}
+	artisans = {
+		culture = yurok #Pacific Coast Indian
+		religion = animist
+		size = 100
+	}
+	soldiers = {
+		culture = yurok #Pacific Coast Indian
+		religion = animist
+		size = 100
+	}
+	farmers = {
+		culture = yurok #Pacific Coast Indian
+		religion = animist
+		size = 900
 	}
 }
 
 3691 = {
-
+       aristocrats = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 75
+	}
+	clergymen = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 75
+	}
+	artisans = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 100
+	}
+	soldiers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 100
+	}
+	farmers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 800
+	}
+	
 	clergymen = {
 		culture = norteno
 		religion = catholic
-		size = 25
+		size = 5
+	}
+	soldiers = {
+		culture = norteno
+		religion = catholic
+		size = 10
+	}
+	artisans = {
+		culture = norteno
+		religion = catholic
+		size = 10
+	}
+	farmers = {
+		culture = norteno
+		religion = catholic
+		size = 35
 	}
 }
 

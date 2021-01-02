@@ -1,7 +1,13 @@
-owner = SIA
-controller = SIA
+owner = KLT
+controller = KLT
+add_core = KLT
 add_core = JOH
 add_core = SIA
 trade_goods = tropical_wood
 life_rating = 35
 terrain = junglehills
+1836.1.1 = {
+    owner = SIA
+    controller = SIA
+}
+

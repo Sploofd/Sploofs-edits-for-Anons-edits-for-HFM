@@ -116,6 +116,7 @@ temperate_climate = {
 	3658 3659 3660
 	3663 3664 3665
 	3669 3666 3667
+        3696
 }
 
 harsh_climate = {

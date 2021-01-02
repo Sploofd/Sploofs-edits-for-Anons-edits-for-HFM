@@ -1,9 +1,13 @@
-owner = GAZ
-controller = GAZ
-add_core = GAZ
+
 trade_goods = fish
 terrain = savannahills
 life_rating = 35
+1836.1.1 = {
+    owner = GAZ
+    controller = GAZ
+    add_core = GAZ
+}
+
 1861.1.1 = {
 	owner = POR
 	controller = POR

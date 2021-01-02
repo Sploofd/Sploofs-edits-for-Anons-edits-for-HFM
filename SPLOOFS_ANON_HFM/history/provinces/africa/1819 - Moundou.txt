@@ -1,8 +1,11 @@
-owner = ADW
-controller = ADW
+
 add_core = ADW
 add_core = SOK
 trade_goods = cotton
 life_rating = 32
 #colonial = 1
 terrain = dryforest
+1836.1.1 = {
+       owner = ADW
+       controller = ADW
+}

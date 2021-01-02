@@ -1,6 +1,6 @@
-owner = KTI
-controller = KTI
-add_core = KTI
+owner = BUU
+controller = BUU
+add_core = BUU
 add_core = SUL
 add_core = BRU
 trade_goods = timber

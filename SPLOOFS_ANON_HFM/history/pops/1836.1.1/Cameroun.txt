@@ -49,37 +49,37 @@
 	aristocrats = {
 		culture = forest_bantu
 		religion = animist
-		size = 1075
+		size = 575
 	}
 
 	clergymen = {
 		culture = forest_bantu
 		religion = animist
-		size = 550
+		size = 250
 	}
 
 	artisans = {
 		culture = forest_bantu
 		religion = animist
-		size = 2250
+		size = 1050
 	}
 
 	soldiers = {
 		culture = forest_bantu
 		religion = animist
-		size = 550
+		size = 250
 	}
 
 	farmers = {
 		culture = forest_bantu
 		religion = animist
-		size = 39575
+		size = 23575
 	}
 
 	slaves = {
 		culture = fang
 		religion = animist
-		size = 12000
+		size = 6000
 	}
 }
 #Kribi (176000/44000 POPS)
@@ -601,4 +601,42 @@
 		size = 6000
 	}
 
+}
+#based on 1957
+3696 = {
+	aristocrats = {
+		culture = forest_bantu
+		religion = animist
+		size = 675
+	}
+
+	clergymen = {
+		culture = forest_bantu
+		religion = animist
+		size = 350
+	}
+
+	artisans = {
+		culture = forest_bantu
+		religion = animist
+		size = 950
+	}
+
+	soldiers = {
+		culture = forest_bantu
+		religion = animist
+		size = 250
+	}
+
+	farmers = {
+		culture = forest_bantu
+		religion = animist
+		size = 22575
+	}
+
+	slaves = {
+		culture = fang
+		religion = animist
+		size = 7000
+	}
 }

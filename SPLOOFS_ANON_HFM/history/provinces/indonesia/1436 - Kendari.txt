@@ -1,6 +1,6 @@
-owner = SLW
-controller = SLW
-add_core = SLW
+owner = KNW
+controller = KNW
+add_core = KNW
 trade_goods = dye
 life_rating = 30
 

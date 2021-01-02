@@ -1,6 +1,6 @@
-owner = PHG
-controller = PHG
-add_core = PHG
+owner = TER
+controller = TER
+add_core = TER
 add_core = JOH
 add_core = SIA
 trade_goods = timber

@@ -1,5 +1,5 @@
-owner = SLW
-controller = SLW
+owner = NET
+controller = NET
 add_core = SLW
 trade_goods = fish
 life_rating = 30

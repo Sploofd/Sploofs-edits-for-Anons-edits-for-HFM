@@ -1,8 +1,13 @@
-owner = MAS
-controller = MAS
+owner = SEG
+controller = SEG
 add_core = SEG
 add_core = MAS
 add_core = DND
 trade_goods = wool
 terrain = floodplain_farmland
 life_rating = 35
+1836.1.1 = {
+         owner = MAS
+         controller = MAS
+}
+

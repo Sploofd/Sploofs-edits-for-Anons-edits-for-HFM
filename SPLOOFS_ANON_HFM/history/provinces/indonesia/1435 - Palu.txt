@@ -1,6 +1,6 @@
-owner = SLW
-controller = SLW
-add_core = SLW
+owner = DGG
+controller = DGG
+add_core = DGG
 trade_goods = timber
 life_rating = 30
 

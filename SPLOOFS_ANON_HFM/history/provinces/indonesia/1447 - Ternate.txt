@@ -1,6 +1,6 @@
-owner = MAL
-controller = MAL
-add_core = MAL
+owner = BAA
+controller = BAA
+add_core = BAA
 trade_goods = fish
 life_rating = 30
 terrain = junglehills

@@ -187,7 +187,7 @@
 	artisans = {
 		culture = lunda
 		religion = animist
-		size = 2380
+		size = 1380
 	}
 
 	soldiers = {
@@ -199,13 +199,13 @@
 	farmers = {
 		culture = lunda
 		religion = animist
-		size = 86660
+		size = 43660
 	}
 
 	aristocrats = {
 		culture = chokwe
 		religion = animist
-		size = 1100
+		size = 700
 	}
 
 	clergymen = {
@@ -217,25 +217,25 @@
 	artisans = {
 		culture = chokwe
 		religion = animist
-		size = 2750
+		size = 1750
 	}
 
 	soldiers = {
 		culture = chokwe
 		religion = animist
-		size = 1650
+		size = 950
 	}
 
 	farmers = {
 		culture = chokwe
 		religion = animist
-		size = 100140
+		size = 50140
 	}
 
 	slaves = {
 		culture = south_forest_bantu
 		religion = animist
-		size = 17300
+		size = 10300
 	}
 }
 #under the rule of Luba in 1836
@@ -995,7 +995,7 @@
 	artisans = {
 		culture = lunda
 		religion = animist
-		size = 2380
+		size = 1380
 	}
 
 	soldiers = {
@@ -1007,13 +1007,13 @@
 	farmers = {
 		culture = lunda
 		religion = animist
-		size = 86660
+		size = 43660
 	}
 
 	aristocrats = {
 		culture = chokwe
 		religion = animist
-		size = 1100
+		size = 700
 	}
 
 	clergymen = {
@@ -1025,24 +1025,24 @@
 	artisans = {
 		culture = chokwe
 		religion = animist
-		size = 2750
+		size = 650
 	}
 
 	soldiers = {
 		culture = chokwe
 		religion = animist
-		size = 1650
+		size = 850
 	}
 
 	farmers = {
 		culture = chokwe
 		religion = animist
-		size = 100140
+		size = 49140
 	}
 
 	slaves = {
 		culture = south_forest_bantu
 		religion = animist
-		size = 17300
+		size = 11300
 	}
 }

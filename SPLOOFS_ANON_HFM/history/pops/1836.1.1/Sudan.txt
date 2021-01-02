@@ -2384,7 +2384,7 @@
 	farmers = {
 		culture = fur
 		religion = sunni
-		size = 500
+		size = 200
 	}
 
 	slaves = {

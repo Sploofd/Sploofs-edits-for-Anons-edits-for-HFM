@@ -1,7 +1,11 @@
-owner = ADW
-controller = ADW
+owner = SOK
+controller = SOK
 add_core = ADW
 add_core = SOK
 trade_goods = grain
 life_rating = 35
 terrain = dryforest
+1836.1.1 = {
+    owner = ADW
+    controller = ADW
+}

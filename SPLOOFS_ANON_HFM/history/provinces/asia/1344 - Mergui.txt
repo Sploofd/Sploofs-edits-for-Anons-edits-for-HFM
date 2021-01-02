@@ -1,8 +1,12 @@
-owner = EIC
-controller = EIC
+owner = BUR
+controller = BUR
 add_core = KAR
 add_core = BUR
 trade_goods = fish
 life_rating = 31
 colonial = 2
 terrain = junglehills
+1836.1.1 = {
+     owner = EIC
+     controller = EIC
+}
