@@ -4457,3 +4457,30 @@ tax_reforms = {
 	tax_efficiency = 0.05
 	icon = 9
 }
+
+#Sploof Modifiers
+nepoleon = {
+	org_regain = 1
+	leadership_modifier = 0.2
+	land_organisation = 1
+	naval_organisation = -0.2
+	cb_generation_speed_modifier = 2
+	icon = 5
+}
+
+unruly_tribes = {
+	pop_consciousness_modifier = 0.5
+	pop_militancy_modifier = 0.5
+        assimilation_rate = -0.25
+        local_RGO_throughput = -0.5
+	icon = 20
+}
+
+pindaris = {
+	pop_consciousness_modifier = 0.5
+	pop_militancy_modifier = 0.5
+        local_RGO_output = -0.5
+	local_RGO_throughput = -0.5
+        population_growth = -0.25
+	icon = 20
+}

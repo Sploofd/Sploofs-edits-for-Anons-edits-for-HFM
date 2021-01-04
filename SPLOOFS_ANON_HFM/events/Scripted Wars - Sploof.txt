@@ -1,0 +1,82 @@
+#Nepal and Britain War
+
+country_event = {
+	id = 387489
+	title = "387489_TITLE"
+	desc = "387489_DESC"
+	picture = "nepal"
+	
+	trigger = {
+		tag = NEP
+		truce_with = ENG
+		NOT = { year = 1845 }
+		NEP = { has_recently_lost_war = yes }
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 0 }
+	
+	option = {
+		name = "387489OP1"
+		prestige = -5
+		1238 = { secede_province = EIC }
+		3534 = { secede_province = EIC }
+                ENG = { country_event = 387490 }
+	}
+}
+
+country_event = {
+	id = 387490
+	title = "387489_TITLE"
+	desc = "387489_DESC"
+	picture = "nepal"
+	
+        is_triggered_only = yes
+	
+	option = {
+		name = "387490OP1"
+		prestige = 5
+	}
+}
+
+#Liga and Portugal (For some reason starting war doesnt work)
+country_event = {
+	id = 387491
+	title = "387491_TITLE"
+	desc = "387491__DESC"
+	picture = "cisplata"
+	
+	trigger = {
+		tag = LIG
+		truce_with = POR
+		NOT = { year = 1845 }
+		LIG = { has_recently_lost_war = yes }
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 0 }
+	
+	option = {
+		name = "387491OP1"
+		prestige = -5
+		2346 = { secede_province = PBR }
+		2347 = { secede_province = PBR }
+                2345 = { secede_province = PBR }
+		2344 = { secede_province = PBR }
+                POR = { country_event = 387492 }
+	}
+}
+
+country_event = {
+	id = 387492
+	title = "387492_TITLE"
+	desc = "387492_DESC"
+	picture = "cisplata"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "387492OP1"
+		prestige = 5
+	}
+}

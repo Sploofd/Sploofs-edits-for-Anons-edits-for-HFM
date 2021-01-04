@@ -1,0 +1,256 @@
+country_event = {
+
+	id = 37055
+        title = "37055_TITLE"
+	desc = "37055_DESC"
+	picture = "pindaris"	
+	trigger = {
+        tag = ENG
+        NOT = { date = 1817 }
+        }
+        
+        fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 3
+        }
+
+	option = {
+	    name = "37055OP1"
+               set_global_flag = pindaris_raided
+               ENG = {
+               relation = {
+	       who = MTH
+	       value = -100
+                  }
+               }
+               1285 = {
+                  add_province_modifier = {
+	          name = pindaris
+	          duration = 360
+                  }  
+                }
+ 
+                1287 = {
+                  add_province_modifier = {
+	          name = pindaris
+	          duration = 360
+                  }  
+                }
+                
+                1306 = {
+                  add_province_modifier = {
+	          name = pindaris
+	          duration = 360
+                  }  
+                }
+        
+                1307 = {
+                  add_province_modifier = {
+	          name = pindaris
+	          duration = 360
+                  }  
+                }
+  
+                1304 = {
+                  add_province_modifier = {
+	          name = pindaris
+	          duration = 360
+                  }  
+                }         
+        }
+}
+
+country_event = {
+
+	id = 37056
+        title = "37056_TITLE"
+	desc = "37056_DESC"
+	picture = "maratha_war"	
+	trigger = {
+        tag = ENG
+        has_global_flag = pindaris_raided
+        }
+        
+        fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 3
+        }
+
+	option = {
+	    name = "37056OP1"
+               set_global_flag = maratha_war_yes
+               war = {
+	          target = MTH
+	          attacker_goal = { casus_belli = cut_down_to_size }
+	          call_ally = yes
+                  }
+               ai_chance = { factor = 100 } 
+               GWA = { country_event = 37057 }       
+          }
+
+         option = {
+	    name = "37056OP2"
+               set_global_flag = maratha_war_no
+               prestige = -30
+               ai_chance = { factor = 0 }              
+          }
+}
+
+country_event = {
+
+	id = 37057
+        title = "37057_TITLE"
+	desc = "37057_DESC"
+	picture = "maratha_war"	
+	trigger = {
+        tag = ENG
+        has_global_flag = pindaris_raided
+        }
+        
+        fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 3
+        }
+
+
+	option = {
+	    name = "37057OP1"
+               relation = {
+	         who = MTH
+	         value = 100
+                 }
+                 diplomatic_influence = {
+	         who = ENG
+	         value = -200
+                 }
+               ai_chance = { factor = 50 }       
+          }
+
+         option = {
+	    name = "37057OP2"
+               MTH = { country_event =37059 }
+               ENG = { create_vassal = GWA }
+               diplomatic_influence = {
+	         who = ENG
+	         value = 200
+                }
+               ai_chance = { factor = 50 }              
+          }
+}
+
+country_event = {
+
+	id = 37058
+        title = "37058_TITLE"
+	desc = "37058_DESC"
+	picture = "maratha_war"	
+	trigger = {
+        tag = ENG
+        MTH = { has_recently_lost_war = yes }
+        truce_with = MTH
+        }
+        
+        fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 0
+        }
+
+
+	option = {
+	    name = "37058_OP1"
+            GWA = { country_event = 37060 }
+            NAG = { country_event = 37061 }
+            MTH = { country_event = 37062 }
+            create_vassal = GWA
+            create_vassal = NAG
+            create_vassal = IND
+          }
+
+}
+
+country_event = {
+
+	id = 37059
+        title = "37059_TITLE"
+	desc = "37059_DESC"
+	picture = "maratha_war"	
+	is_triggered_only = yes
+
+	option = {
+	    name = "37059OP1"
+               ai_chance = { factor = 100 }      
+          }
+
+         option = {
+	    name = "37059OP2"
+               war = {
+	       target = GWA
+	       attacker_goal = { casus_belli = conquest_any }
+	       call_ally = yes
+               }
+               ai_chance = { factor = 0 }              
+          }
+}
+
+country_event = {
+
+	id = 37060
+        title = "37058_TITLE"
+	desc = "37058_DESC"
+	picture = "maratha_war"	
+	is_triggered_only = yes
+	
+	option = {
+	    name = "37060OP1"
+            1276 = { secede_province = EIC }
+            1275 = { secede_province = EIC }
+            1272 = { secede_province = BHO }
+           
+          }
+
+}
+
+country_event = {
+
+	id = 37061
+        title = "37058_TITLE"
+	desc = "37058_DESC"
+	picture = "maratha_war"	
+	is_triggered_only = yes
+	
+	option = {
+	    name = "37060OP1"          
+            1279 = { secede_province = BAS }
+            1263 = { secede_province = ORI }
+            1262 = { secede_province = ORI }
+           
+          }
+
+}
+
+country_event = {
+
+	id = 37062
+        title = "37058_TITLE"
+	desc = "37058_DESC"
+	picture = "maratha_war"	
+	is_triggered_only = yes
+	
+	option = {
+	    name = "37060OP1"          
+            1302 = { secede_province = EIC }
+            1300 = { secede_province = EIC }
+            1301 = { secede_province = MAH }
+            1299 = { secede_province = EIC }
+            1297 = { secede_province = EIC }
+            1298 = { secede_province = EIC }
+            1296 = { secede_province = EIC }
+            1295 = { secede_province = BER }
+            1294 = { secede_province = BER }           
+          }
+
+}

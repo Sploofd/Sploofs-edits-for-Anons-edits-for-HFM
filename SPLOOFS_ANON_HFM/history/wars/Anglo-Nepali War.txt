@@ -1,0 +1,27 @@
+name = "Anglo-Nepali War"
+
+1815.1.1 = {
+	add_attacker = ENG
+        add_attacker = SIK
+        add_attacker = EIC
+	add_defender = NEP
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = cut_down_to_size
+		actor = EIC
+		receiver = NEP
+	}
+
+}
+
+1820.1.1 = {
+	rem_attacker = ENG
+        rem_attacker = SIK
+        rem_attacker = EIC
+	rem_defender = NEP
+}

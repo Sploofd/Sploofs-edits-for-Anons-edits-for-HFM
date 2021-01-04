@@ -63,8 +63,10 @@ modern_winemaking = yes
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-
+oob = "/1816/GWA_oob.txt"
+1836.1.1 = {
 oob = "GWA_oob.txt"
+}
 1861.1.1 = {
 	oob = "/1861/GWA_oob.txt"
 }

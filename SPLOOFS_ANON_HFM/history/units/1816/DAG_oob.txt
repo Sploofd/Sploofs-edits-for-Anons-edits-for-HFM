@@ -1,0 +1,126 @@
+
+army = {
+	name = "Imam's Army"
+	location = 1055
+	regiment = {
+		name= "1. Brigade"
+		type = infantry
+		home = 1053
+	}
+	regiment = {
+		name= "2. Brigade"
+		type = infantry
+		home = 1053
+	}
+	regiment = {
+		name= "3. Brigade"
+		type = infantry
+		home = 1055
+	}
+	regiment = {
+		name= "4. Brigade"
+		type = infantry
+		home = 1055
+	}
+
+	regiment = {
+		name= "5. Brigade"
+		type = infantry
+		home = 1053
+	}
+	regiment = {
+		name= "6. Brigade"
+		type = cavalry
+		home = 1055
+	}
+	regiment = {
+		name= "7. Brigade"
+		type = cavalry
+		home = 1055
+	}
+	regiment = {
+		name= "8. Brigade"
+		type = irregular
+		home = 1055
+	}
+	
+	regiment = {
+		name= "9. Brigade"
+		type = irregular
+		home = 3290
+	}
+	regiment = {
+		name= "10. Brigade"
+		type = irregular
+		home = 3291
+	}
+
+        leader = {
+	name = "Qazi Muhhamed"
+	picture = ghazi_muhammed
+	type = land
+	date = 1836.1.1
+	background = nationalist
+	personality = au_fait
+	prestige = 0.9
+	}
+}
+army = {
+	name = "Imam's 2nd Army"
+	location = 1053
+        regiment = {
+		name= "11. Brigade"
+		type = infantry
+		home = 1053
+	}
+	regiment = {
+		name= "12. Brigade"
+		type = infantry
+		home = 1053
+	}
+	regiment = {
+		name= "13. Brigade"
+		type = infantry
+		home = 1055
+	}
+	regiment = {
+		name= "14. Brigade"
+		type = infantry
+		home = 1055
+	}
+
+	regiment = {
+		name= "15. Brigade"
+		type = infantry
+		home = 1053
+	}
+	regiment = {
+		name= "16. Brigade"
+		type = cavalry
+		home = 1055
+	}
+	regiment = {
+		name= "17. Brigade"
+		type = cavalry
+		home = 1055
+	}
+	regiment = {
+		name= "18. Brigade"
+		type = irregular
+		home = 1055
+	}
+	
+	regiment = {
+		name= "19. Brigade"
+		type = irregular
+		home = 3290
+	}
+	regiment = {
+		name= "20. Brigade"
+		type = irregular
+		home = 3291
+	}
+	
+}
+
+

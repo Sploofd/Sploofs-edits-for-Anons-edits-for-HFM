@@ -1,5 +1,6 @@
-owner = MTH
-controller = MTH
+owner = GWA
+controller = GWA
+add_core = GWA
 add_core = MTH
 add_core = NAG
 add_core = HND

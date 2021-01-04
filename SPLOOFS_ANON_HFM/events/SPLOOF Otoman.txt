@@ -1,0 +1,49 @@
+country_event = {
+
+	id = 795009
+        title = "795009_TITLE"
+	desc = "795009_DESC"
+	picture = "berber_tribe"
+	trigger = {
+		NOT = { year = 1835 }
+                year = 1817
+                tag = TUR
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 0
+        }
+
+	option = {
+		name = "795009OP1"
+                1735 = {
+                any_pop = {
+			limit = { 
+				has_pop_culture = berber
+                                
+			}
+			militancy = 9
+			random_list = {
+				25 = { reduce_pop = 0.30 }
+				25 = { reduce_pop = 0.40 }
+				25 = { reduce_pop = 0.50 }
+				25 = { reduce_pop = 0.65 }
+			}
+		}
+               
+	    }
+        }
+
+        option = {
+		name = "795009OP2"
+           1735 = {
+		add_province_modifier = {
+	          name = unruly_tribes
+	          duration = 3000
+                }
+	}
+     }
+    
+}

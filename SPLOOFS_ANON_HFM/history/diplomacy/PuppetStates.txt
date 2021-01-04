@@ -95,12 +95,12 @@ vassal = {
 	start_date = 1815.11.1
 	end_date = 1947.1.1
 }
-vassal = {
-	first = QNG
-	second = NEP
-	start_date = 1788.11.1
-	end_date = 1908.1.1
-}
+#vassal = {                                                had to remove this to make anglo-nepali war work
+#	first = QNG
+#	second = NEP
+#	start_date = 1788.11.1
+#	end_date = 1908.1.1
+#}
 vassal = {
 	first = KOK
 	second = WKH
@@ -734,7 +734,7 @@ vassal = {
 vassal = {
 	first = ENG
 	second = GWA
-	start_date = 1817.1.1
+	start_date = 1836.1.1
 	end_date = 1949.1.1
 }
 
@@ -750,7 +750,7 @@ vassal = {
 vassal = {
 	first = ENG
 	second = IND
-	start_date = 1815.1.1
+	start_date = 1836.1.1
 	end_date = 1949.1.1
 }
 
@@ -813,7 +813,7 @@ vassal = {
 vassal = {
 	first = ENG
 	second = NAG
-	start_date = 1816.1.1
+	start_date = 1836.1.1
 	end_date = 1949.1.1
 }
 
@@ -1158,3 +1158,27 @@ vassal = {
 	start_date = 1815.1.1
 	end_date = 1920.1.1
 }       
+
+#Maratha and substates
+
+vassal = {
+     first = MTH
+     second = IND
+     start_date = 1815.1.1
+     end_date = 1830.1.1
+}
+
+vassal = {
+     first = MTH
+     second = NAG
+     start_date = 1815.1.1
+     end_date = 1830.1.1
+}
+
+vassal = {
+     first = MTH
+     second = GWA
+     start_date = 1815.1.1
+     end_date = 1830.1.1
+}
+

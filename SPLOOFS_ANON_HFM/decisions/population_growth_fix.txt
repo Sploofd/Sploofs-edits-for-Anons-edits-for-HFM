@@ -1,0 +1,42 @@
+political_decisions = {
+	population_growth_fix_phase_1 = {
+	    alert = yes
+		picture = "population_growth"
+		potential = {
+			NOT = { has_country_flag = population_growth_fix_phase_1 }
+		}
+		
+		allow = {
+			NOT = {
+				has_country_modifier = population_growth_fix_1
+				average_militancy = 3
+			}
+
+			#is_vassal = no
+
+			has_recently_lost_war = no
+			war = no
+			election = no
+			money = 5000000
+			literacy = 0.25
+			OR = {
+				government = nationalist_dictatorship
+				government = populist_dictatorship
+			}
+		}
+			 
+		effect = {
+			set_country_flag = population_growth_fix_phase_1
+			add_country_modifier = { name = population_fix duration = 1825 }
+			treasury = -2500000
+			any_pop = {
+				consciousness = 5
+				militancy = 2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+    }
+}

@@ -47,7 +47,11 @@ nonstate_consciousness = 0
 set_country_flag = theocratic_government
 set_country_flag = sunni_country
 
-oob = "DAG_oob.txt"
+oob = "/1816/DAG_oob.txt"
+
+1836.1.1 = {
+   oob = "DAG_oob.txt"
+}
 
 decision = caucasus_muslims_1836_setup
 
@@ -68,3 +72,5 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+

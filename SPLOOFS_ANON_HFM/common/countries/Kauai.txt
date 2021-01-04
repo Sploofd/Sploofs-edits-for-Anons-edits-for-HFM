@@ -2,7 +2,7 @@ color = { 200  90  96 }
 graphical_culture = Generic
 
 party = {
-	name = "Kaumualii's faction"
+	name = "KAA_conservative"
 	start_date = 1815.1.1
 	end_date = 9000.1.1
 

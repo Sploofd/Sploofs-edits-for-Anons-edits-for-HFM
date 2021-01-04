@@ -1,0 +1,82 @@
+
+political_decisions = {		
+#Nepoleon Returns
+	nepoleon_returns = {
+		picture = st_helena
+		potential = {
+			tag = FRA
+                               war_with = ENG
+                               NOT = { year = 1821 }
+                               NOT = { has_country_flag = nepoleon_returned }
+			}
+			
+			allow = { 
+				2129 = { controlled_by = FRA}
+			}
+			
+			effect = { 
+				prestige = 30
+				relation = {
+					who = RUS
+					value = -150
+				}
+                                
+				relation = {
+					who = AUS
+					value = -150
+				}                                
+				relation = {
+					who = PRU
+					value = -150
+				}                                
+				relation = {
+					who = SPA
+					value = -150
+				}
+                                define_general = {
+			        name = "Nepoleon Bonaparte"
+			        personality = implacable
+			        background = school_of_the_bayonet
+		                }
+                                add_country_modifier = {
+	                        name = nepoleon
+	                        duration = 5
+                                }
+                                badboy = 26
+				set_country_flag = nepoleon_returned
+                                FRA = {country_event = 437962}
+                                ENG = {country_event = 437963}
+			}
+			
+		}
+
+                   french_claims = {
+			picture = french_claims
+			potential = {
+				tag = FRA
+                                has_global_flag = empire_strikes_back 
+                                NOT = { had_global_flag = french_claims }
+			}
+			
+			allow = { 
+				has_recently_lost_war = no
+                                war = no
+			}
+			
+			effect = { 
+				badboy = 10
+                                393 = { add_core = FRA }
+				394 = { add_core = FRA }
+                                392 = { add_core = FRA }
+                                395 = { add_core = FRA }
+                                398 = { add_core = FRA }
+                                499 = { add_core = FRA }
+                                498 = { add_core = FRA }
+                                500 = { add_core = FRA }
+                                501 = { add_core = FRA }
+                                set_global_flag = french_claims
+			}
+			
+		}
+
+}

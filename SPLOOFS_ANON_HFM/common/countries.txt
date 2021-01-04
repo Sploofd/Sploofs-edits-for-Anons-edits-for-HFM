@@ -896,7 +896,7 @@ BUU             = "countries/Bulungan.txt"
 SMB             = "countries/Sambas.txt"  
 SLB             = "countries/Selimbau.txt"      
 TER             = "countries/Terengganu.txt"   
-KLT             = "countries/Kelantan.txt"                                
+KLT             = "countries/Kelantan.txt" 
 
 
 ##HoD Dominions

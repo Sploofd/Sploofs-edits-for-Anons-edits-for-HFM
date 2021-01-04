@@ -1,0 +1,7 @@
+04/01/2021 -
+Added Napoleon events and decision chains - If you want to use these, you will have to occupy st.helena in a war with Britain as France
+Added 4 French pops to st.helena in 1816
+Added an "Unruly tribes" event for the ottomans
+Railroaded a British Nepali War 
+Fixed the Brazillian-Liga war
+Railroaded the Third Anglo-Maratha war and added event chains related to this

@@ -1,0 +1,57 @@
+#France setting up the new government
+country_event = {
+
+	id = 437962
+        title = "437962_TITLE"
+	desc = "GEN"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "4379621"
+                government = democracy
+	        political_reform = universal_voting
+                political_reform = yes_meeting
+                political_reform = free_press
+                political_reform = all_trade_unions
+                political_reform = gerrymandering
+                political_reform = no_slavery
+                prestige = 10
+                any_pop = {
+				limit = {
+					type = soldiers
+				}
+				reduce_pop = 1.25
+			}
+               set_global_flag = new_republic
+        }
+
+        option = {
+		name = "4379622"
+                government = absolute_monarchy
+                prestige = 15
+                any_pop = {
+				limit = {
+					type = soldiers
+				}
+				reduce_pop = 1.75
+			}
+               set_global_flag = empire_strikes_back
+       }
+    
+}
+
+#England gets an event warning them about napoleon
+country_event = {
+
+	id = 437963
+        title = "437963_TITLE"
+	desc = "437963_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+	name = "4379631"	
+        }
+
+}

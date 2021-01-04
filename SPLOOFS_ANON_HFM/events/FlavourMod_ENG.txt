@@ -8,6 +8,7 @@
 #99907-11 Don Pacifico Affair
 #99920-22 Military Aid Events
 #99930 Splendid Isolation GB
+#Anglo Nepal War sploof
 
 #Splendid Isolation GB
 country_event = {
@@ -970,3 +971,4 @@ province_event = {
 		ai_chance = { factor = 1 }
 	}
 }
+

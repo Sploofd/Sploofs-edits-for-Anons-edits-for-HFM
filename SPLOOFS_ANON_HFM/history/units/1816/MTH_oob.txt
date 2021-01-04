@@ -1,0 +1,232 @@
+army = {
+	name = "Infantry of the Maratha"
+	location = 1296
+	regiment = {
+		name= "1.Peshwar Contingent"
+		type = irregular
+		home = 1302
+	}
+
+	regiment = {
+		name= "2.Peshwar Contingent"
+		type = irregular
+		home = 1300
+	}
+
+	regiment = {
+		name= "3.Peshwar Contingent"
+		type = irregular
+		home = 1301
+	}
+        regiment = {
+		name= "4.Peshwar Contingent"
+		type = irregular
+		home = 1299
+	}
+
+	regiment = {
+		name= "5.Peshwar Contingent"
+		type = irregular
+		home = 1297
+	}
+
+	regiment = {
+		name= "6.Peshwar Contingent"
+		type = irregular
+		home = 1298
+	}
+         
+        regiment = {
+		name= "7.Peshwar Contingent"
+		type = irregular
+		home = 1296
+	}
+        
+        regiment = {
+		name= "8.Peshwar Contingent"
+		type = irregular
+		home = 1294
+	}
+
+	regiment = {
+		name= "9.Peshwar Contingent"
+		type = irregular
+		home = 1302
+	}
+
+	regiment = {
+		name= "10.Peshwar Contingent"
+		type = irregular
+		home = 1300
+	}
+        regiment = {
+		name= "11.Peshwar Contingent"
+		type = irregular
+		home = 1301
+	}
+
+	regiment = {
+		name= "12.Peshwar Contingent"
+		type = irregular
+		home = 1299
+	}
+
+	regiment = {
+		name= "13.Peshwar Contingent"
+		type = irregular
+		home = 1297
+	}
+         
+        regiment = {
+		name= "14.Peshwar Contingent"
+		type = irregular
+		home = 1298
+	}
+
+        regiment = {
+		name= "15.Peshwar Contingent"
+		type = irregular
+		home = 1296
+	}
+        regiment = {
+		name= "16.Peshwar Contingent"
+		type = irregular
+		home = 1294
+	}
+
+	regiment = {
+		name= "17.Peshwar Contingent"
+		type = irregular
+		home = 1302
+	}
+
+	regiment = {
+		name= "18.Peshwar Contingent"
+		type = irregular
+		home = 1300
+	}
+         
+}
+
+army = {
+	name = "Cavalry of the Maratha"
+	location = 1295
+	regiment = {
+		name= "1.Peshwar Contingent"
+		type = cavalry
+		home = 1302
+	}
+
+	regiment = {
+		name= "2.Peshwar Contingent"
+		type = cavalry
+		home = 1300
+	}
+
+	regiment = {
+		name= "3.Peshwar Contingent"
+		type = cavalry
+		home = 1301
+	}
+        regiment = {
+		name= "4.Peshwar Contingent"
+		type = cavalry
+		home = 1299
+	}
+
+	regiment = {
+		name= "5.Peshwar Contingent"
+		type = cavalry
+		home = 1297
+	}
+
+	regiment = {
+		name= "6.Peshwar Contingent"
+		type = cavalry
+		home = 1298
+	}
+         
+        regiment = {
+		name= "7.Peshwar Contingent"
+		type = cavalry
+		home = 1296
+	}
+        
+        regiment = {
+		name= "8.Peshwar Contingent"
+		type = cavalry
+		home = 1294
+	}
+
+	regiment = {
+		name= "9.Peshwar Contingent"
+		type = cavalry
+		home = 1302
+	}
+
+	regiment = {
+		name= "10.Peshwar Contingent"
+		type = cavalry
+		home = 1300
+	}
+        regiment = {
+		name= "11.Peshwar Contingent"
+		type = cavalry
+		home = 1301
+	}
+
+	regiment = {
+		name= "12.Peshwar Contingent"
+		type = cavalry
+		home = 1299
+	}
+
+	regiment = {
+		name= "13.Peshwar Contingent"
+		type = cavalry
+		home = 1297
+	}
+         
+        regiment = {
+		name= "14.Peshwar Contingent"
+		type = cavalry
+		home = 1298
+	}
+
+        regiment = {
+		name= "15.Peshwar Contingent"
+		type = cavalry
+		home = 1296
+	}
+        regiment = {
+		name= "16.Peshwar Contingent"
+		type = cavalry
+		home = 1294
+	}
+
+	regiment = {
+		name= "17.Peshwar Contingent"
+		type = cavalry
+		home = 1302
+	}
+
+	regiment = {
+		name= "18.Peshwar Contingent"
+		type = cavalry
+		home = 1300
+	}
+
+        regiment = {
+		name= "19.Peshwar Contingent"
+		type = cavalry
+		home = 1301
+	}
+
+	regiment = {
+		name= "20.Peshwar Contingent"
+		type = cavalry
+		home = 1299
+	}
+         
+}
+
