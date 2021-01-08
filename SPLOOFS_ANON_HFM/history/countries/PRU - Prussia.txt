@@ -51,6 +51,7 @@ colonial_policy = no_colonies
 set_country_flag = protestant_country
 set_country_flag = claiming_neuchatel
 set_country_flag = prussian_germany
+set_country_flag = france_occupier
 
 decision = literacy_PRU
 decision = rename_silesia

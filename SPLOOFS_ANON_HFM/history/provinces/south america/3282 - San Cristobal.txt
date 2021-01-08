@@ -1,6 +1,6 @@
-owner = VNG
-controller = VNG
-add_core = VNG
+owner = CVN
+controller = CVN
+add_core = CVN
 add_core = VNZ
 trade_goods = cotton
 life_rating = 35

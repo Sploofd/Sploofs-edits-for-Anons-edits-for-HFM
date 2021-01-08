@@ -10470,69 +10470,46 @@
 #Tallahassee (32000/8000 POPS)
 198 = {
 	aristocrats = {
-		culture = dixie
-		religion = protestant
+		culture = spanish
+		religion = catholic
 		size = 100
 	}
 
 	bureaucrats = {
-		culture = dixie
-		religion = protestant
+		culture = spanish
+		religion = catholic
 		size = 25
 	}
 
 	officers = {
-		culture = dixie
-		religion = protestant
+		culture = spanish
+		religion = catholic
 		size = 25
 	}
 
 	clergymen = {
-		culture = dixie
-		religion = protestant
+		culture = spanish
+		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = dixie
-		religion = protestant
+		culture = spanish
+		religion = catholic
 		size = 175
 	}
 
 	soldiers = {
-		culture = dixie
-		religion = protestant
+		culture = spanish
+		religion = catholic
 		size = 75
 	}
 
-	farmers = {
-		culture = dixie
-		religion = protestant
-		size = 3550
-	}
-
-	clergymen = {
-		culture = afro_american
-		religion = protestant
-		size = 10
-	}
-
-	artisans = {
-		culture = afro_american
-		religion = protestant
-		size = 80
-	}
 
 	farmers = {
-		culture = afro_american
-		religion = protestant
-		size = 10
-	}
-
-	slaves = {
-		culture = afro_american
-		religion = protestant
-		size = 3900
+		culture = spanish
+		religion = catholic
+		size = 200
 	}
 	
 	
@@ -10542,8 +10519,40 @@
 		size = 2000
 	}
 }
-#St Augustine (48000/12000 POPS)
+#st.agustine (8000/2000 POPS)
 199 = {
+	aristocrats = {
+		culture = cherokee #Cree-Cherokee
+		religion = animist
+		size = 75
+	}
+
+	clergymen = {
+		culture = cherokee #Cree-Cherokee
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = cherokee #Cree-Cherokee
+		religion = animist
+		size = 250
+	}
+
+	soldiers = {
+		culture = cherokee #Cree-Cherokee
+		religion = animist
+		size = 500
+	}
+
+	farmers = {
+		culture = cherokee #Cree-Cherokee
+		religion = animist
+		size = 3800
+	}
+}
+#Tampa (48000/12000 POPS)
+200 = {
 	aristocrats = {
 		culture = spanish
 		religion = catholic
@@ -10591,88 +10600,9 @@
 		size = 5600
 	}
 	
-	aristocrats = {
-		culture = dixie
-		religion = protestant
-		size = 150
-	}
-	clergymen = {
-		culture = dixie
-		religion = protestant
-		size = 50
-	}
-	artisans = {
-		culture = dixie
-		religion = protestant
-		size = 325
-	}
-	soldiers = {
-		culture = dixie
-		religion = protestant
-		size = 125
-	}
-	farmers = {
-		culture = dixie
-		religion = protestant
-		size = 6350
-	}
-
-	clergymen = {
-		culture = afro_american
-		religion = protestant
-		size = 10
-	}
-
-	artisans = {
-		culture = afro_american
-		religion = protestant
-		size = 80
-	}
-
-	farmers = {
-		culture = afro_american
-		religion = protestant
-		size = 10
-	}
-
-	slaves = {
-		culture = afro_american
-		religion = protestant
-		size = 3900
-	}
+	
 }
-#Tampa (8000/2000 POPS)
-200 = {
-	aristocrats = {
-		culture = cherokee #Cree-Cherokee
-		religion = animist
-		size = 75
-	}
 
-	clergymen = {
-		culture = cherokee #Cree-Cherokee
-		religion = animist
-		size = 100
-	}
-
-	artisans = {
-		culture = cherokee #Cree-Cherokee
-		religion = animist
-		size = 250
-	}
-
-	soldiers = {
-		culture = cherokee #Cree-Cherokee
-		religion = animist
-		size = 500
-	}
-
-	farmers = {
-		culture = cherokee #Cree-Cherokee
-		religion = animist
-		size = 3800
-	}
-}
 #Georgia Region (628000)
 #ruled by the USA
 #Atlanta (244000/61000 POPS)

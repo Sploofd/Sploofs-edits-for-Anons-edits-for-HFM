@@ -1,0 +1,93 @@
+USA = {
+	value = 100
+}
+SPA = {
+	value = -175
+}
+
+# leader = {
+	# name = "Antonio López de Santa Anna"
+	# type = land
+	# date="1836.1.1"
+	# personality = au_fait
+	# background = natural_born_leader
+	# prestige = 0.5
+# }
+
+leader = {
+	name = " Francisco Javier Mina"
+	type = land
+	date="1816.1.1"
+	personality = impulsive
+	background = aristocrat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Guadalupe Victoria"
+	type = land
+	date="1816.1.1"
+	personality = skilled
+	background = exranker
+}
+
+
+
+army = {
+	name = "Guadalupe's Forces"
+	location = 2170
+	regiment = {
+		name= "1.Oaxaca y Tlaxcala"
+		type = irregular
+		home = 2170
+	}
+
+	regiment = {
+		name= "2.Oaxaca y Tlaxcala"
+		type = irregular
+		home = 2170
+	}
+
+	regiment = {
+		name= "3.Oaxaca y Tlaxcala"
+		type = irregular
+		home = 2180
+	}
+     
+        regiment = {
+		name= "4.Oaxaca y Tlaxcala"
+		type = irregular
+		home = 2179
+	}
+
+}
+
+army = {
+	name = "Mina's Forces"
+	location = 2180
+	regiment = {
+		name= "1.Division Comonfort"
+		type = infantry
+		home = 2170
+	}
+
+	regiment = {
+		name= "2.Division Comonfort"
+		type = irregular
+		home = 2170
+	}
+
+	regiment = {
+		name= "3.Division Comonfort"
+		type = irregular
+		home = 2180
+	}
+
+        regiment = {
+		name= "4.Division Comonfort"
+		type = irregular
+		home = 2179
+	}
+
+}
+

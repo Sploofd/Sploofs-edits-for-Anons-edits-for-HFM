@@ -1,6 +1,6 @@
-owner = VNS
-controller = VNS
-add_core = VNS
+owner = CGU
+controller = CGU
+add_core = CGU
 add_core = CLM
 add_core = NIC
 trade_goods = fish

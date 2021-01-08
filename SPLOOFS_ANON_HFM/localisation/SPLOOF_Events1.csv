@@ -39,3 +39,15 @@ CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;HUNGARIAN;CZECH;HUNGARIAN;DUTCH;PORTUG
 37059OP1;There is nothing we can do;;;;;;;;;;;;;;;;;;;;;;x;;;;
 37059OP2;Then we will crush them too;;;;;;;;;;;;;;;;;;;;;;x;;;;
 37060OP1;Disaster!;;;;;;;;;;;;;;;;;;;;;;x;;;;
+437964_TITLE;The death of Napoleon;;;;;;;;;;;;;;;;;;;;;;x;;;;
+437964_DESC;Napoleon has died on his deathbed in Paris, and will be deeply missed by all of France;;;;;;;;;;;;;;;;;;;;;;x;;;;
+437964OP1;What at tradgedy!;;;;;;;;;;;;;;;;;;;;;x;;;;
+437965OP1;We must set up a regency untill his nephew comes of age;;;;;;;;;;;;;;;;;;;;;x;;;;
+437965OP2;Revert to a republic;;;;;;;;;;;;;;;;;;;;;x;;;;
+437966_TITLE;Napoleons Nephew has come of age;;;;;;;;;;;;;;;;;;;;;x;;;;
+437966_DESC;After many years of a regency council, Napoleon the third has come of age to rule the might of the French Empire;;;;;;;;;;;;;;;;;;;;;x;;;;
+437966OP1;Great!;;;;;;;;;;;;;;;;;;;;;x;;;;
+795200_TITLE;End of the French Occupation;;;;;;;;;;;;;;;;;;;;;x;;;;
+795200_DESC;The French Occupation has come to an end, and the international community expects us to withdraw our troops from France;;;;;;;;;;;;;;;;;;;;;x;;;;
+795200OP1;Withdraw our troops;;;;;;;;;;;;;;;;;;;;;x;;;;
+795200OP2;Our troops will stay;;;;;;;;;;;;;;;;;;;;;x;;;;

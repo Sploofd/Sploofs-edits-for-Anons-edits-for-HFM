@@ -4484,3 +4484,22 @@ pindaris = {
         population_growth = -0.25
 	icon = 20
 }
+
+regency = {
+	research_points_modifier = -0.01
+	prestige = -0.01
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.0
+	icon = 6
+}
+
+spirit_of_revolution_1 = {
+        mobilisation_size = 3.5
+        icon = 6
+}
+
+
+spirit_of_revolution_2 = {
+        mobilisation_size = -3.5
+        icon = 6
+}

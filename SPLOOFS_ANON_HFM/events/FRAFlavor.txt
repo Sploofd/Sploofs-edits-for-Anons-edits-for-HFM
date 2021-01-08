@@ -344,6 +344,7 @@ country_event = {
 			has_country_modifier = louis_napoleon_iii
 			has_country_flag = 2nd_empire
 			has_country_flag = napoleons_coup_de_tat
+                        
 		}
 	}
 	

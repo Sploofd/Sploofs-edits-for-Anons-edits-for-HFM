@@ -3,7 +3,7 @@ country_event = {
 
 	id = 437962
         title = "437962_TITLE"
-	desc = "GEN"
+	desc = "437962_DESC"
 	picture = "nepoleon_returns"	
 	is_triggered_only = yes
 
@@ -23,12 +23,13 @@ country_event = {
 				}
 				reduce_pop = 1.25
 			}
-               set_global_flag = new_republic
+               set_global_flag = new_french_republic
         }
 
         option = {
 		name = "4379622"
                 government = absolute_monarchy
+                political_reform = none_voting
                 prestige = 15
                 any_pop = {
 				limit = {
@@ -55,3 +56,92 @@ country_event = {
         }
 
 }
+
+#Napoleon Dies - Generic
+country_event = {
+
+	id = 437964
+        title = "437964_TITLE"
+	desc = "437964_DESC"
+	picture = "nepoleons_ded"	
+	trigger = {
+        year = 1821
+        NOT = { government = absolute_monarchy }
+        has_country_flag = nepoleon_returned
+        NOT = { has_country_flag = napoleon_dead }
+        }
+        fire_only_once = yes
+        mean_time_to_happen =  {
+		months = 5
+        }
+	option = {
+	name = "437964OP1"
+        remove_country_modifier = nepoleon         	
+        #kill_leader = 312 The Ids of Generals are ever changing, meaning there
+        set_country_flag = napoleon_dead
+        }
+
+}
+#Napoleon dies empire
+country_event = {
+
+	id = 437965
+        title = "437964_TITLE"
+	desc = "437964_DESC"
+	picture = "nepoleons_ded"	
+	trigger = {
+        year = 1821
+        government = absolute_monarchy
+        has_country_flag = nepoleon_returned
+        NOT = { has_country_flag = napoleon_dead }
+        }
+        fire_only_once = yes
+        mean_time_to_happen =  {
+		months = 5
+        }
+	option = {
+	name = "437965OP1"
+         remove_country_modifier = nepoleon	
+         add_country_modifier = {
+         name = regency
+         duration = 3000
+         }
+        set_country_flag = fra_regency
+        #kill_leader = 312 The Ids of Generals are ever changing, meaning there
+        set_country_flag = napoleon_dead
+        }
+        option = {
+	name = "437965OP2"
+        remove_country_modifier = nepoleon
+        government = democracy       
+        #kill_leader = 312 The Ids of Generals are ever changing, meaning there
+        set_country_flag = napoleon_dead
+        }
+
+}
+
+country_event = {
+
+	id = 437966
+        title = "437966_TITLE"
+	desc = "437966_DESC"
+	picture = "napoleon3"	
+	trigger = {
+        year = 1826
+        has_country_flag = fra_regency
+        }
+        fire_only_once = yes
+        mean_time_to_happen =  {
+		months = 2
+        }
+	option = {
+	name = "437966OP1"
+        remove_country_modifier = regency
+        remove_country_flag = fra_regency
+        add_country_modifier = {
+        name = louis_napoleon_iii 
+        duration = 6000
+        }
+
+}
+

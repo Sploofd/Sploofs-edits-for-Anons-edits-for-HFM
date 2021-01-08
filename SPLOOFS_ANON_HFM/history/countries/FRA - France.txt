@@ -117,8 +117,11 @@ decision = lorraine_rename
 decision = rename_madagascar
 
 set_country_flag = france
+oob = "/1816/FRA_oob.txt"
 
+1836.1.1 = {
 oob = "FRA_oob.txt"
+}
 
 foreign_investment = {
 	PAP = 15000

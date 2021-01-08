@@ -2,10 +2,12 @@ owner = VNS
 controller = VNS
 add_core = VNS
 add_core = MEX
+add_core = ATG
 trade_goods = fruit
 life_rating = 35
 terrain = farmlandhills
 1836.1.1 = {
       owner = MEX
       controller = MEX
+      remove_core = ATG
 }

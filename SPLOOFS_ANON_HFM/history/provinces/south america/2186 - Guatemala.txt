@@ -1,8 +1,6 @@
-owner = VNS
-
-controller = VNS
-add_core = VNS
-
+owner = CGU
+controller = CGU
+add_core = CGU
 add_core = UCA
 add_core = GUA
 trade_goods = coffee

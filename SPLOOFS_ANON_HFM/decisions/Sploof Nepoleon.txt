@@ -34,13 +34,13 @@ political_decisions = {
 					value = -150
 				}
                                 define_general = {
-			        name = "Nepoleon Bonaparte"
+			        name = "Napoleon Bonaparte"
 			        personality = implacable
 			        background = school_of_the_bayonet
 		                }
                                 add_country_modifier = {
 	                        name = nepoleon
-	                        duration = 5
+	                        duration = 3000
                                 }
                                 badboy = 26
 				set_country_flag = nepoleon_returned
@@ -55,7 +55,7 @@ political_decisions = {
 			potential = {
 				tag = FRA
                                 has_global_flag = empire_strikes_back 
-                                NOT = { had_global_flag = french_claims }
+                                NOT = { has_global_flag = french_claims }
 			}
 			
 			allow = { 

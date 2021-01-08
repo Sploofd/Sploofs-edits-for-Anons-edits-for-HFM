@@ -897,6 +897,11 @@ SMB             = "countries/Sambas.txt"
 SLB             = "countries/Selimbau.txt"      
 TER             = "countries/Terengganu.txt"   
 KLT             = "countries/Kelantan.txt" 
+SMN		= "countries/Seminole.txt" #Freshly yoinked from AoE thanks guys ;)
+CYC             = "countries/Colonial Yucatan.txt" 
+CGU             = "countries/Colonial Guatemala.txt" 
+CVN             = "countries/Colonial Venezuala.txt" 
+ATG             = "countries/Army of the Three Guarantees.txt"
 
 
 ##HoD Dominions

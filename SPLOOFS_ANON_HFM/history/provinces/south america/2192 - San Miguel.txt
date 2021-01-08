@@ -1,6 +1,6 @@
-owner = VNS
-controller = VNS
-add_core = VNS
+owner = CGU
+controller = CGU
+add_core = CGU
 add_core = ELS
 trade_goods = dye
 life_rating = 30

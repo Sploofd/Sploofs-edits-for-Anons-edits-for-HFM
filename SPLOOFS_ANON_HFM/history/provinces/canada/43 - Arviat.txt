@@ -3,6 +3,7 @@ controller = USA
 add_core = TEX
 add_core = VNS
 add_core = MEX
+add_core = ATG
 trade_goods = cotton
 life_rating = 35
 

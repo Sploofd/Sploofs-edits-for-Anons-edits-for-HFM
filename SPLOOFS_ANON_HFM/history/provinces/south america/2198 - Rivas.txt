@@ -1,4 +1,4 @@
-owner = VNScontroller = VNSadd_core = VNS
+owner = CGUcontroller = CGUadd_core = CGU
 add_core = NIC
 trade_goods = fish
 life_rating = 31terrain = farmlandhills1836.1.1 = {        owner = UCA        controller = UCA}

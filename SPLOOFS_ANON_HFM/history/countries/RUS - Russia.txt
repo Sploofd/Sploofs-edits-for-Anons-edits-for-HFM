@@ -52,6 +52,7 @@ centralization = regionalism
 colonial_policy = settlement
 
 set_country_flag = orthodox_country
+set_country_flag = france_occupier
 
 ruling_party = RUS_conservative
 upper_house = {

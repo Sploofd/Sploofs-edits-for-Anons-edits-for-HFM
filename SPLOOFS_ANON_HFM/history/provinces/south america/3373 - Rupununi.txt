@@ -1,6 +1,6 @@
-owner = VNG
-controller = VNG
-add_core = VNG
+owner = CVN
+controller = CVN
+add_core = CVN
 add_core = VNZ
 add_core = GUY
 terrain = savannahills

@@ -2,10 +2,12 @@ owner = VNS
 controller = VNS
 add_core = VNS
 add_core = MEX
+add_core = ATG
 terrain = new_world_semidesert
 trade_goods = grain
 life_rating = 30
 1836.1.1 = {
       owner = MEX
       controller = MEX
+      remove_core = ATG
 }

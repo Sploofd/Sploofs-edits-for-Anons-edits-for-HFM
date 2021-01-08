@@ -1,0 +1,66 @@
+country_event = {
+
+	id = 795200
+        title = "795200_TITLE"
+	desc = "795200_DESC"
+	picture = "france_map"
+	trigger = {
+                NOT = { has_country_flag = fraocc_happened }
+                has_country_flag = france_occupier
+                year = 1817
+		AND = {
+                   OR = {
+                      owns = 448 
+                      owns = 454
+                      owns = 439
+                      owns = 438
+                      owns = 407
+                      owns = 409
+                      owns = 412
+                      owns = 402
+                       }
+                  OR = {
+                          tag = SAR
+                          tag = RUS
+                          tag = ENG
+                          tag = BAV
+                          tag = PRU
+                          tag = WUR
+                          tag = BAD
+                          tag = AUS
+                       }
+                      
+                    
+                  
+	}
+ 
+	mean_time_to_happen =  {
+		months = 3
+        }
+
+	option = {
+	name = "795200OP1"
+               set_country_flag = fraocc_happened
+               
+               any_owned = { 
+                              limit = {
+                                     is_core = FRA
+     
+                                     }	 
+                                secede_province = FRA
+                               }
+                         
+                ai_chance = { factor = 100 } 
+                              
+        }
+
+        option = {
+		name = "795200OP2"
+                set_country_flag = fraocc_happened
+                badboy = 26
+                prestige = -5
+                ai_chance = { factor = 0 } 
+                
+       }
+    
+}

@@ -106,8 +106,10 @@ nonstate_consciousness = 1
 
 schools = commerce_tech_school
 decision = USA_1836_setup
-
+oob = "/1816/USA_oob.txt"
+1836.1.1 = {
 oob = "USA_oob.txt"
+}
 
 #ANON
 #decision = normal_rename_central_pacific

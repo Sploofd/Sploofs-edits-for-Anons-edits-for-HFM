@@ -2,6 +2,7 @@ owner = VNS
 controller = VNS
 add_core = VNS
 add_core = MEX
+add_core = ATG
 trade_goods = fish
 life_rating = 35
 naval_base = 1
@@ -10,4 +11,5 @@ terrain = veracruz
 1836.1.1 = {
       owner = MEX
       controller = MEX
+      remove_core = ATG
 }

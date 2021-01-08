@@ -3,6 +3,7 @@ controller = VNS
 add_core = VNS
 add_core = ULA
 add_core = MEX
+add_core = ATG
 trade_goods = timber
 life_rating = 35
 terrain = marsh

@@ -1,5 +1,9 @@
-owner = FRA
-controller = FRA
+owner = BAD
+controller = BAD
+1836.1.1 = {
+    owner = FRA
+    controller = FRA
+}
 add_core = FRA
 add_core = ALS
 trade_goods = sulphur

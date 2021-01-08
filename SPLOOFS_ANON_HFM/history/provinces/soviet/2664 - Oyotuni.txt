@@ -1,4 +1,5 @@
-
+owner = OM1
+controller = OM1
 add_core = OMA
 add_core = ABU
 trade_goods = fish

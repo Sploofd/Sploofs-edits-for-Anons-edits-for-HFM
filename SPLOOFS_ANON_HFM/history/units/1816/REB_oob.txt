@@ -1,0 +1,11 @@
+army = {
+	name = "1st Mexican Rebels"
+	location = 493
+	regiment = {
+		name = "1. Regiment"
+		type = infantry
+		home = 493
+	}
+	
+}
+

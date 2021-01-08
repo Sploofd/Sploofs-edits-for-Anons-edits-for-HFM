@@ -1,9 +1,9 @@
 #owner = UCA
 #controller = UCA
 #Bocas del Toro territory to CLM
-owner = VNS
-controller = VNS
-add_core = VNS
+owner = CGU
+controller = CGU
+add_core = CGU
 add_core = COS
 add_core = CLM
 add_core = UCA

@@ -1,0 +1,77 @@
+
+SPA = {
+	value = 175
+}
+
+leader = {
+          name = "Antonio López de Santa Anna"
+	  type = land
+	  date="1816.1.1"
+	  personality = au_fait
+	  background = natural_born_leader
+	  prestige = 0.5
+}
+
+
+army = {
+	name = "Activo Oaxaca"
+	location = 2177
+	regiment = {
+		name= "1.Oaxaca y Tlaxcala"
+		type = irregular
+		home = 2177
+	}
+
+
+
+}
+
+army = {
+	name = "Ejército del Ciudad Mexico"
+	location = 2172
+	regiment = {
+		name= "1.Division Comonfort"
+		type = infantry
+		home = 2176
+	}
+
+	regiment = {
+		name= "2.Division Comonfort"
+		type = irregular
+		home = 2174
+	}
+
+	regiment = {
+		name= "3.Division Comonfort"
+		type = irregular
+		home = 2172
+	}
+
+}
+
+army = {
+	name = "Rifles de Tennessee"
+	location = 87
+	regiment = {
+		name= "Los Rifles de Tennessee"
+		type = infantry
+		home = 87
+	}
+
+}
+
+navy = {
+	name = "Armada de México"
+	location = 2162
+	ship = {
+		name= "Vencedor del Alamo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Matilda"
+		type = clipper_transport
+	}
+
+}
+
