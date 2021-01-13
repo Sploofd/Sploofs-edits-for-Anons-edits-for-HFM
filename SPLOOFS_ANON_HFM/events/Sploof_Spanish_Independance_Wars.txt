@@ -1,9 +1,9 @@
 country_event = {
 
 	id = 79551
-        title = "The revolutionaries have taken lands"
-	desc = "placeholder"
-	picture = "berber_tribe"
+        title = "79551_TITLE"
+	desc = "79551_DESC"
+	picture = "MEX_independance"
 	trigger = {
                tag = VNS
                VNS = {
@@ -21,7 +21,7 @@ country_event = {
         }
 
 	option = {
-             name = "ok"
+             name = "79551_OP1"
              any_owned = { 
                               limit = {
                                      is_core = ATG
@@ -37,18 +37,18 @@ country_event = {
 country_event = {
 
 	id = 79552
-        title = "The royalists have taken lands"
-	desc = "placeholder"
-	picture = "berber_tribe"
+        title = "79552_TITLE"
+	desc = "79552_DESC"
+	picture = "MEX_independance"
 	trigger = {
                tag = ATG
                ATG = {
                 any_owned_province = { 
                               
                                      is_core = VNS
-                                     controlled_by = VNS
+                                     controlled_by = SPA
                                       
-                               }	      
+                               } 	      
 	             } 
 	}
  
@@ -57,11 +57,11 @@ country_event = {
         }
 
 	option = {
-             name = "ok"
+             name = "79551_OP1"
              any_owned = { 
                               limit = {
                                      is_core = VNS
-                                     controlled_by = VNS
+                                     controlled_by = SPA
                                      }	 
                                   secede_province = VNS
                                }	      
@@ -73,9 +73,9 @@ country_event = {
 country_event = {
 
 	id = 79554
-        title = "Spirit of the Revolution"
-	desc = "Viva Mexico!"
-	picture = "berber_tribe"
+        title = "79554_TITLE"
+	desc = "79554_DESC"
+	picture = "MEX_independance"
 	trigger = {
                tag = ATG
 	}
@@ -87,7 +87,7 @@ country_event = {
         fire_only_once = yes
 
 	option = {
-             name = "ok"
+             name = "79554_OP1"
              add_province_modifier = {
 	     name = spirit_of_revolution_1
 	     duration = 2000
@@ -100,9 +100,9 @@ country_event = {
 country_event = {
 
 	id = 79555
-        title = "Spirit of the Revolution"
-	desc = "placeholder"
-	picture = "berber_tribe"
+        title = "79555_TITLE"
+	desc = "79555_DESC"
+	picture = "MEX_independance"
 	trigger = {
                tag = VNS
 	}
@@ -114,12 +114,51 @@ country_event = {
         fire_only_once = yes
 
 	option = {
-             name = "ok"
+             name = "79555_OP1"
              add_province_modifier = {
 	     name = spirit_of_revolution_2
 	     duration = 2000
              }
+             militancy = 6
           
+        }
+
+}
+
+
+country_event = {
+
+	id = 42069
+        title = "42069_TITLE"
+	desc = "42069_DESC"
+	picture = "MEX_city"
+        trigger = {
+              2172 = { controlled_by = ATG }
+        }
+        mean_time_to_happen = {
+              months = 0
+        }
+	option = {
+             name = "42069_OP1"
+             prestige = -30
+             annex_to = ATG
+             ATG = { country_event = 42071 }
+        }
+
+}
+
+country_event = {
+
+	id = 42071
+        title = "42069_TITLE"
+	desc = "42069_DESC"
+	picture = "MEX_city"
+        is_triggered_only = yes
+
+	option = {
+             name = "42071_OP1"
+             prestige = 30
+             change_tag = MEX
         }
 
 }

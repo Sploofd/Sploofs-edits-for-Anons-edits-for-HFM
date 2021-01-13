@@ -63,6 +63,7 @@ PROV3692;Shirvan;;;;;;;;;;;;;x
 PROV3696;Fumbum;;;;;;;;;;;;;x
 PROV3695;Holo;;;;;;;;;;;;;x
 PROV3694;Arawala;;;;;;;;;;;;;x
+PROV3697;Fort Liberte;;;;;;;;;;;;;x
 KAA;Kauai;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KAA_ADJ;Kauai;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MAG;Maguindanao;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -103,5 +104,7 @@ CVN;Capitania General de Venezuela;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CVN_ADJ;Venezuelan;;;;;;;;;;;;;;;;;;;;;;x;;;;
 SMN;Seminoles;;;;;;;;;;;;;;;;;;;;;;x;;;;
 SMN_ADJ;Seminole;;;;;;;;;;;;;;;;;;;;;;x;;;;
-ATG;Army of the Revolution;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ATG;Army of the Three Guarantees;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ATG_ADJ;Mexican;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KOH;Kingdom of Haiti;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KOH_ADJ;Haitian;;;;;;;;;;;;;;;;;;;;;;x;;;;

@@ -17,7 +17,7 @@ SPA = {
 leader = {
 	name = " Francisco Javier Mina"
 	type = land
-	date="1816.1.1"
+	date= 1816.1.1
 	personality = impulsive
 	background = aristocrat
 	prestige = 0.1
@@ -26,7 +26,7 @@ leader = {
 leader = {
 	name = "Guadalupe Victoria"
 	type = land
-	date="1816.1.1"
+	date= 1816.1.1
 	personality = skilled
 	background = exranker
 }
@@ -41,25 +41,13 @@ army = {
 		type = irregular
 		home = 2170
 	}
-
-	regiment = {
+        regiment = {
 		name= "2.Oaxaca y Tlaxcala"
 		type = irregular
 		home = 2170
 	}
 
-	regiment = {
-		name= "3.Oaxaca y Tlaxcala"
-		type = irregular
-		home = 2180
-	}
-     
-        regiment = {
-		name= "4.Oaxaca y Tlaxcala"
-		type = irregular
-		home = 2179
-	}
-
+	
 }
 
 army = {
@@ -70,23 +58,32 @@ army = {
 		type = infantry
 		home = 2170
 	}
-
-	regiment = {
+        regiment = {
 		name= "2.Division Comonfort"
-		type = irregular
-		home = 2170
-	}
-
-	regiment = {
-		name= "3.Division Comonfort"
-		type = irregular
+		type = infantry
 		home = 2180
 	}
 
-        regiment = {
-		name= "4.Division Comonfort"
-		type = irregular
-		home = 2179
+}
+
+army = {
+	name = "3rd Army of the Revolutionaries"
+	location = 2171
+	regiment = {
+		name= "1.Division Comonfort"
+		type = infantry
+		home = 2170
+	}
+
+}
+
+army = {
+	name = "4th Army of the Revolutionaries"
+	location = 2179
+	regiment = {
+		name= "1.Division Comonfort"
+		type = infantry
+		home = 2170
 	}
 
 }

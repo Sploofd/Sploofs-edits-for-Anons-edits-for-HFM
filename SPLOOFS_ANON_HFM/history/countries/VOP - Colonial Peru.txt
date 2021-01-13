@@ -1,5 +1,6 @@
 capital = 2310
-primary_culture = south_andean
+primary_culture = spanish
+culture = south_andean
 religion = catholic
 government = colonial_company
 plurality = 25.0
@@ -42,12 +43,12 @@ colonial_policy = no_colonies
 set_country_flag = catholic_country
 set_country_flag = new_world_nation
 
-ruling_party = PEU_conservative
+ruling_party = PEU_reactionary
 upper_house = {
 	fascist = 0
-	liberal = 29
-	conservative = 57
-	reactionary = 14
+	liberal = 27
+	conservative = 23
+	reactionary = 50
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -73,8 +74,9 @@ mechanical_production = 1
 # Inventions
 
 #Starting Consciousness
-consciousness = 2
-nonstate_consciousness = 0
+consciousness = 8
+nonstate_consciousness = 9
+militancy = 8
 
 oob = "PBC_oob.txt"
 

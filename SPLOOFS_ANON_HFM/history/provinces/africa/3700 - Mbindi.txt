@@ -1,0 +1,4 @@
+owner = SPA
+trade_goods = iron
+life_rating = 20
+terrain = dryhills

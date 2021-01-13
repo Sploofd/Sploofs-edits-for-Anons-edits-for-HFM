@@ -3623,17 +3623,17 @@
 	aristocrats = {
 		culture = navajo #Great Basin Indian
 		religion = animist
-		size = 75
+		size = 35
 	}
 	clergymen = {
 		culture = navajo #Great Basin Indian
 		religion = animist
-		size = 75
+		size = 35
 	}
 	artisans = {
 		culture = navajo #Great Basin Indian
 		religion = animist
-		size = 100
+		size = 50
 	}
 	soldiers = {
 		culture = navajo #Great Basin Indian
@@ -3643,7 +3643,7 @@
 	farmers = {
 		culture = navajo #Great Basin Indian
 		religion = animist
-		size = 900
+		size = 500
 	}
 	
 	clergymen = {
@@ -14554,27 +14554,27 @@
 	aristocrats = {
 		culture = navajo #Great Basin Indian
 		religion = animist
-		size = 75
+		size = 35
 	}
 	clergymen = {
 		culture = navajo #Great Basin Indian
 		religion = animist
-		size = 75
+		size = 35
 	}
 	artisans = {
 		culture = navajo #Great Basin Indian
 		religion = animist
-		size = 100
+		size = 50
 	}
 	soldiers = {
 		culture = navajo #Great Basin Indian
 		religion = animist
-		size = 100
+		size = 50
 	}
 	farmers = {
 		culture = navajo #Great Basin Indian
 		religion = animist
-		size = 750
+		size = 350
 	}
 }
 
@@ -14721,3 +14721,81 @@
 	}
 }
 
+
+3698 = {
+
+	aristocrats = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 70
+	}
+	clergymen = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 70
+	}
+	artisans = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 100
+	}
+	soldiers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 75
+	}
+	farmers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 500
+	}
+}
+
+3701 = {
+	aristocrats = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 70
+	}
+	clergymen = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 80
+	}
+	artisans = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 79
+	}
+	soldiers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 110
+	}
+	farmers = {
+		culture = navajo #Great Basin Indian
+		religion = animist
+		size = 300
+	}
+	
+	clergymen = {
+		culture = norteno
+		religion = catholic
+		size = 10
+	}
+	artisans = {
+		culture = norteno
+		religion = catholic
+		size = 15
+	}
+	soldiers = {
+		culture = norteno
+		religion = catholic
+		size = 15
+	}
+	farmers = {
+		culture = norteno
+		religion = catholic
+		size = 40
+	}
+}

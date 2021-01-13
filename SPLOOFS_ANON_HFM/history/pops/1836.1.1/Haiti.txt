@@ -43,19 +43,19 @@
 	aristocrats = {
 		culture = afro_antillean
 		religion = catholic
-		size = 550
+		size = 400
 	}
 
 	clergymen = {
 		culture = afro_antillean
 		religion = catholic
-		size = 75
+		size = 55
 	}
 
 	artisans = {
 		culture = afro_antillean
 		religion = catholic
-		size = 2550
+		size = 2100
 	}
 
 	soldiers = {
@@ -67,19 +67,64 @@
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 46825
+		size = 36825
 	}
 	
 	# Yes, this is real.
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 400
+		size = 300
 	}
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 300
+		size = 200
+	}
+
+}
+
+3697 = {
+	aristocrats = {
+		culture = afro_antillean
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 20
+	}
+
+	artisans = {
+		culture = afro_antillean
+		religion = catholic
+		size = 450
+	}
+
+	soldiers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 200
+	}
+
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 10000
+	}
+	
+	# Yes, this is real.
+	soldiers = {
+		culture = polish
+		religion = catholic
+		size = 100
+	}
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 100
 	}
 
 }

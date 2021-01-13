@@ -1,5 +1,6 @@
 capital = 2172
-primary_culture = mexican
+primary_culture = spanish
+culture = mexican
 culture = norteno
 culture = californio
 culture = yucateco
@@ -12,7 +13,8 @@ literacy = 0.03
 non_state_culture_literacy = 0.01
 civilized = yes
 prestige = 3
-
+consciousness = 8
+nonstate_consciousness = 9
 
 # Political reforms
 slavery = no_slavery
@@ -47,13 +49,13 @@ colonial_policy = no_colonies
 set_country_flag = catholic_country
 set_country_flag = new_world_nation
 
-ruling_party = MEX_conservative
+ruling_party = MEX_reactionary
 last_election = 1835.1.28
 upper_house = {
 	fascist = 0
-	liberal = 25
-	conservative = 63
-	reactionary = 12
+	liberal = 14
+	conservative = 35
+	reactionary = 51
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -82,7 +84,8 @@ mechanical_production = 1
 # Inventions
 
 #Starting Consciousness
-consciousness = 2
-nonstate_consciousness = 0
+consciousness = 8
+nonstate_consciousness = 9
+militancy = 8
 
 oob = "/1816/VNS_oob.txt"

@@ -13,3 +13,11 @@ union = {
 	start_date = 1814.10.12
 	end_date = 1837.6.20
 }
+
+# Russia-Poland
+union = {
+	first = RUS
+	second = CPL
+	start_date = 1814.1.1
+	end_date = 1834.1.1
+}

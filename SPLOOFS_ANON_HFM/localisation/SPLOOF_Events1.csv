@@ -51,3 +51,18 @@ CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;HUNGARIAN;CZECH;HUNGARIAN;DUTCH;PORTUG
 795200_DESC;The French Occupation has come to an end, and the international community expects us to withdraw our troops from France;;;;;;;;;;;;;;;;;;;;;x;;;;
 795200OP1;Withdraw our troops;;;;;;;;;;;;;;;;;;;;;x;;;;
 795200OP2;Our troops will stay;;;;;;;;;;;;;;;;;;;;;x;;;;
+79551_TITLE;The Revolutionaries have taken land;;;;;;;;;;;;;;;;;;;;;x;;;;
+79551_DESC;In a battle against the cretinous revolutionaries, they have seized our land;;;;;;;;;;;;;;;;;;;;;x;;;;
+79551_OP1;Disastrous!;;;;;;;;;;;;;;;;;;;;;x;;;;
+79552_TITLE;The Royalists have taken land;;;;;;;;;;;;;;;;;;;;;x;;;;
+79552_DESC;In a battle against the traitorous royalists, they have seized our land;;;;;;;;;;;;;;;;;;;;;x;;;;
+79554_TITLE;The Spirit of the Revoloution;;;;;;;;;;;;;;;;;;;;;x;;;;
+79554_DESC;We have much support from our fellow mexican patriots, and we must seize this chance to establish an independant Mexico. Viva Mexico!;;;;;;;;;;;;;;;;;;;;;x;;;;
+79554_OP1;Viva Mexico!;;;;;;;;;;;;;;;;;;;;;x;;;;
+79555_TITLE;A Divided Nation;;;;;;;;;;;;;;;;;;;;;x;;;;
+79555_DESC;Although we have our supporters, there are many who want to see us gone. We can trust no-one;;;;;;;;;;;;;;;;;;;;;x;;;;
+79555_OP1;Hmm...;;;;;;;;;;;;;;;;;;;;;x;;;;
+42069_TITLE;The fall of Mexico City;;;;;;;;;;;;;;;;;;;;;x;;;;
+42069_DESC;Today, The Army of the Three Gaurentees have marched into Mexico City, the administrative capital of the Viceroy of New Spain. With this most populous city falling, the rest of Spanish Mexico is sure to crumble;;;;;;;;;;;;;;;;;;;;;;x;;;;
+42069_OP1;Viva Mexico...;;;;;;;;;;;;;;;;;;;;;x;;;;
+42071_OP1;Viva Mexico!;;;;;;;;;;;;;;;;;;;;;x;;;;

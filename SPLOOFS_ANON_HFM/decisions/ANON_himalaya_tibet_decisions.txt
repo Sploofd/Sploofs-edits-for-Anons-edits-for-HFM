@@ -1,5 +1,5 @@
 political_decisions = {
-	
+
 	# BHU_diplomatic_mission = {
 		# picture = gtfo
 		# potential = {
@@ -9,22 +9,22 @@ political_decisions = {
 			# NOT = { has_country_flag = BHU_diplomatic_mission_TIB }
 			# NOT = { has_country_flag = BHU_diplomatic_mission_ENG }
 		# }
-		
+
 		# allow = {
 			# war = no
 		# }
-		
+
 		# effect = {
 			# set_global_flag = BHU_diplomatic_mission
 			# country_event = id = 777777083
 		# }
-		
+
 		# ai_will_do = {
 			# factor = 1
 		# }
 	# }
-	
-	
+
+
 	younghusband_expedition = {
 		picture = gtfo
 		potential = {
@@ -33,12 +33,12 @@ political_decisions = {
 			has_global_flag = 1st_bhutan_civil_war_end
 			NOT = { has_global_flag = younghusband_expedition }
 		}
-		
+
 		allow = {
 			war = no
 			year = 9999
 		}
-		
+
 		effect = {
 			set_global_flag = younghusband_expedition
 			any_country = {
@@ -51,12 +51,12 @@ political_decisions = {
 				country_event = 1
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	ENG_calcutta_convention = {
 		picture = gtfo
 		potential = {
@@ -68,11 +68,11 @@ political_decisions = {
 			NOT = { has_global_flag = signed_calcutta_convention_TIB }
 			NOT = { has_country_flag = SIK_ENG_defeated }
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			set_global_flag = ENG_calcutta_convention
 			any_country = {
@@ -101,12 +101,12 @@ political_decisions = {
 				country_event = 777777105
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	TIB_calcutta_convention = {
 		picture = gtfo
 		potential = {
@@ -122,12 +122,12 @@ political_decisions = {
 			NOT = { has_global_flag = signed_calcutta_convention_TIB }
 			NOT = { has_country_flag = SIK_ENG_defeated }
 		}
-		
+
 		allow = {
 			1251 = {
 				OR = {
-					controlled_by = BHU
-					controller = { alliance_with = BHU }
+					controlled_by = TIB
+					controller = { alliance_with = TIB }
 				}
 				province_control_days = 40
 			}
@@ -143,14 +143,14 @@ political_decisions = {
 				}
 			}
 		}
-		
-		effect = {		
+
+		effect = {
 			set_global_flag = TIB_calcutta_convention
 			country_event = 777777100
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	SIK_religious_bullshit = {
 		picture = gtfo
 		potential = {
@@ -159,21 +159,21 @@ political_decisions = {
 			NOT = { has_global_flag = SIK_religious_bullshit }
 			year = 1885
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			set_global_flag = SIK_religious_bullshit
 			country_event = 777777084
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 	BHU_treaty_sinchula = {
 		picture = gtfo
 		potential = {
@@ -194,7 +194,7 @@ political_decisions = {
 			NOT = { has_global_flag = signed_treaty_of_sinchula_BHU }
 			NOT = { has_country_flag = ENG_duar_defeated }
 		}
-		
+
 		allow = {
 			3552 = {
 				OR = {
@@ -235,8 +235,8 @@ political_decisions = {
 				}
 			}
 		}
-		
-		effect = {		
+
+		effect = {
 			set_global_flag = BHU_treaty_sinchula
 			country_event = 777777075
 		}
@@ -251,68 +251,34 @@ political_decisions = {
 			NOT = { has_global_flag = ENG_treaty_sinchula }
 			NOT = { has_global_flag = BHU_treaty_sinchula }
 		}
-		
+
 		allow = {
 			war = no
 			money = 50001
 		}
-		
+
 		effect = {
 			set_global_flag = ENG_treaty_sinchula
-			any_country = {
-				limit = {
-					OR = {
-						tag = ENG
-						tag = EIC
-					}
-				}
+			BHU = {
 				any_owned = {
 					limit = {
-						is_core = BHU
+						is_core = HND
 					}
+					secede_province = ENG
+				}
+				all_core = {
+					limit = { is_core = HND }
 					remove_core = BHU
 				}
 			}
-			any_country = {
-				limit = {
-					tag = EIC
-					OR = {
-						substate_of = ENG
-						vassal_of = ENG
-					}
-				}
-				ENG = {
-					any_owned = {
-						limit = {
-							OR = {
-								province_id = 3502
-								province_id = 3503
-								province_id = 3552
-							}
-						}
-						secede_province = EIC
-					}
-				}
-				BHU = {
-					any_owned = {
-						limit = {
-							OR = {
-								province_id = 3502
-								province_id = 3503
-								province_id = 3552
-							}
-						}
-						secede_province = EIC
-					}
-				}
-			}
+			3457 = { remove_core = BHU }
 			treasury = -50000
 			relation = { who = BHU value = 400 }
 			BHU = {
 				country_event = 777777074
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -327,16 +293,16 @@ political_decisions = {
 			NOT = { has_global_flag = bhutan_friendship_treaty_yes }
 			NOT = { has_global_flag = bhutan_friendship_treaty_no }
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			set_global_flag = bhutan_friendship_treaty
 			BHU = { country_event = { id = 777777068 days = 15 } }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -349,16 +315,16 @@ political_decisions = {
 			NOT = { has_global_flag = trongsa_more_authority }
 			BH7 = { NOT = { has_country_flag = moars_authority } }
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			set_global_flag = trongsa_more_authority
 			BHU = { country_event = 777777059 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -375,7 +341,7 @@ political_decisions = {
 			has_global_flag = sepoy_rebellion
 			NOT = { has_country_flag = bhutanese_raid_sepoy }
 		}
-		
+
 		allow = {
 			war = no
 			OR = {
@@ -383,7 +349,7 @@ political_decisions = {
 				EIC = { war = yes }
 			}
 		}
-		
+
 		effect = {
 			set_country_flag = bhutanese_raid_sepoy
 			prestige = 5
@@ -506,10 +472,21 @@ political_decisions = {
 	annex_half_assam_duars = {
 		picture = gtfo
 		potential = {
-			tag = ENG
+                        year = 1830
+			OR = {
+				AND = {
+					tag = EIC
+					ENG = { ai = yes }
+				}
+				AND = {
+					tag = ENG
+					ai = no
+					EIC = { ai = yes }
+				}
+			}
 			NOT = { has_global_flag = annex_half_assam_duars }
 		}
-		
+
 		allow = {
 			war = no
 			3552 = {
@@ -518,11 +495,16 @@ political_decisions = {
 			3503 = {
 				owned_by = BHU
 			}
-			any_owned_province = {
-				has_province_modifier = bhutanese_raids
+			OR = {
+				EIC = {
+					any_owned_province = { has_province_modifier = bhutanese_raids }
+				}
+				THIS = {
+					any_owned_province = { has_province_modifier = bhutanese_raids }
+				}
 			}
 		}
-		
+
 		effect = {
 			country_event = 777777052
 			set_global_flag = annex_half_assam_duars
@@ -543,18 +525,17 @@ political_decisions = {
 			has_global_flag = sikkim_raids_darjeeling
 			NOT = { has_global_flag = british_retaliation_sikkim }
 		}
-		
+
 		allow = {
 			war = no
 			1252 = {
-				NOT = { owned_by = THIS }
 				OR = {
 					owned_by = ENG
 					owned_by = EIC
 				}
 			}
 		}
-		
+
 		effect = {
 			any_country = {
 				limit = {
@@ -567,11 +548,16 @@ political_decisions = {
 				}
 				country_event = { id = 777777051 days = 5 }
 			}
+			1252 = {
+				remove_province_modifier = sikkimese_raids
+				remove_province_modifier = nationalist_agitation
+			}
 			set_global_flag = british_retaliation_sikkim
-			add_casus_belli = {
+			war = {
 				target = SIK
-				type = make_puppet
-				months = 60
+				attacker_goal = { casus_belli = make_puppet }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
 			}
 		}
 		ai_will_do = {
@@ -582,7 +568,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	sikkim_raids_darjeeling = {
 		picture = gtfo
 		potential = {
@@ -591,7 +577,7 @@ political_decisions = {
 			NOT = { has_global_flag = sikkim_raids_darjeeling }
 			year = 1850
 		}
-		
+
 		allow = {
 			war = no
 			1252 = {
@@ -602,14 +588,14 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			ENG = { country_event = { id = 777777050 days = 5 } }
 			set_global_flag = sikkim_raids_darjeeling
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	sikkim_punitive_expedition = {
 		picture = gtfo
 		potential = {
@@ -619,18 +605,18 @@ political_decisions = {
 			NOT = { has_global_flag = sikkim_punitive_expedition }
 			year = 1850
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			SIK = { country_event = { id = 777777049 days = 5 } }
 			set_global_flag = sikkim_punitive_expedition
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	thapathali_treaty = {
 		picture = gtfo
 		potential = {
@@ -649,7 +635,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			OR = {
 				3406 = {
@@ -672,186 +658,210 @@ political_decisions = {
 				year = 1856
 			}
 		}
-		
-		effect = {		
+
+		effect = {
 			country_event = 777777024
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
-	PNJ_chushul = {
+
+	chushul_treaty = {
 		picture = gtfo
 		potential = {
-			tag = PNJ
-			war_with = QNG
-			war_with = TIB
-			TIB = { ai = yes }
-			NOT = {
-				has_global_flag = signed_treaty_of_chushul_PNJ
-				has_global_flag = signed_treaty_of_chushul_QNG
-				has_global_flag = signed_treaty_of_chushul_TIB_secretdeal #Secret alliance against QNG
-				has_global_flag = signed_treaty_of_chushul_definitive
-				has_country_flag = kashmir_defeated
-				has_country_flag = tibet_defeated
-				has_country_flag = tibet_secret_deal
-				has_country_flag = chushul_definitive
-			}
-		}
-		
-		allow = {
-			3452 = {
-				OR = {
-					controlled_by = PNJ
-					controller = { alliance_with = PNJ }
-				}
-				province_control_days = 60
-			}
-			3531 = {
-				OR = {
-					controlled_by = PNJ
-					controller = { alliance_with = PNJ }
-				}
-				province_control_days = 60
-			}
-			NOT = {
-				any_owned_province = {
-					is_core = LAD
-					OR = {
-						controlled_by = QNG
-						controller = { alliance_with = QNG }
-					}
-				}
-			}
-		}
-		
-		effect = {		
-			country_event = 777777001
-		}
-		ai_will_do = { factor = 1 }
-	}
-	QNG_chushul = {
-		picture = gtfo
-		potential = {
-			tag = QNG
-			war_with = PNJ
-			TIB = { ai = yes }
-			NOT = {
-				has_global_flag = signed_treaty_of_chushul_PNJ
-				has_global_flag = signed_treaty_of_chushul_QNG
-				has_global_flag = signed_treaty_of_chushul_TIB_secretdeal #Secret alliance against QNG
-				has_global_flag = signed_treaty_of_chushul_definitive
-				has_country_flag = kashmir_defeated
-				has_country_flag = tibet_defeated
-				has_country_flag = tibet_secret_deal
-				has_country_flag = chushul_definitive
-			}
-		}
-		
-		allow = {
-			1226 = {
-				OR = {
-					controlled_by = QNG
-					controller = { alliance_with = QNG }
-				}
-				province_control_days = 60
-			}
-			3455 = {
-				OR = {
-					controlled_by = QNG
-					controller = { alliance_with = QNG }
-				}
-				province_control_days = 60
-			}
-			NOT = {
-				TIB = {
-					any_owned_province = {
-						is_core = PNJ
-						OR = {
-							controlled_by = PNJ
-							controller = { alliance_with = PNJ }
-						}
-					}
-				}
-			}
-		}
-		
-		effect = {		
-			country_event = 777777005
-		}
-		ai_will_do = { factor = 1 }
-	}
-	TIB_chushul = {
-		picture = gtfo
-		potential = {
-			tag = TIB
-			war_with = PNJ
-			is_vassal = yes
-			NOT = {
-				has_global_flag = signed_treaty_of_chushul_PNJ
-				has_global_flag = signed_treaty_of_chushul_QNG
-				has_global_flag = signed_treaty_of_chushul_TIB_secretdeal #Secret alliance against QNG
-				has_global_flag = signed_treaty_of_chushul_definitive
-				has_country_flag = kashmir_defeated
-				has_country_flag = tibet_defeated
-				has_country_flag = tibet_secret_deal
-				has_country_flag = chushul_definitive
-			}
-		}
-		
-			allow = {
 			OR = {
 				AND = {
+					tag = PNJ
+					war_with = QNG
+					war_with = TIB
+					TIB = { ai = yes }
+				}
+				AND = {
+					tag = QNG
+					war_with = PNJ
+					TIB = { ai = yes }
+				}
+				AND = {
+					tag = TIB
+					ai = no
+					war_with = PNJ
+					is_vassal = yes
+				}
+			}
+			NOT = {
+				has_global_flag = signed_treaty_of_chushul_PNJ
+				has_global_flag = signed_treaty_of_chushul_QNG
+				has_global_flag = signed_treaty_of_chushul_TIB_secretdeal #Secret alliance against QNG
+				has_global_flag = signed_treaty_of_chushul_definitive
+				has_country_flag = kashmir_defeated
+				has_country_flag = tibet_defeated
+				has_country_flag = tibet_secret_deal
+				has_country_flag = chushul_definitive
+			}
+			NOT = {
+				AND = {
+					ai = yes
+					tag = QNG
+					has_global_flag = sino_sikh_british_back_sikhs
+				}
+			}
+			NOT = {
+				AND = {
+					ai = yes
+					tag = TIB
+					has_global_flag = sino_sikh_british_back_sikhs
+				}
+			}
+			NOT = {
+				AND = {
+					ai = yes
+					tag = PNJ
+					has_global_flag = sino_sikh_british_back_china
+				}
+			}
+			NOT = {
+				has_global_flag = sino_sikh_british_defuse_conflict
+			}
+		}
+
+		allow = {
+			OR = {
+				AND = {
+					tag = QNG
+					has_global_flag = sino_sikh_british_back_china
+				}
+				AND = {
+					tag = PNJ
+					has_global_flag = sino_sikh_british_back_sikhs
+				}
+				AND = {
+					tag = TIB
+					has_global_flag = sino_sikh_british_back_china
+				}
+				AND = {
+					tag = PNJ
 					3452 = {
 						OR = {
 							controlled_by = PNJ
 							controller = { alliance_with = PNJ }
 						}
-						province_control_days = 50
+						province_control_days = 60
 					}
 					3531 = {
 						OR = {
 							controlled_by = PNJ
 							controller = { alliance_with = PNJ }
 						}
-						province_control_days = 50
+						province_control_days = 60
+					}
+					NOT = {
+						any_owned_province = {
+							is_core = LAD
+							OR = {
+								controlled_by = QNG
+								controller = { alliance_with = QNG }
+							}
+						}
 					}
 				}
 				AND = {
+					tag = QNG
 					1226 = {
 						OR = {
-							controlled_by = TIB
-							controller = { alliance_with = TIB }
+							controlled_by = QNG
+							controller = { alliance_with = QNG }
 						}
-						province_control_days = 50
+						province_control_days = 60
 					}
 					3455 = {
 						OR = {
-							controlled_by = TIB
-							controller = { alliance_with = TIB }
+							controlled_by = QNG
+							controller = { alliance_with = QNG }
 						}
-						province_control_days = 50
+						province_control_days = 60
+					}
+					NOT = {
+						TIB = {
+							any_owned_province = {
+								is_core = PNJ
+								OR = {
+									controlled_by = PNJ
+									controller = { alliance_with = PNJ }
+								}
+							}
+						}
 					}
 				}
-			}
-			NOT = {
-				TIB = {
-					any_owned_province = {
-						is_core = PNJ
-						OR = {
-							controlled_by = PNJ
-							controller = { alliance_with = PNJ }
+				AND = {
+					tag = TIB
+					OR = {
+						AND = {
+							3452 = {
+								OR = {
+									controlled_by = PNJ
+									controller = { alliance_with = PNJ }
+								}
+								province_control_days = 50
+							}
+							3531 = {
+								OR = {
+									controlled_by = PNJ
+									controller = { alliance_with = PNJ }
+								}
+								province_control_days = 50
+							}
+						}
+						AND = {
+							1226 = {
+								OR = {
+									controlled_by = TIB
+									controller = { alliance_with = TIB }
+								}
+								province_control_days = 50
+							}
+							3455 = {
+								OR = {
+									controlled_by = TIB
+									controller = { alliance_with = TIB }
+								}
+								province_control_days = 50
+							}
+						}
+					}
+					NOT = {
+						TIB = {
+							any_owned_province = {
+								is_core = PNJ
+								OR = {
+									controlled_by = PNJ
+									controller = { alliance_with = PNJ }
+								}
+							}
 						}
 					}
 				}
 			}
 		}
-		
-		effect = {		
-			country_event = 777777010
+
+		effect = {
+			random_owned = {
+				limit = { owner = { tag = PNJ } }
+				owner = { country_event = 777777001 }
+			}
+			random_owned = {
+				limit = { owner = { tag = QNG } }
+				owner = { country_event = 777777005 }
+			}
+			random_owned = {
+				limit = { owner = { tag = TIB } }
+				owner = { country_event = 777777010 }
+			}
+			clr_global_flag = sino_sikh_british_back_china
+			clr_global_flag = sino_sikh_british_back_sikhs
+			clr_global_flag = sino_sikh_british_defuse_conflict
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	rename_purang = {
 		picture = gtfo
 		potential = {
@@ -878,12 +888,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -898,13 +908,13 @@ political_decisions = {
 					}
 				}
 				3531 = { change_province_name = "Bulan" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_purang
 					clr_global_flag = bhodic_rename_purang
-					clr_global_flag = aryan_rename_purang 
+					clr_global_flag = aryan_rename_purang
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -914,13 +924,13 @@ political_decisions = {
 					}
 				}
 				3531 = { change_province_name = "purang" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_purang
 					clr_global_flag = sinic_rename_purang
-					clr_global_flag = aryan_rename_purang 
+					clr_global_flag = aryan_rename_purang
 				}
 			}
-			
+
 			###aryan###
 			random_owned = {
 				limit = {
@@ -933,7 +943,7 @@ political_decisions = {
 					}
 				}
 				3531 = { change_province_name = "Taklakot" }
-				owner = { 
+				owner = {
 					set_global_flag = aryan_rename_purang
 					clr_global_flag = bhodic_rename_purang
 					clr_global_flag = sinic_rename_purang
@@ -942,7 +952,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	annex_assam = {
 		picture = map_india
 		potential = {
@@ -963,7 +973,7 @@ political_decisions = {
 			}
 			year = 1838
 		}
-		
+
 		allow = {
 			ASM = {
 				OR = {
@@ -972,7 +982,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		effect = {
 			inherit = ASM
 			prestige = 5
@@ -991,7 +1001,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	rename_laukkai = {
 		picture = gtfo
 		potential = {
@@ -1018,12 +1028,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###nonsinic###
 			random_owned = {
 				limit = {
@@ -1040,12 +1050,12 @@ political_decisions = {
 					}
 				}
 				3515 = { change_province_name = "Laukkaing" }
-				owner = { 
+				owner = {
 					set_global_flag = nonsinic_rename_laukkai
 					clr_global_flag = sinic_rename_laukkai
 				}
 			}
-			
+
 			###sinic###
 			random_owned = {
 				limit = {
@@ -1060,7 +1070,7 @@ political_decisions = {
 					}
 				}
 				3515 = { change_province_name = "Laogai" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_laukkai
 					clr_global_flag = nonsinic_rename_laukkai
 				}
@@ -1084,12 +1094,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###nonbhodic###
 			random_owned = {
 				limit = {
@@ -1104,12 +1114,12 @@ political_decisions = {
 					}
 				}
 				3412 = { change_province_name = "Gengqing" }
-				owner = { 
+				owner = {
 					set_global_flag = nonbhodic_rename_derge
 					clr_global_flag = bhodic_rename_derge
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1119,7 +1129,7 @@ political_decisions = {
 					}
 				}
 				3412 = { change_province_name = "Derge" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_derge
 					clr_global_flag = nonbhodic_rename_derge
 				}
@@ -1143,12 +1153,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###nonbhodic###
 			random_owned = {
 				limit = {
@@ -1163,12 +1173,12 @@ political_decisions = {
 					}
 				}
 				3510 = { change_province_name = "Ganzi" }
-				owner = { 
+				owner = {
 					set_global_flag = nonbhodic_rename_garze
 					clr_global_flag = bhodic_rename_garze
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1178,7 +1188,7 @@ political_decisions = {
 					}
 				}
 				3510 = { change_province_name = "Garzê" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_garze
 					clr_global_flag = nonbhodic_rename_garze
 				}
@@ -1202,12 +1212,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###nonbhodic###
 			random_owned = {
 				limit = {
@@ -1222,12 +1232,12 @@ political_decisions = {
 					}
 				}
 				3511 = { change_province_name = "Litang" }
-				owner = { 
+				owner = {
 					set_global_flag = nonbhodic_rename_litang
 					clr_global_flag = bhodic_rename_litang
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1237,7 +1247,7 @@ political_decisions = {
 					}
 				}
 				3511 = { change_province_name = "Lithang" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_litang
 					clr_global_flag = nonbhodic_rename_litang
 				}
@@ -1261,12 +1271,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###nonbhodic###
 			random_owned = {
 				limit = {
@@ -1281,12 +1291,12 @@ political_decisions = {
 					}
 				}
 				3512 = { change_province_name = "Kangding" }
-				owner = { 
+				owner = {
 					set_global_flag = nonbhodic_rename_kangding
 					clr_global_flag = bhodic_rename_kangding
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1296,7 +1306,7 @@ political_decisions = {
 					}
 				}
 				3512 = { change_province_name = "Dartsedo" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_kangding
 					clr_global_flag = nonbhodic_rename_kangding
 				}
@@ -1320,12 +1330,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###nonbhodic###
 			random_owned = {
 				limit = {
@@ -1340,12 +1350,12 @@ political_decisions = {
 					}
 				}
 				3513 = { change_province_name = "Xiaqiong" }
-				owner = { 
+				owner = {
 					set_global_flag = nonbhodic_rename_batang
 					clr_global_flag = bhodic_rename_batang
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1355,7 +1365,7 @@ political_decisions = {
 					}
 				}
 				3513 = { change_province_name = "Bathang" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_batang
 					clr_global_flag = nonbhodic_rename_batang
 				}
@@ -1379,12 +1389,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###nonbhodic###
 			random_owned = {
 				limit = {
@@ -1399,12 +1409,12 @@ political_decisions = {
 					}
 				}
 				1341 = { change_province_name = "Putao" }
-				owner = { 
+				owner = {
 					set_global_flag = nonbhodic_rename_putao
 					clr_global_flag = bhodic_rename_putao
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1414,7 +1424,7 @@ political_decisions = {
 					}
 				}
 				1341 = { change_province_name = "T'rung" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_putao
 					clr_global_flag = nonbhodic_rename_putao
 				}
@@ -1438,12 +1448,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###nonbhodic###
 			random_owned = {
 				limit = {
@@ -1459,12 +1469,12 @@ political_decisions = {
 				}
 				3410 = { change_province_name = "Itanagar" }
 				3411 = { change_province_name = "Anini" }
-				owner = { 
+				owner = {
 					set_global_flag = nonbhodic_rename_arunachal
 					clr_global_flag = bhodic_rename_arunachal
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1475,7 +1485,7 @@ political_decisions = {
 				}
 				3410 = { change_province_name = "Yingkiong" }
 				3411 = { change_province_name = "Lhoyu" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_arunachal
 					clr_global_flag = nonbhodic_rename_arunachal
 				}
@@ -1502,12 +1512,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -1523,12 +1533,12 @@ political_decisions = {
 				}
 				1586 = { change_province_name = "Yazhou" }
 				1582 = { change_province_name = "Long'an" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_west_sichuan
 					clr_global_flag = bhodic_rename_west_sichuan
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1539,7 +1549,7 @@ political_decisions = {
 				}
 				1586 = { change_province_name = "Yak-Nga" }
 				1582 = { change_province_name = "Zirtsa" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_west_sichuan
 					clr_global_flag = sinic_rename_west_sichuan
 				}
@@ -1566,12 +1576,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -1587,12 +1597,12 @@ political_decisions = {
 				}
 				3495 = { change_province_name = "Jiantang" }
 				3497 = { change_province_name = "Muli" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_north_yunnan
 					clr_global_flag = bhodic_rename_north_yunnan
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1603,7 +1613,7 @@ political_decisions = {
 				}
 				3495 = { change_province_name = "Gyalthang" }
 				3497 = { change_province_name = "Mu-li" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_north_yunnan
 					clr_global_flag = sinic_rename_north_yunnan
 				}
@@ -1650,12 +1660,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -1670,14 +1680,14 @@ political_decisions = {
 					}
 				}
 				3464 = { change_province_name = "Shitoucheng" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_sarikol
-					clr_global_flag = mongolic_rename_sarikol 
-					clr_global_flag = iranian_rename_sarikol 
-					clr_global_flag = bhodic_rename_sarikol 
+					clr_global_flag = mongolic_rename_sarikol
+					clr_global_flag = iranian_rename_sarikol
+					clr_global_flag = bhodic_rename_sarikol
 				}
 			}
-			
+
 			###iranian###
 			random_owned = {
 				limit = {
@@ -1694,13 +1704,13 @@ political_decisions = {
 				}
 				3464 = { change_province_name = "Tashkurgan" }
 				owner = {
-					set_global_flag = iranian_rename_sarikol 
-					clr_global_flag = mongolic_rename_sarikol 
+					set_global_flag = iranian_rename_sarikol
+					clr_global_flag = mongolic_rename_sarikol
 					clr_global_flag = sinic_rename_sarikol
 					clr_global_flag = bhodic_rename_sarikol
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -1717,14 +1727,14 @@ political_decisions = {
 					}
 				}
 				3464 = { change_province_name = "Sariköl" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_sarikol
-					clr_global_flag = iranian_rename_sarikol 
+					clr_global_flag = iranian_rename_sarikol
 					clr_global_flag = sinic_rename_sarikol
 					clr_global_flag = bhodic_rename_sarikol
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -1734,9 +1744,9 @@ political_decisions = {
 					}
 				}
 				3464 = { change_province_name = "Rdochorten" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_sarikol
-					clr_global_flag = iranian_rename_sarikol 
+					clr_global_flag = iranian_rename_sarikol
 					clr_global_flag = sinic_rename_sarikol
 					clr_global_flag = mongolic_rename_sarikol
 				}
@@ -1775,12 +1785,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -1796,13 +1806,13 @@ political_decisions = {
 				}
 				3461 = { change_province_name = "Yisai-Kehu" }
 				3233 = { change_province_name = "Yisai-Kehu" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_issikkul
-					clr_global_flag = mongolic_rename_issikkul 
-					clr_global_flag = russian_rename_issikkul 
+					clr_global_flag = mongolic_rename_issikkul
+					clr_global_flag = russian_rename_issikkul
 				}
 			}
-			
+
 			###russian###
 			random_owned = {
 				limit = {
@@ -1814,12 +1824,12 @@ political_decisions = {
 				3461 = { change_province_name = "Issyk-Kulj" }
 				3233 = { change_province_name = "Issyk-Kulj" }
 				owner = {
-					set_global_flag = russian_rename_issikkul 
-					clr_global_flag = mongolic_rename_issikkul 
+					set_global_flag = russian_rename_issikkul
+					clr_global_flag = mongolic_rename_issikkul
 					clr_global_flag = sinic_rename_issikkul
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -1838,9 +1848,9 @@ political_decisions = {
 				}
 				3461 = { change_province_name = "Isiq-Köl" }
 				3233 = { change_province_name = "Isiq-Köl" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_issikkul
-					clr_global_flag = russian_rename_issikkul 
+					clr_global_flag = russian_rename_issikkul
 					clr_global_flag = sinic_rename_issikkul
 				}
 			}
@@ -1904,11 +1914,11 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			###sinic###
 			random_owned = {
@@ -1923,7 +1933,7 @@ political_decisions = {
 						change_region_name = "Jetisu"
 					}
 				}
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_almaty
 					clr_global_flag = turanian_rename_almaty
 					clr_global_flag = slavic_rename_almaty
@@ -1937,7 +1947,7 @@ political_decisions = {
 					}
 				}
 				1188 = { change_province_name = "Esikemen" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_qaratal
 					clr_global_flag = turanian_rename_qaratal
 					clr_global_flag = slavic_rename_qaratal
@@ -1951,7 +1961,7 @@ political_decisions = {
 					}
 				}
 				1187 = { change_province_name = "Saimiyi" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_semipalatinsk
 					clr_global_flag = turanian_rename_semipalatinsk
 					clr_global_flag = slavic_rename_semipalatinsk
@@ -1965,13 +1975,13 @@ political_decisions = {
 					}
 				}
 				2606 = { change_province_name = "Ba'erkashen" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_balkhash
 					clr_global_flag = turanian_rename_balkhash
 					clr_global_flag = slavic_rename_balkhash
 				}
 			}
-			
+
 			###turanian###
 			random_owned = {
 				limit = {
@@ -1985,7 +1995,7 @@ political_decisions = {
 						change_region_name = "Jetisu"
 					}
 				}
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_almaty
 					clr_global_flag = sinic_rename_almaty
 					clr_global_flag = slavic_rename_almaty
@@ -1999,7 +2009,7 @@ political_decisions = {
 					}
 				}
 				1188 = { change_province_name = "Óskemen" }
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_qaratal
 					clr_global_flag = sinic_rename_qaratal
 					clr_global_flag = slavic_rename_qaratal
@@ -2013,7 +2023,7 @@ political_decisions = {
 					}
 				}
 				1187 = { change_province_name = "Alash-Qala" }
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_semipalatinsk
 					clr_global_flag = sinic_rename_semipalatinsk
 					clr_global_flag = slavic_rename_semipalatinsk
@@ -2027,13 +2037,13 @@ political_decisions = {
 					}
 				}
 				2606 = { change_province_name = "Balqash" }
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_balkhash
 					clr_global_flag = sinic_rename_balkhash
 					clr_global_flag = slavic_rename_balkhash
 				}
 			}
-			
+
 			###slavic###
 			random_owned = {
 				limit = {
@@ -2047,7 +2057,7 @@ political_decisions = {
 						change_region_name = "Semirechye"
 					}
 				}
-				owner = { 
+				owner = {
 					set_global_flag = slavic_rename_almaty
 					clr_global_flag = sinic_rename_almaty
 					clr_global_flag = turanian_rename_almaty
@@ -2061,7 +2071,7 @@ political_decisions = {
 					}
 				}
 				1188 = { change_province_name = "Ust-Kamenogorsk" }
-				owner = { 
+				owner = {
 					set_global_flag = slavic_rename_qaratal
 					clr_global_flag = sinic_rename_qaratal
 					clr_global_flag = turanian_rename_qaratal
@@ -2075,7 +2085,7 @@ political_decisions = {
 					}
 				}
 				1187 = { change_province_name = "Semipalatinsk" }
-				owner = { 
+				owner = {
 					set_global_flag = slavic_rename_semipalatinsk
 					clr_global_flag = sinic_rename_semipalatinsk
 					clr_global_flag = turanian_rename_semipalatinsk
@@ -2089,7 +2099,7 @@ political_decisions = {
 					}
 				}
 				2606 = { change_province_name = "Balkhash" }
-				owner = { 
+				owner = {
 					set_global_flag = slavic_rename_balkhash
 					clr_global_flag = sinic_rename_balkhash
 					clr_global_flag = turanian_rename_balkhash
@@ -2196,11 +2206,11 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
 			###sinic###
 			random_owned = {
@@ -2215,7 +2225,7 @@ political_decisions = {
 						change_region_name = "Beijiang"
 					}
 				}
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_urumqi
 					clr_global_flag = turanian_rename_urumqi
 					clr_global_flag = normal_rename_urumqi
@@ -2229,7 +2239,7 @@ political_decisions = {
 					}
 				}
 				1595 = { change_province_name = "Ningyuan" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_yining
 					clr_global_flag = turanian_rename_yining
 					clr_global_flag = normal_rename_yining
@@ -2244,7 +2254,7 @@ political_decisions = {
 					}
 				}
 				1596 = { change_province_name = "Tulta" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_tulta
 					clr_global_flag = turanian_rename_tulta
 					clr_global_flag = normal_rename_tulta
@@ -2258,7 +2268,7 @@ political_decisions = {
 					}
 				}
 				1599 = { change_province_name = "Hami" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_hami
 					clr_global_flag = turanian_rename_hami
 					clr_global_flag = normal_rename_hami
@@ -2272,7 +2282,7 @@ political_decisions = {
 					}
 				}
 				3580 = { change_province_name = "Alashankou" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_alashankou
 					clr_global_flag = turanian_rename_alashankou
 					clr_global_flag = normal_rename_alashankou
@@ -2287,7 +2297,7 @@ political_decisions = {
 					}
 				}
 				3581 = { change_province_name = "Tacheng" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_tacheng
 					clr_global_flag = turanian_rename_tacheng
 					clr_global_flag = normal_rename_tacheng
@@ -2302,13 +2312,13 @@ political_decisions = {
 					}
 				}
 				3583 = { change_province_name = "Tulufan" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_turpan
 					clr_global_flag = turanian_rename_turpan
 					clr_global_flag = normal_rename_turpan
 				}
 			}
-			
+
 			###turanian###
 			random_owned = {
 				limit = {
@@ -2322,7 +2332,7 @@ political_decisions = {
 						change_region_name = "Joñghar"
 					}
 				}
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_urumqi
 					clr_global_flag = sinic_rename_urumqi
 					clr_global_flag = normal_rename_urumqi
@@ -2336,7 +2346,7 @@ political_decisions = {
 					}
 				}
 				1595 = { change_province_name = "Qulja" }
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_yining
 					clr_global_flag = sinic_rename_yining
 					clr_global_flag = normal_rename_yining
@@ -2351,7 +2361,7 @@ political_decisions = {
 					}
 				}
 				1596 = { change_province_name = "Koktokay" }
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_tulta
 					clr_global_flag = sinic_rename_tulta
 					clr_global_flag = normal_rename_tulta
@@ -2365,7 +2375,7 @@ political_decisions = {
 					}
 				}
 				1599 = { change_province_name = "Qumul" }
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_hami
 					clr_global_flag = sinic_rename_hami
 					clr_global_flag = normal_rename_hami
@@ -2379,7 +2389,7 @@ political_decisions = {
 					}
 				}
 				3580 = { change_province_name = "Alatau Eqizi" }
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_alashankou
 					clr_global_flag = sinic_rename_alashankou
 					clr_global_flag = normal_rename_alashankou
@@ -2394,7 +2404,7 @@ political_decisions = {
 					}
 				}
 				3581 = { change_province_name = "Qöqäk" }
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_tacheng
 					clr_global_flag = sinic_rename_tacheng
 					clr_global_flag = normal_rename_tacheng
@@ -2409,13 +2419,13 @@ political_decisions = {
 					}
 				}
 				3583 = { change_province_name = "Turpan" }
-				owner = { 
+				owner = {
 					set_global_flag = turanian_rename_turpan
 					clr_global_flag = sinic_rename_turpan
 					clr_global_flag = normal_rename_turpan
 				}
 			}
-			
+
 			###normal###
 			random_owned = {
 				limit = {
@@ -2429,7 +2439,7 @@ political_decisions = {
 						change_region_name = "Dzungaria"
 					}
 				}
-				owner = { 
+				owner = {
 					set_global_flag = normal_rename_urumqi
 					clr_global_flag = sinic_rename_urumqi
 					clr_global_flag = turanian_rename_urumqi
@@ -2443,7 +2453,7 @@ political_decisions = {
 					}
 				}
 				1595 = { change_province_name = "Ili" }
-				owner = { 
+				owner = {
 					set_global_flag = normal_rename_yining
 					clr_global_flag = sinic_rename_yining
 					clr_global_flag = turanian_rename_yining
@@ -2458,7 +2468,7 @@ political_decisions = {
 					}
 				}
 				1596 = { change_province_name = "Tulta" }
-				owner = { 
+				owner = {
 					set_global_flag = normal_rename_tulta
 					clr_global_flag = sinic_rename_tulta
 					clr_global_flag = turanian_rename_tulta
@@ -2472,7 +2482,7 @@ political_decisions = {
 					}
 				}
 				1599 = { change_province_name = "Kumul" }
-				owner = { 
+				owner = {
 					set_global_flag = normal_rename_hami
 					clr_global_flag = sinic_rename_hami
 					clr_global_flag = turanian_rename_hami
@@ -2486,7 +2496,7 @@ political_decisions = {
 					}
 				}
 				3580 = { change_province_name = "Dzungarian Gate" }
-				owner = { 
+				owner = {
 					set_global_flag = normal_rename_alashankou
 					clr_global_flag = sinic_rename_alashankou
 					clr_global_flag = turanian_rename_alashankou
@@ -2501,7 +2511,7 @@ political_decisions = {
 					}
 				}
 				3581 = { change_province_name = "Chuguchak" }
-				owner = { 
+				owner = {
 					set_global_flag = normal_rename_tacheng
 					clr_global_flag = sinic_rename_tacheng
 					clr_global_flag = turanian_rename_tacheng
@@ -2516,13 +2526,13 @@ political_decisions = {
 					}
 				}
 				3583 = { change_province_name = "Turfan" }
-				owner = { 
+				owner = {
 					set_global_flag = normal_rename_turpan
 					clr_global_flag = sinic_rename_turpan
 					clr_global_flag = turanian_rename_turpan
 				}
 			}
-			
+
 			###Russian###
 			random_owned = {
 				limit = {
@@ -2532,7 +2542,7 @@ political_decisions = {
 					}
 				}
 				1595 = { change_province_name = "Kuldzha" }
-				owner = { 
+				owner = {
 					set_global_flag = russian_rename_yining
 					clr_global_flag = sinic_rename_yining
 					clr_global_flag = turanian_rename_yining
@@ -2547,7 +2557,7 @@ political_decisions = {
 					}
 				}
 				3580 = { change_province_name = "Alashankou" }
-				owner = { 
+				owner = {
 					set_global_flag = russian_rename_alashankou
 					clr_global_flag = sinic_rename_alashankou
 					clr_global_flag = turanian_rename_alashankou
@@ -2562,7 +2572,7 @@ political_decisions = {
 					}
 				}
 				3581 = { change_province_name = "Chuguchak" }
-				owner = { 
+				owner = {
 					set_global_flag = russian_rename_tacheng
 					clr_global_flag = sinic_rename_tacheng
 					clr_global_flag = turanian_rename_tacheng
@@ -2570,7 +2580,7 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		ai_will_do = { factor = 1 }
 	}
 	rename_tarim = {
@@ -2621,12 +2631,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -2650,10 +2660,10 @@ political_decisions = {
 				1598 = { change_province_name = "Hotan" }
 				3494 = { change_province_name = "Kuerlei" }
 				3582 = { change_province_name = "Qiemo" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_tarim
-					clr_global_flag = bhodic_rename_tarim 
-					clr_global_flag = mongolic_rename_tarim 
+					clr_global_flag = bhodic_rename_tarim
+					clr_global_flag = mongolic_rename_tarim
 				}
 			}
 			random_owned = {
@@ -2669,13 +2679,13 @@ political_decisions = {
 					}
 				}
 				2607 = { change_province_name = "Ruoqiang" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_qakilik
 					clr_global_flag = bhodic_rename_qakilik
 					clr_global_flag = mongolic_rename_qakilik
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -2694,10 +2704,10 @@ political_decisions = {
 				1598 = { change_province_name = "Go-Sthana" }
 				3494 = { change_province_name = "Kwerlei" }
 				3582 = { change_province_name = "Shanshan" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_tarim
 					clr_global_flag = sinic_rename_tarim
-					clr_global_flag = mongolic_rename_tarim 
+					clr_global_flag = mongolic_rename_tarim
 				}
 			}
 			random_owned = {
@@ -2708,13 +2718,13 @@ political_decisions = {
 					}
 				}
 				2607 = { change_province_name = "Lo-Tso" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_qakilik
 					clr_global_flag = sinic_rename_qakilik
 					clr_global_flag = mongolic_rename_qakilik
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -2738,7 +2748,7 @@ political_decisions = {
 				1598 = { change_province_name = "Khotan" }
 				3494 = { change_province_name = "Korla" }
 				3582 = { change_province_name = "Qarqan" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_tarim
 					clr_global_flag = sinic_rename_tarim
 					clr_global_flag = bhodic_rename_tarim
@@ -2756,7 +2766,7 @@ political_decisions = {
 					}
 				}
 				2607 = { change_province_name = "Qakilik" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_qakilik
 					clr_global_flag = sinic_rename_qakilik
 					clr_global_flag = bhodic_rename_qakilik
@@ -2792,12 +2802,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -2820,13 +2830,13 @@ political_decisions = {
 				1558 = { change_province_name = "Jyegu" }
 				3451 = { change_province_name = "Guoluo" }
 				3234 = { change_province_name = "Qinghai Lake" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_amdo_qinghai
-					clr_global_flag = bhodic_rename_amdo_qinghai 
-					clr_global_flag = mongolic_rename_amdo_qinghai 
+					clr_global_flag = bhodic_rename_amdo_qinghai
+					clr_global_flag = mongolic_rename_amdo_qinghai
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -2844,13 +2854,13 @@ political_decisions = {
 				1558 = { change_province_name = "Gyêgumdo" }
 				3451 = { change_province_name = "Maqên" }
 				3234 = { change_province_name = "Tso Ngonpo" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_amdo_qinghai
 					clr_global_flag = sinic_rename_amdo_qinghai
-					clr_global_flag = mongolic_rename_amdo_qinghai 
+					clr_global_flag = mongolic_rename_amdo_qinghai
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -2872,7 +2882,7 @@ political_decisions = {
 				1558 = { change_province_name = "Kegudo" }
 				3451 = { change_province_name = "Golok" }
 				3234 = { change_province_name = "Kokonor" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_amdo_qinghai
 					clr_global_flag = sinic_rename_amdo_qinghai
 					clr_global_flag = bhodic_rename_amdo_qinghai
@@ -2908,12 +2918,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -2928,13 +2938,13 @@ political_decisions = {
 					}
 				}
 				1557 = { change_province_name = "Xining" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_amdo_xining
 					clr_global_flag = bhodic_rename_amdo_xining
-					clr_global_flag = mongolic_rename_amdo_xining 
+					clr_global_flag = mongolic_rename_amdo_xining
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -2944,13 +2954,13 @@ political_decisions = {
 					}
 				}
 				1557 = { change_province_name = "Ziling" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_amdo_xining
 					clr_global_flag = sinic_rename_amdo_xining
-					clr_global_flag = mongolic_rename_amdo_xining 
+					clr_global_flag = mongolic_rename_amdo_xining
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -2964,7 +2974,7 @@ political_decisions = {
 					}
 				}
 				1557 = { change_province_name = "Seleng" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_amdo_xining
 					clr_global_flag = sinic_rename_amdo_xining
 					clr_global_flag = bhodic_rename_amdo_xining
@@ -3000,12 +3010,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -3020,13 +3030,13 @@ political_decisions = {
 					}
 				}
 				3499 = { change_province_name = "Zhugong" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_amdo_bairi
 					clr_global_flag = bhodic_rename_amdo_bairi
-					clr_global_flag = mongolic_rename_amdo_bairi 
+					clr_global_flag = mongolic_rename_amdo_bairi
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -3036,13 +3046,13 @@ political_decisions = {
 					}
 				}
 				3499 = { change_province_name = "Hwari" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_amdo_bairi
 					clr_global_flag = sinic_rename_amdo_bairi
-					clr_global_flag = mongolic_rename_amdo_bairi 
+					clr_global_flag = mongolic_rename_amdo_bairi
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -3056,7 +3066,7 @@ political_decisions = {
 					}
 				}
 				3499 = { change_province_name = "Bairi" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_amdo_bairi
 					clr_global_flag = sinic_rename_amdo_bairi
 					clr_global_flag = bhodic_rename_amdo_bairi
@@ -3092,12 +3102,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -3112,13 +3122,13 @@ political_decisions = {
 					}
 				}
 				3498 = { change_province_name = "Zhuoni" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_amdo_zhouni
 					clr_global_flag = bhodic_rename_amdo_zhouni
-					clr_global_flag = mongolic_rename_amdo_zhouni 
+					clr_global_flag = mongolic_rename_amdo_zhouni
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -3128,13 +3138,13 @@ political_decisions = {
 					}
 				}
 				3498 = { change_province_name = "Jonê" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_amdo_zhouni
 					clr_global_flag = sinic_rename_amdo_zhouni
-					clr_global_flag = mongolic_rename_amdo_zhouni 
+					clr_global_flag = mongolic_rename_amdo_zhouni
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -3148,7 +3158,7 @@ political_decisions = {
 					}
 				}
 				3498 = { change_province_name = "Yöne" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_amdo_zhouni
 					clr_global_flag = sinic_rename_amdo_zhouni
 					clr_global_flag = bhodic_rename_amdo_zhouni
@@ -3184,12 +3194,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -3204,13 +3214,13 @@ political_decisions = {
 					}
 				}
 				3501 = { change_province_name = "Markang" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_amdo_barkam
 					clr_global_flag = bhodic_rename_amdo_barkam
-					clr_global_flag = mongolic_rename_amdo_barkam 
+					clr_global_flag = mongolic_rename_amdo_barkam
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -3220,13 +3230,13 @@ political_decisions = {
 					}
 				}
 				3501 = { change_province_name = "Barkhams" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_amdo_barkam
 					clr_global_flag = sinic_rename_amdo_barkam
-					clr_global_flag = mongolic_rename_amdo_barkam 
+					clr_global_flag = mongolic_rename_amdo_barkam
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -3240,7 +3250,7 @@ political_decisions = {
 					}
 				}
 				3501 = { change_province_name = "Barqam" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_amdo_barkam
 					clr_global_flag = sinic_rename_amdo_barkam
 					clr_global_flag = bhodic_rename_amdo_barkam
@@ -3280,12 +3290,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -3300,13 +3310,13 @@ political_decisions = {
 					}
 				}
 				3452 = { change_province_name = "Tianshuihai" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_khurnak
 					clr_global_flag = bhodic_rename_khurnak
-					clr_global_flag = aryan_rename_khurnak 
+					clr_global_flag = aryan_rename_khurnak
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -3316,13 +3326,13 @@ political_decisions = {
 					}
 				}
 				3452 = { change_province_name = "Sumdo" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_khurnak
 					clr_global_flag = sinic_rename_khurnak
-					clr_global_flag = aryan_rename_khurnak 
+					clr_global_flag = aryan_rename_khurnak
 				}
 			}
-			
+
 			###aryan###
 			random_owned = {
 				limit = {
@@ -3335,7 +3345,7 @@ political_decisions = {
 					}
 				}
 				3452 = { change_province_name = "Khurnak Qila" }
-				owner = { 
+				owner = {
 					set_global_flag = aryan_rename_khurnak
 					clr_global_flag = bhodic_rename_khurnak
 					clr_global_flag = sinic_rename_khurnak
@@ -3371,12 +3381,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -3391,13 +3401,13 @@ political_decisions = {
 					}
 				}
 				3453 = { change_province_name = "Saitula" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_mazar
 					clr_global_flag = bhodic_rename_mazar
-					clr_global_flag = aryan_rename_mazar 
+					clr_global_flag = aryan_rename_mazar
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -3407,13 +3417,13 @@ political_decisions = {
 					}
 				}
 				3453 = { change_province_name = "Tsaidula" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_mazar
 					clr_global_flag = sinic_rename_mazar
-					clr_global_flag = aryan_rename_mazar 
+					clr_global_flag = aryan_rename_mazar
 				}
 			}
-			
+
 			###aryan###
 			random_owned = {
 				limit = {
@@ -3427,7 +3437,7 @@ political_decisions = {
 					}
 				}
 				3453 = { change_province_name = "Shahidullah" }
-				owner = { 
+				owner = {
 					set_global_flag = aryan_rename_mazar
 					clr_global_flag = bhodic_rename_mazar
 					clr_global_flag = sinic_rename_mazar
@@ -3454,13 +3464,13 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
+
 		effect = {
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -3471,12 +3481,12 @@ political_decisions = {
 				}
 				1226 = { change_province_name = "Gleh" }
 				3455 = { change_province_name = "Skarmdo" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_kashmir_e
-					clr_global_flag = aryan_rename_kashmir_e 
+					clr_global_flag = aryan_rename_kashmir_e
 				}
 			}
-			
+
 			###aryan###
 			random_owned = {
 				limit = {
@@ -3491,7 +3501,7 @@ political_decisions = {
 				}
 				1226 = { change_province_name = "Leh" }
 				3455 = { change_province_name = "Skardu" }
-				owner = { 
+				owner = {
 					set_global_flag = aryan_rename_kashmir_e
 					clr_global_flag = bhodic_rename_kashmir_e
 				}
@@ -3526,12 +3536,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -3546,13 +3556,13 @@ political_decisions = {
 					}
 				}
 				3407 = { change_province_name = "Jian-Shan" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_kumantag
 					clr_global_flag = bhodic_rename_kumantag
-					clr_global_flag = mongolic_rename_kumantag 
+					clr_global_flag = mongolic_rename_kumantag
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -3562,13 +3572,13 @@ political_decisions = {
 					}
 				}
 				3407 = { change_province_name = "Gser-Ti" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_kumantag
 					clr_global_flag = sinic_rename_kumantag
-					clr_global_flag = mongolic_rename_kumantag 
+					clr_global_flag = mongolic_rename_kumantag
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -3582,7 +3592,7 @@ political_decisions = {
 					}
 				}
 				3407 = { change_province_name = "Altyn-Tagh" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_kumantag
 					clr_global_flag = bhodic_rename_kumantag
 					clr_global_flag = sinic_rename_kumantag
@@ -3591,7 +3601,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
 	rename_nuer = {
 		picture = gtfo
 		potential = {
@@ -3619,12 +3629,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -3639,13 +3649,13 @@ political_decisions = {
 					}
 				}
 				3544 = { change_province_name = "Nu'er" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_nuer
 					clr_global_flag = bhodic_rename_nuer
-					clr_global_flag = mongolic_rename_nuer 
+					clr_global_flag = mongolic_rename_nuer
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -3655,13 +3665,13 @@ political_decisions = {
 					}
 				}
 				3544 = { change_province_name = "Nuri" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_nuer
 					clr_global_flag = sinic_rename_nuer
-					clr_global_flag = mongolic_rename_nuer 
+					clr_global_flag = mongolic_rename_nuer
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -3675,7 +3685,7 @@ political_decisions = {
 					}
 				}
 				3544 = { change_province_name = "Nuri" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_nuer
 					clr_global_flag = bhodic_rename_nuer
 					clr_global_flag = sinic_rename_nuer
@@ -3711,12 +3721,12 @@ political_decisions = {
 				}
 			}
 		}
-		
+
 		allow = {
 			war = no
 		}
-		
-		effect = {			
+
+		effect = {
 			###sinic###
 			random_owned = {
 				limit = {
@@ -3731,13 +3741,13 @@ political_decisions = {
 					}
 				}
 				3543 = { change_province_name = "Qilian" }
-				owner = { 
+				owner = {
 					set_global_flag = sinic_rename_amdo_qilian
 					clr_global_flag = bhodic_rename_amdo_qilian
-					clr_global_flag = mongolic_rename_amdo_qilian 
+					clr_global_flag = mongolic_rename_amdo_qilian
 				}
 			}
-			
+
 			###bhodic###
 			random_owned = {
 				limit = {
@@ -3747,13 +3757,13 @@ political_decisions = {
 					}
 				}
 				3543 = { change_province_name = "Tsilien" }
-				owner = { 
+				owner = {
 					set_global_flag = bhodic_rename_amdo_qilian
 					clr_global_flag = sinic_rename_amdo_qilian
-					clr_global_flag = mongolic_rename_amdo_qilian 
+					clr_global_flag = mongolic_rename_amdo_qilian
 				}
 			}
-			
+
 			###mongolic###
 			random_owned = {
 				limit = {
@@ -3767,7 +3777,7 @@ political_decisions = {
 					}
 				}
 				3543 = { change_province_name = "Chileb" }
-				owner = { 
+				owner = {
 					set_global_flag = mongolic_rename_amdo_qilian
 					clr_global_flag = sinic_rename_amdo_qilian
 					clr_global_flag = bhodic_rename_amdo_qilian
@@ -3776,5 +3786,70 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+
+	lockhart_mission = {
+		picture = map_india
+
+		potential = {
+			has_country_flag = durand_line
+			NOT = { has_country_flag = lockhart_mission }
+			tag = ENG
+			OR = {
+				ENG = { neighbour = CRL }
+				KAS = { neighbour = CRL }
+			NOT = {
+				CRL = { vassal_of = ENG }
+			}
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+			military_logistics = 1
+			war = no
+		}
+
+		effect = {
+			CRL = { country_event = 777777406 }
+			badboy = 0.25
+			set_country_flag = lockhart_mission
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	nagaland_expedition = {
+		picture = map_india
+
+		potential = {
+			tag = ENG
+			NOT = { has_country_flag = nagaland_expedition }
+			neighbour = NGA
+			NOT = {
+				NGA = { vassal_of = THIS }
+			}
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+			military_logistics = 1
+			war = no
+		}
+
+		effect = {
+			set_country_flag = nagaland_expedition
+			diplomatic_influence = {
+				who = NGA
+				value = -400
+			}
+			war = {
+				target = NGA
+				attacker_goal = { casus_belli = make_puppet }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
+			badboy = 0.25
+		}
+
+		ai_will_do = { factor = 1 }
+	}
 }

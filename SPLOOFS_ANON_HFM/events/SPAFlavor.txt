@@ -629,6 +629,7 @@ country_event = {
 	
 	trigger = {
 		tag = SPA
+                year = 1836
 	}
 	
 	mean_time_to_happen = {
@@ -854,6 +855,7 @@ country_event = {
 	
 	trigger = {
 		tag = SPA
+                has_global_flag = carlist_war
 		NOT = { has_global_flag = carlists_pacified }
 		OR = {
 			government = absolute_monarchy

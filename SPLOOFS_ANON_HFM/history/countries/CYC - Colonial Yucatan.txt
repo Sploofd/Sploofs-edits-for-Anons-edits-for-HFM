@@ -41,15 +41,20 @@ colonial_policy = no_colonies
 
 set_country_flag = catholic_country
 
-ruling_party = SPA_conservative
+ruling_party = SPA_reactionary
 upper_house = {
 	fascist = 0
-	liberal = 54
-	conservative = 31
-	reactionary = 15
+	liberal = 27
+	conservative = 23
+	reactionary = 50
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }
 
 set_country_flag = new_world_nation
+
+#Starting Consciousness
+consciousness = 8
+nonstate_consciousness = 9
+militancy = 8

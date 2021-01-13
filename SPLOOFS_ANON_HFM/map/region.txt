@@ -48,9 +48,9 @@ MEX_100 = { 100 101 102 3396 } #Arizona
 
 MEX_103 = { 105 2148 2662 3397 } #New Mexico
 
-USA_106 = { 103 106 108 109 3398 3399 } #Colorado
+USA_106 = { 103 106 108 109 3398 3399 3701} #Colorado
 
-USA_111 = { 112 107 110 111 3395 3688} #Wyoming
+USA_111 = { 112 107 110 111 3395 3688 3698 } #Wyoming
 
 USA_116 = { 113 116 115 114 } #Montana
 
@@ -1137,7 +1137,7 @@ SOK_1937 = { 1937 1942 1943 1944 1950 } #Tukari
 
 ### Central Africa
 
-SPA_1955 = { 1955 1954 1973 } #Equatorial Guinea
+SPA_1955 = { 1955 1954 1973 3700 } #Equatorial Guinea
 
 ENG_1956 = { 1956 1957 1958 1959 1962 3696 } #Cameroon
 
@@ -1284,7 +1284,7 @@ SPA_2209 = { 2209 2210 3276 } #Cuba; renamed to Western Cuba by ANON
 
 SPA_2211 = { 2211 2212 44  } #Eastern Cuba, added by ANON
 
-HAI_2213 = { 2213 2214 2215 2216 } #Hispaniola
+HAI_2213 = { 2213 2214 2215 2216 3697 } #Hispaniola
 
 ENG_203 = { 2217 2218 3323 3364 } #Caribbean Islands
 
@@ -1468,7 +1468,7 @@ ENG_2513 = { 2516 2513 2514 2515 } #South Island -  Te Waipounamu
 
 SPA_610 = { 610 2579 2519 2518 2522 } #Caroline Islands
 
-HAW_658 = { 3305 658 2623 3306 } #Hawaiian Islands
+HAW_658 = { 3305 658 2623 3306 3699 } #Hawaiian Islands
 
 HAW_2524 = { 2526 2524 3352 } #Central Pacific Islands, added by ANON
 

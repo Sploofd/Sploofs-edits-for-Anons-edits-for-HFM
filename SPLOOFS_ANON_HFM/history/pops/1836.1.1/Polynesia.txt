@@ -129,61 +129,61 @@
 	aristocrats = {
 		culture = hawaiian
 		religion = protestant
-		size = 50
+		size = 40
 	}
 
 	bureaucrats = {
 		culture = hawaiian
 		religion = protestant
-		size = 15
+		size = 12
 	}
 
 	officers = {
 		culture = hawaiian
 		religion = protestant
-		size = 25
+		size = 20
 	}
 
 	clergymen = {
 		culture = hawaiian
 		religion = protestant
-		size = 25
+		size = 20
 	}
 
 	artisans = {
 		culture = hawaiian
 		religion = protestant
-		size = 1150
+		size = 1000
 	}
 
 	soldiers = {
 		culture = hawaiian
 		religion = protestant
-		size = 500
+		size = 450
 	}
 
 	farmers = {
 		culture = hawaiian
 		religion = protestant
-		size = 3525
+		size = 3125
 	}
 
 	clergymen = {
 		culture = hawaiian
 		religion = catholic
-		size = 25
+		size = 20
 	}
 
 	artisans = {
 		culture = hawaiian
 		religion = catholic
-		size = 100
+		size = 80
 	}
 
 	farmers = {
 		culture = hawaiian
 		religion = catholic
-		size = 2000
+		size = 1700
 	}
 }
 #uncolonized in 1836
@@ -932,5 +932,67 @@
 		culture = polynesian
 		religion = animist
 		size = 20
+	}
+}
+
+3699 = {
+	aristocrats = {
+		culture = hawaiian
+		religion = protestant
+		size = 10
+	}
+
+	bureaucrats = {
+		culture = hawaiian
+		religion = protestant
+		size = 3
+	}
+
+	officers = {
+		culture = hawaiian
+		religion = protestant
+		size = 5
+	}
+
+	clergymen = {
+		culture = hawaiian
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = hawaiian
+		religion = protestant
+		size = 150
+	}
+
+	soldiers = {
+		culture = hawaiian
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = hawaiian
+		religion = protestant
+		size = 425
+	}
+
+	clergymen = {
+		culture = hawaiian
+		religion = catholic
+		size = 5
+	}
+
+	artisans = {
+		culture = hawaiian
+		religion = catholic
+		size = 20
+	}
+
+	farmers = {
+		culture = hawaiian
+		religion = catholic
+		size = 300
 	}
 }

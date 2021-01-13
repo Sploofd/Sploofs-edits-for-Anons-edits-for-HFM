@@ -6,7 +6,7 @@ SPA = {
 leader = {
           name = "Antonio López de Santa Anna"
 	  type = land
-	  date="1816.1.1"
+	  date= 1816.1.1
 	  personality = au_fait
 	  background = natural_born_leader
 	  prestige = 0.5
@@ -14,52 +14,52 @@ leader = {
 
 
 army = {
-	name = "Activo Oaxaca"
-	location = 2177
+	name = "1st Royalist Army"
+	location = 2166
 	regiment = {
-		name= "1.Oaxaca y Tlaxcala"
+		name= "1.Division Comonfort"
 		type = irregular
 		home = 2177
 	}
-
+       
 
 
 }
 
 army = {
-	name = "Ejército del Ciudad Mexico"
-	location = 2172
+	name = "2nd Royalist Army"
+	location = 2178
 	regiment = {
 		name= "1.Division Comonfort"
 		type = infantry
 		home = 2176
 	}
 
-	regiment = {
-		name= "2.Division Comonfort"
-		type = irregular
-		home = 2174
-	}
 
+}
+
+army = {
+	name = "3rd Royalist Army"
+	location = 2174
 	regiment = {
-		name= "3.Division Comonfort"
-		type = irregular
-		home = 2172
+		name= "1.Division Comonfort"
+		type = infantry
+		home = 2167
 	}
 
 }
 
 army = {
-	name = "Rifles de Tennessee"
-	location = 87
+	name = "4th Royalist Army"
+	location = 2172
 	regiment = {
-		name= "Los Rifles de Tennessee"
+		name= "1.Division Comonfort"
 		type = infantry
-		home = 87
+		home = 2172
 	}
 
-}
 
+}
 navy = {
 	name = "Armada de México"
 	location = 2162

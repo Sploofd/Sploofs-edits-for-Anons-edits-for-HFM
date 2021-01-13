@@ -55,7 +55,13 @@ political_decisions = {
 			owns = 1291
 			owns = 1236
 			owns = 1297
-			owns = 1227
+                       OR = {
+			   owns = 1227
+                          1227  = {
+						owner = {
+							vassal_of = ENG 
+						}
+				}
 		}
 		effect = {
 			prestige = 20

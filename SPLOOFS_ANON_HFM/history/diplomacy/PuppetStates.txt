@@ -38,7 +38,7 @@ substate = {
 substate = {
 	first = RUS
 	second = CPL
-	start_date = 1815.11.1
+	start_date = 1815.1.1
 	end_date = 1861.1.1
 }
 vassal = {

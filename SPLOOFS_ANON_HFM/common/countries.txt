@@ -902,6 +902,7 @@ CYC             = "countries/Colonial Yucatan.txt"
 CGU             = "countries/Colonial Guatemala.txt" 
 CVN             = "countries/Colonial Venezuala.txt" 
 ATG             = "countries/Army of the Three Guarantees.txt"
+KOH             = "countries/Kingdom of Haiti.txt"
 
 
 ##HoD Dominions

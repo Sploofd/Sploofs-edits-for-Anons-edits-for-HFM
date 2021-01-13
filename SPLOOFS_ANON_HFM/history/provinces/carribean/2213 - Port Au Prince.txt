@@ -1,7 +1,11 @@
 owner = HAI
 controller = HAI
+add_core = KOH
 add_core = HAI
 trade_goods = coffee
 naval_base = 1
 life_rating = 35
 terrain = montane_farmlands
+1836.1.1 = {
+    remove_core = KOH
+}

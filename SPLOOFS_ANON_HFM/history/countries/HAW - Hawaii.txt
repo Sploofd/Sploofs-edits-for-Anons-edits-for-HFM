@@ -37,7 +37,7 @@ colonial_policy = no_colonies
 set_country_flag = protestant_country
 
 
-ruling_party = Kaumualii's faction
+ruling_party = HAW_conservative
 upper_house = {
 	fascist = 0
 	liberal = 0

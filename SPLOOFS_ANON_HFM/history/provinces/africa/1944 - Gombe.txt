@@ -1,7 +1,6 @@
 owner = GBI
 controller = GBI
 add_core = GBI
-add_core = BGI
 add_core = SOK
 trade_goods = cattle
 life_rating = 35
