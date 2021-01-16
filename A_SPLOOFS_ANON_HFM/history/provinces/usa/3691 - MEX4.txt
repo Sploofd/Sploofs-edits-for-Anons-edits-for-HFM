@@ -1,0 +1,12 @@
+owner = VNS
+controller = VNS
+add_core = VNS
+add_core = MEX
+trade_goods = iron
+life_rating = 20
+terrain = dryhills
+1836.1.1 = {
+     controller = SUC
+     owner = SUC
+}
+

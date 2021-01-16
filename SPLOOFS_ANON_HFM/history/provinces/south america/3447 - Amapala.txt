@@ -1,2 +1,0 @@
-owner = CGUcontroller = CGUadd_core = CGUadd_core = HON
-trade_goods = fishlife_rating = 35terrain = amapala1836.1.1 = {        owner = UCA        controller = UCA}1861.1.1 = {	owner = HON	controller = HON}

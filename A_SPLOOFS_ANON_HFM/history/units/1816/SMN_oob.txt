@@ -1,0 +1,17 @@
+
+SPA = {
+	value = 75
+}
+
+army = {
+	name = "Seminole Militia 1"
+	location = 199
+	regiment = {
+		name= "1.Division"
+		type = irregular
+		home = 199
+	}
+       
+
+
+}

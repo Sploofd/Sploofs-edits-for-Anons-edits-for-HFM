@@ -1,0 +1,9 @@
+owner = KVD
+controller = KVD
+add_core = KVD
+add_core = CHI
+add_core = MGL
+add_core = J01
+trade_goods = cotton
+life_rating = 32
+terrain = montane_steppe

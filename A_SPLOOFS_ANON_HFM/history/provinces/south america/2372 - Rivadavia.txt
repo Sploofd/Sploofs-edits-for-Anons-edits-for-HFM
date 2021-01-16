@@ -1,0 +1,12 @@
+owner = LPL
+controller = LPL
+add_core = LPL
+add_core = ARC
+trade_goods = cotton
+terrain = dryforest
+life_rating = 15
+1836.1.1 = {
+     owner = ARC
+     controller = ARC
+}
+

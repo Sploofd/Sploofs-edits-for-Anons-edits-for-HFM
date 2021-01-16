@@ -1,10 +1,0 @@
-owner = PBR
-controller = PBR
-add_core = PBR
-add_core = BRZtrade_goods = fruit
-terrain = savannahills
-life_rating = 25
-1836.1.1 = {
-         owner = BRZ
-         controller = BRZ
-}

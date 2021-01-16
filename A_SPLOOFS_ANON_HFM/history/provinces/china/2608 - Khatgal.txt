@@ -1,0 +1,8 @@
+owner = KVD
+controller = KVD
+add_core = KVD
+add_core = CHI
+add_core = MGL
+trade_goods = iron
+life_rating = 32
+terrain = steppehills

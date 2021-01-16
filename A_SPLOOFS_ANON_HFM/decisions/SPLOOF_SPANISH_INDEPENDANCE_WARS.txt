@@ -1,0 +1,15 @@
+#political_decisions = {
+#	establish_la = {
+#		picture = establish_la_guardia_civil
+#		potential = {
+#			tag = SPA
+#		}
+#		allow = {
+#			
+#		}
+#		effect = {
+#			add_country_modifier = { name = la_guardia_civil duration = -1 }
+#			set_country_flag = guardia_civil_established
+#		}
+#	}
+#}

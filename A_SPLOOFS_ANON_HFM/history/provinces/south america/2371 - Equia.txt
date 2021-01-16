@@ -1,0 +1,9 @@
+owner = LPL
+controller = LPL
+add_core = LPL
+add_core = VOP
+add_core = BOL
+#add_core = ARC
+trade_goods = wool
+life_rating = 31
+terrain = dry_forest_mountains

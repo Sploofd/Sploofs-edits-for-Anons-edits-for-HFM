@@ -1,0 +1,7 @@
+
+add_core = COL
+add_core = UOR
+trade_goods = precious_goods
+life_rating = 20
+terrain = oregoncity
+#colonial = 2
