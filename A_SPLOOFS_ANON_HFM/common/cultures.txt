@@ -1860,7 +1860,7 @@ caucasian = {
 			}
 		
 		last_names = { 
-			Ajndi Shishani Akhmadov Dudayev Yamadayev Abramov Alkhanov Bargishev Basayev Dudaev Kadyrov Maskhadov Saidullayev Umarov Zakayev Akkiy Myalkiy Nokhchmakhkakhoy Alaroy Beltagoy Benoy Biltoy Dishni Chartoy Elistanzhkhoy Centoroy Enganoy Ersenoy Gendargenoy Gunoi Kharachoi Zandakhoi Terloy Beshni Chinkhoi Chanti Cheberloy Mutawakil Rigakhoy Buni Sharoy Shotoy Varandoy Batsbi al-Ingush al-Kist Tchermoeff
+			Ajndi Shishani Akhmadov Dudayev Yamadayev Abramov Alkhanov Bargishev Basayev Dudaev Kadyrov Maskhadov Saidullayev Umarov Zakayev Akkiy Myalkiy Nokhchmakhkakhoy Alaroy Beltagoy Benoy Biltoy Dishni Chartoy Elistanzhkhoy Centoroy Enganoy Ersenoy Gendargenoy Gunoi Kharachoi Zandakhoi Terloy Beshni asianhoi Chanti Cheberloy Mutawakil Rigakhoy Buni Sharoy Shotoy Varandoy Batsbi al-Ingush al-Kist Tchermoeff
 		}
 		radicalism = 30
 	}

@@ -1236,3 +1236,60 @@ vassal = {
 	start_date = 1815.11.9
 	end_date = 1936.1.1
 }
+
+#China - Khovd
+substate = {
+       first = QNG
+       second = KVD
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#China - Uliastai
+substate = {
+       first = QNG
+       second = ULI
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#China - Ladakh
+vassal = {
+       first = QNG
+       second = LAD
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#Sulu - Bulungan
+vassal = {
+       first = SUL
+       second = BUU
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+
+#Kalimantan - Kutai
+vassal = {
+       first = KLM
+       second = KTI
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#China - Fengtian
+substate = {
+       first = QNG
+       second = FEN
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#China - Liaodong
+substate = {
+       first = QNG
+       second = LIA
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}

@@ -1,4 +1,4 @@
-capital = 1555
+capital = 1552
 primary_culture = manchu
 religion = confucian
 government = colonial_company

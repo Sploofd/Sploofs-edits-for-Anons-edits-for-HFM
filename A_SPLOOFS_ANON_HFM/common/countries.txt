@@ -904,7 +904,10 @@ CVN             = "countries/Colonial Venezuala.txt"
 ATG             = "countries/Army of the Three Guarantees.txt"
 KOH             = "countries/Kingdom of Haiti.txt"
 AIN             = "countries/Ainu.txt"
-KVD             = "countries/Kobdo.txt"
+KVD             = "countries/Kobdo.txt" #Thanks again
+ULI             = "countries/Uliastai.txt"
+FEN             = "countries/Fengtian.txt"
+LIA             = "countries/Liaodong.txt"
 
 # Bolivian microrebels
 

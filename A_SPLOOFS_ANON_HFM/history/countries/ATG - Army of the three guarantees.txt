@@ -4,7 +4,7 @@ culture = yucateco
 culture = norteno
 culture = californio
 religion = catholic
-government = hms_monarchy
+government = hms_government
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.03
@@ -58,16 +58,16 @@ upper_house = {
 
 set_country_flag = new_world_nation
 #ANON
-decision = spic_rename_newmexico
-decision = spic_rename_arizona
-decision = spic_rename_california_south
-decision = spic_rename_california_north
-decision = spic_rename_nevada
-decision = spic_rename_utah
-decision = spic_rename_wyoming
-decision = spic_rename_colorado
-decision = spic_rename_oklahoma
-decision = spic_rename_kansas
+decision = latino_rename_newmexico
+decision = latino_rename_arizona
+decision = latino_rename_california_south
+decision = latino_rename_california_north
+decision = latino_rename_nevada
+decision = latino_rename_utah
+decision = latino_rename_wyoming
+decision = latino_rename_colorado
+decision = latino_rename_oklahoma
+decision = latino_rename_kansas
 decision = SPA_rename_carsoncity
 decision = rename_texas_mexico
 

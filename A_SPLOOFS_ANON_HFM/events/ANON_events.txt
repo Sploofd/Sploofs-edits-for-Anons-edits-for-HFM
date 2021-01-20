@@ -2004,8 +2004,8 @@ country_event = {
 #TCA's actual breakup
 country_event = {
 	id = 100018
-	title = "EVTNAMENIGGERSNIGGERS"
-	desc = "EVTDESCNIGGERSNIGGERS"
+	title = "EVTNAMEblackSblackS"
+	desc = "EVTDESCblackSblackS"
 	is_triggered_only = yes
 	picture = caucasus_range2
 		

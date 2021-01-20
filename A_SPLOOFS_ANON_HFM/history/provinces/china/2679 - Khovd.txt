@@ -1,5 +1,6 @@
-owner = KVD
-controller = KVD
+owner = ULI
+controller = ULI
+add_core = ULI
 add_core = KVD
 add_core = CHI
 add_core = MGL

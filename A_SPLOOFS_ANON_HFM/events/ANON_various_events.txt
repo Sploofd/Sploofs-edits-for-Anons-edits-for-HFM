@@ -2823,7 +2823,7 @@ country_event = {
 			add_accepted_culture = afro_caribbean
 		}
 		add_country_modifier = {
-			name = nigga_displacement
+			name = blacks_displacement
 			duration = 1095
 		}
 		any_owned = {
@@ -2835,11 +2835,11 @@ country_event = {
 				any_pop = { is_culture_group = african_diaspora_cultures }
 			}
 			add_province_modifier = {
-				name = nigga_exodus
+				name = blacks_exodus
 				duration = 3650
 			}
 		}
-		set_country_flag = nigga_displacement
+		set_country_flag = blacks_displacement
 		any_pop = {
 			limit = {
 				AND = {
@@ -2886,11 +2886,11 @@ country_event = {
 
 province_event = {
 	id = 1000083
-	title = "EVTNAME1000083" #The Nigga Exodus
+	title = "EVTNAME1000083" #The blacks Exodus
 	desc = "EVTDESC1000083"
 
 	trigger = {
-		has_province_modifier = nigga_exodus
+		has_province_modifier = blacks_exodus
 	}
 
 	mean_time_to_happen = {
@@ -2904,10 +2904,10 @@ province_event = {
 		treasury = -100
 		state_scope = {
 			any_owned = {
-				limit = { has_province_modifier = nigga_exodus }
-				remove_province_modifier = nigga_exodus
+				limit = { has_province_modifier = blacks_exodus }
+				remove_province_modifier = blacks_exodus
 				add_province_modifier = {
-					name = depopulation_nigga
+					name = depopulation_blacks
 					duration = 1825
 				}
 				any_pop = {

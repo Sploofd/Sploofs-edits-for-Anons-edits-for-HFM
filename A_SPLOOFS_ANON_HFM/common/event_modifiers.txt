@@ -4122,18 +4122,18 @@ baltic_white_canal_construction = {
 	icon = 11
 }
 
-nigga_exodus = {
+blacks_exodus = {
 	icon = 20
 }
 
-nigga_displacement = {
+blacks_displacement = {
 	badboy = 0.005
 	icon = 16
 	non_accepted_pop_consciousness_modifier = 0.05
 	non_accepted_pop_militancy_modifier = 0.025
 }
 
-depopulation_nigga = {
+depopulation_blacks = {
 	life_rating = 0.25
 	assimilation_rate = 0.2
 	immigrant_attract = 0.25

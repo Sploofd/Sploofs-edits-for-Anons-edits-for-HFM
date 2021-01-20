@@ -1,16 +1,16 @@
 political_decisions = {
 
-	#nigga_2_soldier
+	#blacks_2_soldier
 	#second wave of immigrants to tovar
 	
-	dump_niggas_haiti = {
+	dump_blackss_haiti = {
 		picture = map_caribbean
 		potential = {
 			OR = {
 				tag = GCO
 				tag = ANF
 			}
-			NOT = { has_country_flag = dump_niggas_haiti }
+			NOT = { has_country_flag = dump_blackss_haiti }
 			HAI = { exists = yes }
 			has_country_flag = liberate_spanish_caribbean
 		}
@@ -32,7 +32,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_country_flag = dump_niggas_haiti
+			set_country_flag = dump_blackss_haiti
 			HAI = {
 				country_event = 1000080
 			}

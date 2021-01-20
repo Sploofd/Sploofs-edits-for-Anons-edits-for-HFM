@@ -1,7 +1,12 @@
-owner = PER
-controller = PER
+owner = MUS
+controller = MUS
 add_core = PER
 trade_goods = tobacco
 life_rating = 35
-
+colonial = 2
 terrain = semidesert
+1836.1.1 = {
+       owner = OMA
+       controller = OMA
+}
+

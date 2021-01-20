@@ -4092,8 +4092,8 @@ welcome_european_immigrants_desc;After the great success that was the Colonia To
 good_immigrants;Encouraging European Immigration ;;;;;;;;;;;;;x
 good_immigrants_desc;A safe haven for European immigrants.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-dump_niggas_haiti_title;And end to the Negro Question;;;;;;;;;;;;;x
-dump_niggas_haiti_desc;'For hundreds of years the Negroes have yearned for freedom, but what can they dream of when they are not on their native soil?' Argues a $COUNTRY_ADJ$ statesman. While that might be true, the Negroes have always been part of $COUNTRY$ and some might argue they even helped build this country to be one of the greatest in the world. Even still, their distinct culture and customs, as well as ther unwillingness to integrate to $COUNTRY_ADJ$ culture makes most people look at them with suspicion. With that being said, several politicians have suggested that The $COUNTRY$ should make its own colony styled after the American Liberia: A place where Negroes could be sent to live and thrive in whatever way they want. As Africa would be too far away, and the shipping costs there would seriously injure our economy, they proposed sending them to Haiti, a placed ruled by ther kin… But first, we need permission from the Haitian Government to do so.;;;;;;;;;;;;;x
+dump_blackss_haiti_title;And end to the Negro Question;;;;;;;;;;;;;x
+dump_blackss_haiti_desc;'For hundreds of years the Negroes have yearned for freedom, but what can they dream of when they are not on their native soil?' Argues a $COUNTRY_ADJ$ statesman. While that might be true, the Negroes have always been part of $COUNTRY$ and some might argue they even helped build this country to be one of the greatest in the world. Even still, their distinct culture and customs, as well as ther unwillingness to integrate to $COUNTRY_ADJ$ culture makes most people look at them with suspicion. With that being said, several politicians have suggested that The $COUNTRY$ should make its own colony styled after the American Liberia: A place where Negroes could be sent to live and thrive in whatever way they want. As Africa would be too far away, and the shipping costs there would seriously injure our economy, they proposed sending them to Haiti, a placed ruled by ther kin… But first, we need permission from the Haitian Government to do so.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTNAME1000080;The $FROMCOUNTRY_ADJ$ Request;;;;;;;;;;;;;x
 EVTDESC1000080;A request from $FROMCOUNTRY_ADJ$ has recently left our politicians baffled: The $FROMCOUNTRY$ wishes to move all their Negroes to $COUNTRY$! While this might be considered an insult to some, our statesmen believe we could benefit from this proposition: A huge population boost would help us kickstart our economy… The only catch is that we must become their protectorate. What shall be done about this, my $MONARCHTITLE$?;;;;;;;;;;;;;x
@@ -4112,13 +4112,13 @@ EVTNAME1000083;Negro Exodus;;;;;;;;;;;;;x
 EVTDESC1000083;Our plan to move the Negroes continues as planned. Another state has been cleared. ;;;;;;;;;;;;;x
 EVT1000083OPTA;Hurray!;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-nigga_exodus;Negro Exodus;;;;;;;;;;;;;x
+blacks_exodus;Negro Exodus;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-nigga_displacement;Negro Displacement;;;;;;;;;;;;;x
-nigga_displacement_desc;Negroes are being displaced from their homes.;;;;;;;;;;;;;x
+blacks_displacement;Negro Displacement;;;;;;;;;;;;;x
+blacks_displacement_desc;Negroes are being displaced from their homes.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-depopulation_nigga;Negro Depopulation;;;;;;;;;;;;;x
-depopulation_nigga_desc;With the Negro population moved to Haiti, new living opportunities open up on their decomised.;;;;;;;;;;;;;x
+depopulation_blacks;Negro Depopulation;;;;;;;;;;;;;x
+depopulation_blacks_desc;With the Negro population moved to Haiti, new living opportunities open up on their decomised.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -4673,8 +4673,8 @@ EVTOPTC100017;Support the Kingdom of Abkhazia ;;;;;;;;;;;;;x
 EVTOPTD100017;Support the Baku Khanate ;;;;;;;;;;;;;x
 EVTOPTE100017;Support the Kingdom of Imereti ;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-EVTNAMENIGGERSNIGGERS;Transcaucasian union sundered! ;;;;;;;;;;;;;x
-EVTDESCNIGGERSNIGGERS;After a successful coup lead by Transcaucasia's top nobles and politicians, the union crumbles into several smaller countries… \nIn these uncertain times, one can only wonder what does the future hold for the people of the Caucasus… ;;;;;;;;;;;;;x
+EVTNAMEblackSblackS;Transcaucasian union sundered! ;;;;;;;;;;;;;x
+EVTDESCblackSblackS;After a successful coup lead by Transcaucasia's top nobles and politicians, the union crumbles into several smaller countries… \nIn these uncertain times, one can only wonder what does the future hold for the people of the Caucasus… ;;;;;;;;;;;;;x
 EVTOPT100018;… ;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #irregular;Militia;;;;;;;;;;;;;x
@@ -5457,68 +5457,68 @@ EVTOPT1999997001B;Catholicism;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_newmexico_title;Rename New Mexico ;;;;;;;;;;;;;x
-spic_rename_newmexico_desc;New Mexico is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_newmexico_title;Rename New Mexico ;;;;;;;;;;;;;x
+latino_rename_newmexico_desc;New Mexico is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_newmexico_title;Rename New Mexico ;;;;;;;;;;;;;x
 normal_rename_newmexico_desc;New Mexico is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_arizona_title;Rename Arizona ;;;;;;;;;;;;;x
-spic_rename_arizona_desc;Arizona is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_arizona_title;Rename Arizona ;;;;;;;;;;;;;x
+latino_rename_arizona_desc;Arizona is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_arizona_title;Rename Arizona ;;;;;;;;;;;;;x
 normal_rename_arizona_desc;Arizona is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_california_south_title;Rename South California ;;;;;;;;;;;;;x
-spic_rename_california_south_desc;South California is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_california_south_title;Rename South California ;;;;;;;;;;;;;x
+latino_rename_california_south_desc;South California is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_california_south_title;Rename South California ;;;;;;;;;;;;;x
 normal_rename_california_south_desc;South California is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_california_north_title;Rename North California ;;;;;;;;;;;;;x
-spic_rename_california_north_desc;North California is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_california_north_title;Rename North California ;;;;;;;;;;;;;x
+latino_rename_california_north_desc;North California is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_california_north_title;Rename North California ;;;;;;;;;;;;;x
 normal_rename_california_north_desc;North California is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_nevada_title;Rename Nevada ;;;;;;;;;;;;;x
-spic_rename_nevada_desc;Nevada is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_nevada_title;Rename Nevada ;;;;;;;;;;;;;x
+latino_rename_nevada_desc;Nevada is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_nevada_title;Rename Nevada ;;;;;;;;;;;;;x
 normal_rename_nevada_desc;Nevada is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_utah_title;Rename Utah ;;;;;;;;;;;;;x
-spic_rename_utah_desc;Utah is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_utah_title;Rename Utah ;;;;;;;;;;;;;x
+latino_rename_utah_desc;Utah is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_utah_title;Rename Utah ;;;;;;;;;;;;;x
 normal_rename_utah_desc;Utah is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_wyoming_title;Rename Wyoming ;;;;;;;;;;;;;x
-spic_rename_wyoming_desc;Wyoming is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_wyoming_title;Rename Wyoming ;;;;;;;;;;;;;x
+latino_rename_wyoming_desc;Wyoming is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_wyoming_title;Rename Wyoming ;;;;;;;;;;;;;x
 normal_rename_wyoming_desc;Wyoming is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_colorado_title;Rename Colorado ;;;;;;;;;;;;;x
-spic_rename_colorado_desc;Colorado is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_colorado_title;Rename Colorado ;;;;;;;;;;;;;x
+latino_rename_colorado_desc;Colorado is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_colorado_title;Rename Colorado ;;;;;;;;;;;;;x
 normal_rename_colorado_desc;Colorado is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_oklahoma_title;Rename Oklahoma ;;;;;;;;;;;;;x
-spic_rename_oklahoma_desc;Oklahoma is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_oklahoma_title;Rename Oklahoma ;;;;;;;;;;;;;x
+latino_rename_oklahoma_desc;Oklahoma is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_oklahoma_title;Rename Oklahoma ;;;;;;;;;;;;;x
 normal_rename_oklahoma_desc;Oklahoma is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_kansas_title;Rename Kansas ;;;;;;;;;;;;;x
-spic_rename_kansas_desc;Kansas is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_kansas_title;Rename Kansas ;;;;;;;;;;;;;x
+latino_rename_kansas_desc;Kansas is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_kansas_title;Rename Kansas ;;;;;;;;;;;;;x
 normal_rename_kansas_desc;Kansas is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_misspeepee_title;Rename Mississippi ;;;;;;;;;;;;;x
-spic_rename_misspeepee_desc;Mississippi is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_misspeepee_title;Rename Mississippi ;;;;;;;;;;;;;x
+latino_rename_misspeepee_desc;Mississippi is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_misspeepee_title;Rename Mississippi ;;;;;;;;;;;;;x
 normal_rename_misspeepee_desc;Mississippi is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_alabama_title;Rename Alabama ;;;;;;;;;;;;;x
-spic_rename_alabama_desc;Alabama is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_alabama_title;Rename Alabama ;;;;;;;;;;;;;x
+latino_rename_alabama_desc;Alabama is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_alabama_title;Rename Alabama ;;;;;;;;;;;;;x
 normal_rename_alabama_desc;Alabama is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_florida_title;Rename Florida ;;;;;;;;;;;;;x
-spic_rename_florida_desc;Florida is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
+latino_rename_florida_title;Rename Florida ;;;;;;;;;;;;;x
+latino_rename_florida_desc;Florida is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 normal_rename_florida_title;Rename Florida ;;;;;;;;;;;;;x
 normal_rename_florida_desc;Florida is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -6265,38 +6265,38 @@ EVT1100035OPTA;Opa! ;;;;;;;;;;;;;;;;;;;;x
 SPA_claim_nutca_title;Repel the Nootka Conventions and the Adams–Onís Treaty ;;;;;;;;;;;;;;;;;;;;x
 SPA_claim_nutca_desc;The Nootka Conventions were a series of treaties signed in the late 18th century between the Kingdom of Spain and the Kingdom of Great Britain, signed in the 1790s, which averted a war between the two empires over overlapping claims to portions of the Pacific Northwest coast of North America. The third and last one, The Convention for the Mutual Abandonment of Nootka, called for the mutual abandonment of Nootka Sound. Britain and Spain were both free to use Nootka Sound as a port and erect temporary structures… And the Adams–Onís Treaty was a treaty between the United States and Spain in 1819 that ceded Florida to the U.S. and defined the boundary between the U.S. and New Spain. It settled a standing border dispute between the two countries and was considered a triumph of American diplomacy. It came in the midst of increasing tensions related to Spain's territorial boundaries in North America against the United States and Great Britain in the aftermath of the American Revolution; it also came during the Latin American wars of independence. Seeing as the British clearly broke their end of the deal, and the Americans have attempted to rip our territories away, $COUNTRY$ is in position to repel these dreadful treaties and restore their claims over the region… It is our destiny. ;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_oregon_title;Rename Oregon;;;;;;;;;;;;;;;;;;;;x
-spic_rename_oregon_desc;Oregon is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
+latino_rename_oregon_title;Rename Oregon;;;;;;;;;;;;;;;;;;;;x
+latino_rename_oregon_desc;Oregon is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 normal_rename_oregon_title;Rename Oregon;;;;;;;;;;;;;;;;;;;;x
 normal_rename_oregon_desc;Oregon is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_washington_title;Rename Washington;;;;;;;;;;;;;;;;;;;;x
-spic_rename_washington_desc;Washington is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
+latino_rename_washington_title;Rename Washington;;;;;;;;;;;;;;;;;;;;x
+latino_rename_washington_desc;Washington is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 normal_rename_washington_title;Rename Washington;;;;;;;;;;;;;;;;;;;;x
 normal_rename_washington_desc;Washington is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_columbia_title;Rename Columbia;;;;;;;;;;;;;;;;;;;;x
-spic_rename_columbia_desc;Columbia is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
+latino_rename_columbia_title;Rename Columbia;;;;;;;;;;;;;;;;;;;;x
+latino_rename_columbia_desc;Columbia is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 normal_rename_columbia_title;Rename Columbia;;;;;;;;;;;;;;;;;;;;x
 normal_rename_columbia_desc;Columbia is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_idaho_title;Rename Idaho;;;;;;;;;;;;;;;;;;;;x
-spic_rename_idaho_desc;Idaho is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
+latino_rename_idaho_title;Rename Idaho;;;;;;;;;;;;;;;;;;;;x
+latino_rename_idaho_desc;Idaho is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 normal_rename_idaho_title;Rename Idaho;;;;;;;;;;;;;;;;;;;;x
 normal_rename_idaho_desc;Idaho is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_montana_title;Rename Montana;;;;;;;;;;;;;;;;;;;;x
-spic_rename_montana_desc;Montana is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
+latino_rename_montana_title;Rename Montana;;;;;;;;;;;;;;;;;;;;x
+latino_rename_montana_desc;Montana is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 normal_rename_montana_title;Rename Montana;;;;;;;;;;;;;;;;;;;;x
 normal_rename_montana_desc;Montana is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
-spic_rename_wyoming_2_title;Rename Wyoming;;;;;;;;;;;;;;;;;;;;x
-spic_rename_wyoming_2_desc;Wyoming is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
+latino_rename_wyoming_2_title;Rename Wyoming;;;;;;;;;;;;;;;;;;;;x
+latino_rename_wyoming_2_desc;Wyoming is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;;;;;;;;;;;;x
 normal_rename_wyoming_2_title;Rename Wyoming;;;;;;;;;;;;;;;;;;;;x
 normal_rename_wyoming_2_desc;Wyoming is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;;;;;;;;x

@@ -6,7 +6,7 @@ add_core = BLC
 trade_goods = fruit
 life_rating = 35
 naval_base = 1
-
+colonial = 2
 terrain = bandarabbas
 1836.1.1 = {
        owner = OMA

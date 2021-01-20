@@ -194,7 +194,7 @@ country_event = {
 			year = 1886
 		}
 
-
+ 
 		modifier = {
 			factor = 0.95 #increase likelihood to happen
 			year = 1887

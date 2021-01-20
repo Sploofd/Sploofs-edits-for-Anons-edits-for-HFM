@@ -1,6 +1,12 @@
-owner = PER
-controller = PER
-add_core = PER
+owner = CGU
+controller = CGU
+add_core = CGU
+add_core = GUA
+add_core = UCA
 trade_goods = fruit
 life_rating = 35
 terrain = deserthills
+1836.1.1 = {
+       owner = UCA
+       controller = UCA
+}

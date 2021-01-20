@@ -773,8 +773,8 @@ country_event = { #unga bu=gas capture american ship, hilarity ensues when ameri
 		owns = 3680
 		year = 1850
 		NOT = {
-			has_country_flag = johanna_niggardry
-			has_country_flag = johanna_no_niggardry
+			has_country_flag = johanna_blacksrdry
+			has_country_flag = johanna_no_blacksrdry
 		}
 	}
 	mean_time_to_happen = {
@@ -783,7 +783,7 @@ country_event = { #unga bu=gas capture american ship, hilarity ensues when ameri
 	
 	option = {
 		name = "EVT61610017OPTA"
-		set_country_flag = johanna_niggardry
+		set_country_flag = johanna_blacksrdry
 		badboy = 1
 		3593 = {
 			any_pop = {
@@ -803,7 +803,7 @@ country_event = { #unga bu=gas capture american ship, hilarity ensues when ameri
 	}
 	option = {
 		name = "EVT61610017OPTB"
-		set_country_flag = johanna_no_niggardry
+		set_country_flag = johanna_no_blacksrdry
 		prestige = 5
 		ai_chance = {
 			factor = 0
@@ -823,7 +823,7 @@ country_event = { #notification event for america
 		owns = 2146 #DC
 		CM0 = {
 			exists = yes
-			has_country_flag = johanna_niggardry
+			has_country_flag = johanna_blacksrdry
 		}
 		NOT = { has_country_flag = johanna_expedition }
 		NOT = { has_country_flag = johanna_expedition_no }
@@ -964,7 +964,7 @@ country_event = { #ungabungas don't free sailors
 	}
 }
 
-country_event = { #niggas cough up 15k pounds ~20k dollars
+country_event = { #blackss cough up 15k pounds ~20k dollars
 	id = 61610021
 	title = "EVTNAME61610021"
 	desc = "EVTDESC61610021"

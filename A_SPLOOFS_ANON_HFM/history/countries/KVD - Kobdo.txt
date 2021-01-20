@@ -1,4 +1,4 @@
-capital = 2679
+capital = 2608
 civilized = yes   
 primary_culture = mongol
 culture = kazak

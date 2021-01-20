@@ -1,0 +1,95 @@
+name = "Bolivian Wars of Independance"
+
+1815.1.1 = {        
+        add_attacker = VOP
+	add_attacker = SPA
+	add_defender = BO1
+        add_defender = BO2
+        add_defender = BO3
+        add_defender = BO4
+        add_defender = BO5
+        add_defender = BO6
+        add_defender = BO7
+        add_defender = BO8
+        add_defender = BO9
+        add_defender = B10
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+
+        war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = BO1
+	}
+          
+        war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = BO2
+	}
+
+      	war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = BO3
+	}
+  
+        war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = BO4
+	}
+          
+        war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = BO5
+	}
+  
+        war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = BO6
+	}
+        war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = BO7
+	}
+  
+        war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = BO8
+	}
+        war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = BO9
+	}
+        war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = B10
+	}
+        
+}
+
+1820.1.1 = {
+        rem_attacker = VOP
+	rem_attacker = SPA
+	rem_defender = BO1
+        rem_defender = BO2
+        rem_defender = BO3
+        rem_defender = BO4
+        rem_defender = BO5
+        rem_defender = BO6
+        rem_defender = BO7
+        rem_defender = BO8
+        rem_defender = BO9
+        rem_defender = B10
+}

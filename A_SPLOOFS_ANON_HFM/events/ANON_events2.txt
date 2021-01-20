@@ -561,7 +561,7 @@ country_event = {
 country_event = {
 	id = 9999981
 	title = "Mohammad Shah"
-	desc = "This nigga takes power"
+	desc = "This blacks takes power"
 	picture = "mirza_abbas_funeral"
 	
 	is_triggered_only = yes

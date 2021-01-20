@@ -6,6 +6,14 @@ PROV3447;Porco;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PROV3315;Cinti;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PROV3296;Pirai;;;;;;;;;;;;;;;;;;;;;;x;;;;
 VNS_dominion;Virreynato de Nueva Espana;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
-VNG_dominion;Virreinato de la Nueva Granada;;;;;;;;;;;;;x,
-VOP_dominion;Virreinato del Peru;;;;;;;;;;;;;x,
-CGC_dominion;Capitania General de Chile;;;;;;;;;;;;;x,
+VNG_dominion;Virreinato de la Nueva Granada;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+VOP_dominion;Virreinato del Peru;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+CGC_dominion;Capitania General de Chile;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV2608;Khovd;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PROV2679;Uliastai;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PROV1468;Tsogt;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MCU;Heilongjiang;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIA;Liaodong;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIA_ADJ;Manchu;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FEN;Fengtian;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FEN_ADJ;Manchu;;;;;;;;;;;;;;;;;;;;;;x;;;;

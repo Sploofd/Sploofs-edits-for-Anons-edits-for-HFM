@@ -1,6 +1,6 @@
 political_decisions = {
 
-	spic_rename_oregon = {
+	latino_rename_oregon = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -8,7 +8,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 81
-			NOT = { has_global_flag = spic_rename_oregon }
+			NOT = { has_global_flag = latino_rename_oregon }
 			has_global_flag = SPA_claim_nutca
 		}
 		
@@ -17,7 +17,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_oregon
+			set_global_flag = latino_rename_oregon
 			clr_global_flag = normal_rename_oregon
 			81 = {
 				change_province_name = "San Roque" 
@@ -52,7 +52,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_oregon
-			clr_global_flag = spic_rename_oregon
+			clr_global_flag = latino_rename_oregon
 			81 = {
 				change_province_name = "Portland" 
 				state_scope = {
@@ -66,7 +66,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	spic_rename_washington = {
+	latino_rename_washington = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -74,7 +74,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 78
-			NOT = { has_global_flag = spic_rename_washington }
+			NOT = { has_global_flag = latino_rename_washington }
 			has_global_flag = SPA_claim_nutca
 		}
 		
@@ -83,7 +83,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_washington
+			set_global_flag = latino_rename_washington
 			clr_global_flag = normal_rename_washington
 			78 = {
 				change_province_name = "Nuestra Señora de los Ángeles" 
@@ -116,7 +116,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_washington
-			clr_global_flag = spic_rename_washington
+			clr_global_flag = latino_rename_washington
 			78 = {
 				change_province_name = "Seattle" 
 				state_scope = {
@@ -128,7 +128,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	spic_rename_columbia = {
+	latino_rename_columbia = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -136,7 +136,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 13
-			NOT = { has_global_flag = spic_rename_columbia }
+			NOT = { has_global_flag = latino_rename_columbia }
 			has_global_flag = SPA_claim_nutca
 		}
 		
@@ -145,7 +145,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_columbia
+			set_global_flag = latino_rename_columbia
 			clr_global_flag = normal_rename_columbia
 			13 = {
 				change_province_name = "Nueva Madrid" 
@@ -183,7 +183,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_columbia
-			clr_global_flag = spic_rename_columbia
+			clr_global_flag = latino_rename_columbia
 			13 = {
 				change_province_name = "Vancouver" 
 				state_scope = {
@@ -200,7 +200,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	spic_rename_idaho = {
+	latino_rename_idaho = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -208,7 +208,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 91
-			NOT = { has_global_flag = spic_rename_idaho }
+			NOT = { has_global_flag = latino_rename_idaho }
 			has_global_flag = SPA_claim_nutca
 		}
 		
@@ -217,7 +217,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_idaho
+			set_global_flag = latino_rename_idaho
 			clr_global_flag = normal_rename_idaho
 			91 = {
 				change_province_name = "El Bosque" 
@@ -250,7 +250,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_idaho
-			clr_global_flag = spic_rename_idaho
+			clr_global_flag = latino_rename_idaho
 			91 = {
 				change_province_name = "Boise" 
 				state_scope = {
@@ -262,7 +262,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	spic_rename_montana = {
+	latino_rename_montana = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -270,7 +270,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 113
-			NOT = { has_global_flag = spic_rename_montana }
+			NOT = { has_global_flag = latino_rename_montana }
 			has_global_flag = SPA_claim_nutca
 		}
 		
@@ -279,7 +279,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_montana
+			set_global_flag = latino_rename_montana
 			clr_global_flag = normal_rename_montana
 			113 = {
 				change_province_name = "Valle de las Flores" 
@@ -311,7 +311,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_montana
-			clr_global_flag = spic_rename_montana
+			clr_global_flag = latino_rename_montana
 			113 = {
 				change_province_name = "Gallatin Valley" 
 				state_scope = {
@@ -322,7 +322,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	spic_rename_wyoming_2 = {
+	latino_rename_wyoming_2 = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -330,7 +330,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 111
-			NOT = { has_global_flag = spic_rename_wyoming_2 }
+			NOT = { has_global_flag = latino_rename_wyoming_2 }
 			has_global_flag = SPA_claim_nutca
 		}
 		
@@ -339,7 +339,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_wyoming_2
+			set_global_flag = latino_rename_wyoming_2
 			clr_global_flag = normal_rename_wyoming_2
 			111 = {
 				change_province_name = "Fuerte Buenavilla" 
@@ -371,7 +371,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_wyoming_2
-			clr_global_flag = spic_rename_wyoming_2
+			clr_global_flag = latino_rename_wyoming_2
 			111 = {
 				change_province_name = "Fort Bonneville" 
 				state_scope = {
@@ -684,7 +684,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}			
 			
-	spic_rename_newmexico = {
+	latino_rename_newmexico = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -693,7 +693,7 @@ political_decisions = {
 			}
 			owns = 105
 			owns = 3397
-			NOT = { has_global_flag = spic_rename_newmexico }
+			NOT = { has_global_flag = latino_rename_newmexico }
 		}
 		
 		allow = {
@@ -701,7 +701,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_newmexico
+			set_global_flag = latino_rename_newmexico
 			clr_global_flag = normal_rename_newmexico
 			105 = {
 				change_province_name = "Santa Fé" 
@@ -729,7 +729,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_newmexico }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_newmexico
+				has_global_flag = latino_rename_newmexico
 			}
 		}
 		
@@ -739,7 +739,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_newmexico
-			clr_global_flag = spic_rename_newmexico
+			clr_global_flag = latino_rename_newmexico
 			
 			105 = {
 				change_province_name = "Santa Fe" 
@@ -754,7 +754,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	spic_rename_arizona = {
+	latino_rename_arizona = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -764,7 +764,7 @@ political_decisions = {
 			owns = 100
 			owns = 101
 			owns = 3396
-			NOT = { has_global_flag = spic_rename_arizona }
+			NOT = { has_global_flag = latino_rename_arizona }
 		}
 		
 		allow = {
@@ -772,7 +772,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_arizona
+			set_global_flag = latino_rename_arizona
 			clr_global_flag = normal_rename_arizona
 			100 = {
 				change_province_name = "Fénix" 
@@ -801,7 +801,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_arizona }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_arizona
+				has_global_flag = latino_rename_arizona
 			}
 		}
 		
@@ -811,7 +811,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_arizona
-			clr_global_flag = spic_rename_arizona
+			clr_global_flag = latino_rename_arizona
 			
 			100 = {
 				change_province_name = "Phoenix" 
@@ -826,7 +826,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 		
-	spic_rename_california_south = {
+	latino_rename_california_south = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -834,7 +834,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 89
-			NOT = { has_global_flag = spic_rename_california_south }
+			NOT = { has_global_flag = latino_rename_california_south }
 		}
 		
 		allow = {
@@ -842,7 +842,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_california_south
+			set_global_flag = latino_rename_california_south
 			clr_global_flag = normal_rename_california_south
 			89 = {
 				change_province_name = "Los Ángeles" 
@@ -870,7 +870,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_california_south }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_california_south
+				has_global_flag = latino_rename_california_south
 			}
 		}
 		
@@ -880,7 +880,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_california_south
-			clr_global_flag = spic_rename_california_south
+			clr_global_flag = latino_rename_california_south
 			89 = {
 				change_province_name = "Los Angeles" 
 				state_scope = {
@@ -894,7 +894,7 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	spic_rename_california_north = {
+	latino_rename_california_north = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -902,7 +902,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 104
-			NOT = { has_global_flag = spic_rename_california_north }
+			NOT = { has_global_flag = latino_rename_california_north }
 		}
 		
 		allow = {
@@ -910,7 +910,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_california_north
+			set_global_flag = latino_rename_california_north
 			clr_global_flag = normal_rename_california_north
 			104 = {
 				change_province_name = "San Francisco" 
@@ -940,7 +940,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_california_north }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_california_north
+				has_global_flag = latino_rename_california_north
 			}
 		}
 		
@@ -950,7 +950,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_california_north
-			clr_global_flag = spic_rename_california_north			
+			clr_global_flag = latino_rename_california_north			
 			104 = {
 				change_province_name = "San Francisco" 
 				state_scope = {
@@ -967,7 +967,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	spic_rename_nevada = {
+	latino_rename_nevada = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -975,7 +975,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 94
-			NOT = { has_global_flag = spic_rename_nevada }
+			NOT = { has_global_flag = latino_rename_nevada }
 		}
 		
 		allow = {
@@ -983,7 +983,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_nevada
+			set_global_flag = latino_rename_nevada
 			clr_global_flag = normal_rename_nevada
 			94 = {
 				change_province_name = "El Valle" 
@@ -1009,7 +1009,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_nevada }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_california_nevada
+				has_global_flag = latino_rename_california_nevada
 			}
 		}
 		
@@ -1019,7 +1019,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_nevada
-			clr_global_flag = spic_rename_nevada
+			clr_global_flag = latino_rename_nevada
 			94 = {
 				change_province_name = "Dayton" 
 				state_scope = {
@@ -1032,7 +1032,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 		
-	spic_rename_utah = {
+	latino_rename_utah = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -1040,7 +1040,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 97
-			NOT = { has_global_flag = spic_rename_utah }
+			NOT = { has_global_flag = latino_rename_utah }
 		}
 		
 		allow = {
@@ -1048,7 +1048,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_utah
+			set_global_flag = latino_rename_utah
 			clr_global_flag = normal_rename_utah
 			97 = {
 				change_province_name = "Buenaventura" 
@@ -1075,7 +1075,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_utah }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_utah
+				has_global_flag = latino_rename_utah
 			}
 		}
 		
@@ -1085,7 +1085,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_utah
-			clr_global_flag = spic_rename_utah
+			clr_global_flag = latino_rename_utah
 			97 = {
 				change_province_name = "Salt Lake City" 
 				state_scope = {
@@ -1099,7 +1099,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	spic_rename_wyoming = {
+	latino_rename_wyoming = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -1108,7 +1108,7 @@ political_decisions = {
 			}
 			owns = 110
 			owns = 107
-			NOT = { has_global_flag = spic_rename_wyoming }
+			NOT = { has_global_flag = latino_rename_wyoming }
 		}
 		
 		allow = {
@@ -1116,7 +1116,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_wyoming
+			set_global_flag = latino_rename_wyoming
 			clr_global_flag = normal_rename_wyoming
 			110 = { change_province_name = "Aguadulce" }
 			107 = { change_province_name = "El Carbón" }
@@ -1137,7 +1137,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_wyoming }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_wyoming
+				has_global_flag = latino_rename_wyoming
 			}
 		}
 		
@@ -1147,14 +1147,14 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_wyoming
-			clr_global_flag = spic_rename_wyoming
+			clr_global_flag = latino_rename_wyoming
 			110 = { change_province_name = "Rock Springs" }
 			107 = { change_province_name = "Riverside" }
 		}
 		ai_will_do = { factor = 1 }
 	}
 	
-	spic_rename_colorado = {
+	latino_rename_colorado = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -1164,7 +1164,7 @@ political_decisions = {
 			owns = 108
 			owns = 109
 			owns = 103
-			NOT = { has_global_flag = spic_rename_colorado }
+			NOT = { has_global_flag = latino_rename_colorado }
 		}
 		
 		allow = {
@@ -1172,7 +1172,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_colorado
+			set_global_flag = latino_rename_colorado
 			clr_global_flag = normal_rename_colorado
 			108 = { change_province_name = "La Garita" }
 			109 = { change_province_name = "Gerbidora" }
@@ -1197,7 +1197,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_colorado }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_colorado
+				has_global_flag = latino_rename_colorado
 			}
 		}
 		
@@ -1207,7 +1207,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_colorado
-			clr_global_flag = spic_rename_colorado
+			clr_global_flag = latino_rename_colorado
 			108 = { change_province_name = "Grand Junction" }
 			109 = { change_province_name = "Aspen" }
 			103 = { change_province_name = "Pueblo" }
@@ -1217,7 +1217,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	spic_rename_oklahoma = {
+	latino_rename_oklahoma = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -1225,7 +1225,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 129
-			NOT = { has_global_flag = spic_rename_oklahoma }
+			NOT = { has_global_flag = latino_rename_oklahoma }
 		}
 		
 		allow = {
@@ -1233,7 +1233,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_oklahoma
+			set_global_flag = latino_rename_oklahoma
 			clr_global_flag = normal_rename_oklahoma
 			129 = { change_province_name = "Cimarrón" }
 		}
@@ -1252,7 +1252,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_oklahoma }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_oklahoma
+				has_global_flag = latino_rename_oklahoma
 			}
 		}
 		
@@ -1262,13 +1262,13 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_oklahoma
-			clr_global_flag = spic_rename_oklahoma
+			clr_global_flag = latino_rename_oklahoma
 			129 = { change_province_name = "Guymon" }
 		}
 		ai_will_do = { factor = 1 }
 	}
 	
-	spic_rename_kansas = {
+	latino_rename_kansas = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -1276,7 +1276,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 128
-			NOT = { has_global_flag = spic_rename_kansas }
+			NOT = { has_global_flag = latino_rename_kansas }
 		}
 		
 		allow = {
@@ -1284,7 +1284,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_kansas
+			set_global_flag = latino_rename_kansas
 			clr_global_flag = normal_rename_kansas
 			128 = { change_province_name = "La Jornada" }
 		}
@@ -1303,7 +1303,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_kansas }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_kansas
+				has_global_flag = latino_rename_kansas
 			}
 		}
 		
@@ -1313,13 +1313,13 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_kansas
-			clr_global_flag = spic_rename_kansas
+			clr_global_flag = latino_rename_kansas
 			128 = { change_province_name = "Hugoton" }
 		}
 		ai_will_do = { factor = 1 }
 	}
 	
-	spic_rename_misspeepee = {
+	latino_rename_misspeepee = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -1327,7 +1327,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 194
-			NOT = { has_global_flag = spic_rename_misspeepee }
+			NOT = { has_global_flag = latino_rename_misspeepee }
 		}
 		
 		allow = {
@@ -1335,7 +1335,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_misspeepee
+			set_global_flag = latino_rename_misspeepee
 			clr_global_flag = normal_rename_misspeepee
 			194 = { change_province_name = "Misisipí" }
 		}
@@ -1354,7 +1354,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_misspeepee }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_misspeepee
+				has_global_flag = latino_rename_misspeepee
 			}
 		}
 		
@@ -1364,13 +1364,13 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_misspeepee
-			clr_global_flag = spic_rename_misspeepee
+			clr_global_flag = latino_rename_misspeepee
 			194 = { change_province_name = "Biloxi" }
 		}
 		ai_will_do = { factor = 1 }
 	}
 	
-	spic_rename_alabama = {
+	latino_rename_alabama = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -1378,7 +1378,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 197
-			NOT = { has_global_flag = spic_rename_alabama }
+			NOT = { has_global_flag = latino_rename_alabama }
 		}
 		
 		allow = {
@@ -1386,7 +1386,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_alabama
+			set_global_flag = latino_rename_alabama
 			clr_global_flag = normal_rename_alabama
 			197 = { change_province_name = "Mauvila" }
 		}
@@ -1405,7 +1405,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_alabama }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_alabama
+				has_global_flag = latino_rename_alabama
 			}
 		}
 		
@@ -1415,13 +1415,13 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_alabama
-			clr_global_flag = spic_rename_alabama
+			clr_global_flag = latino_rename_alabama
 			197 = { change_province_name = "Mobile" }
 		}
 		ai_will_do = { factor = 1 }
 	}
 	
-	spic_rename_florida = {
+	latino_rename_florida = {
 		picture = gtfo
 		potential = {
 			OR = {
@@ -1429,7 +1429,7 @@ political_decisions = {
 				is_culture_group = iberian
 			}
 			owns = 197
-			NOT = { has_global_flag = spic_rename_florida }
+			NOT = { has_global_flag = latino_rename_florida }
 		}
 		
 		allow = {
@@ -1437,7 +1437,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = spic_rename_florida
+			set_global_flag = latino_rename_florida
 			clr_global_flag = normal_rename_florida
 			200 = {
 				change_province_name = "Espíritu Santo" 
@@ -1463,7 +1463,7 @@ political_decisions = {
 			NOT = { has_global_flag = normal_rename_florida }
 			OR = {
 				has_global_flag = american_frontier
-				has_global_flag = spic_rename_florida
+				has_global_flag = latino_rename_florida
 			}
 		}
 		
@@ -1473,7 +1473,7 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = normal_rename_florida
-			clr_global_flag = spic_rename_florida
+			clr_global_flag = latino_rename_florida
 			200 = {
 				change_province_name = "Tampa" 
 				state_scope = {

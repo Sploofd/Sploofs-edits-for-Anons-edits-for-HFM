@@ -134,6 +134,7 @@ country_event = {
 	picture = "MEX_city"
         trigger = {
               2172 = { controlled_by = ATG }
+              tag = VNS
         }
         mean_time_to_happen = {
               months = 0
@@ -157,8 +158,272 @@ country_event = {
 
 	option = {
              name = "42071_OP1"
+             set_global_flag = mexico_happned
              prestige = 30
              change_tag = MEX
+             MEX = { government = hms_monarchy }
+             CYC = { country_event = 42080 }
+             CGU = { country_event = 42080 }
         }
 
+}
+
+country_event = {
+
+	id = 42073
+        title = "42073_TITLE"
+	desc = "42073_DESC"
+	picture = "MEX_city"
+        
+        trigger = {
+             	tag = SPA
+                year = 1820      
+                government = absolute_monarchy    
+        } 
+     
+        mean_time_to_happen =  {
+		months = 0
+        }
+
+        fire_only_once = yes
+
+	option = {
+             name = "42073_OP1"
+             prestige = -2
+             government = hms_monarchy
+             set_global_flag = consitution_reinstated
+             any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = -8
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = -3
+			}
+                } 
+                VNS = {
+                any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 9
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 9
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = -2
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = -1
+			}
+                }
+                }
+                ai_chance = {
+			factor = 80
+		}
+        }
+
+        
+	option = {
+             name = "42073_OP2"
+             any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -8
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -3
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 8
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 3
+			}
+                }
+                ai_chance = {
+			factor = 80
+		}
+        }
+
+}
+
+
+country_event = {
+
+	id = 42074
+        title = "42074_TITLE"
+	desc = "42074_DESC"
+	picture = "MEX_city"
+        
+        trigger = {
+             	tag = SPA
+                year = 1816
+                government = absolute_monarchy   
+        } 
+     
+        mean_time_to_happen =  {
+		months = 3
+        }
+
+        fire_only_once = yes
+
+	option = {
+             name = "42073_OP1"
+             prestige = -2
+             government = hms_monarchy
+             any_pop = {
+
+			scaled_militancy = {
+				ideology = liberal
+				factor = 8.5
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 8.5
+			}
+        }
+
+     }
+}
+
+country_event = {
+	id = 42080
+        title = "42080_TITLE"
+	desc = "42080_DESC"
+	picture = "MEX_city"
+        is_triggered_only = yes
+
+	option = {
+             name = "42080_OP1"
+ 
+             annex_to = MEX
+             MEX = { country_event = 42081 }
+             ai_chance = {
+			factor = 95
+		}
+        }
+
+        option = {
+             name = "42080_OP2"
+             MEX = { country_event = 42082 }
+             ai_chance = {
+			factor = 5
+	     }
+        }
+
+}
+
+country_event = {
+
+	id = 42081
+        title = "42080_TITLE"
+	desc = "42080_DESC"
+	picture = "MEX_city"
+        is_triggered_only = yes
+	option = {
+             name = "42081_OP1"
+             prestige = 3
+        }
+}
+
+country_event = {
+
+	id = 42082
+        title = "42080_TITLE"
+	desc = "42080_DESC"
+	picture = "MEX_city"
+        is_triggered_only = yes
+	option = {
+             name = "42082_OP1"
+             prestige = -1
+        }
+}
+#bolivars return
+country_event = {
+
+	id = 42042
+        title = "42042_TITLE"
+	desc = "42042_DESC"
+	picture = "MEX_city"
+                
+        trigger = {
+             	tag = CVN
+                year = 1817
+                is_vassal = yes
+        } 
+     
+        mean_time_to_happen =  {
+		months = 3
+        }
+
+        fire_only_once = yes
+	option = {
+             name = "42042_OP1"  
+             VNG = { country_event = 42043 }
+             set_global_flag = bolivar_returned          
+             any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 8
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 5
+			}
+                } 
+        }
+}
+
+country_event = {
+
+	id = 42043
+        title = "42042_TITLE"
+	desc = "42042_DESC"
+	picture = "MEX_city"
+        is_triggered_only = yes
+	option = {
+             name = "42042_OP1"     
+             any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 8
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 5
+			}
+                } 
+        }
 }

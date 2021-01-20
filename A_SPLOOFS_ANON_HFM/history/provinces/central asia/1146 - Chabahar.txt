@@ -1,7 +1,13 @@
-owner = PER
-controller = PER
+owner = OM1
+controller = OM1
 add_core = PER
 add_core = BLC
 trade_goods = fish
 life_rating = 35
+colonial = 2
 terrain = semidesert
+1836.1.1 = {
+       owner = OMA
+       controller = OMA
+}
+

@@ -1,8 +1,12 @@
-owner = ENG
-controller = ENG
+owner = OM1
+controller = OM1
 add_core = PER
 trade_goods = fish
 life_rating = 35
 naval_base = 1
 colonial = 2
 terrain = bushire
+1836.1.1 = {
+       owner = OMA
+       controller = OMA
+}

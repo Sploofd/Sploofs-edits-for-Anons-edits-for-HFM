@@ -1,6 +1,6 @@
-owner = MCK
-controller = MCK
+owner = LIA
+controller = LIA
 add_core = CHI
-add_core = MCK
+add_core = LIA
 trade_goods = timber
 life_rating = 32
