@@ -5,3 +5,19 @@ Added an "Unruly tribes" event for the ottomans
 Railroaded a British Nepali War 
 Fixed the Brazillian-Liga war
 Railroaded the Third Anglo-Maratha war and added event chains related to this
+26/01/2021 -
+Added an Iturbide betrayal for Mexico to become independant
+Added Gran Columbian Revolt (Needs Balance)
+Added events for the reinstation consitution of 1812 for Spain
+Added various Ottoman Ports and Vassal States
+Added French Occuption and subsequent Event Chain
+Deleted half of Australia
+Added the base provinces for a future schaffer afair and Belgian Gautemala
+Added Various Algerian Nations
+Added Several Small Bolivian rebel States (Currently start in a broken war)
+Added Various extra Chinese substate, EG Thicc Tannu Tuva and Ladakh
+#########
+#WARNING#
+#########
+All localisation and Pictures for new events is currently not finished, this will be done in a later update
+

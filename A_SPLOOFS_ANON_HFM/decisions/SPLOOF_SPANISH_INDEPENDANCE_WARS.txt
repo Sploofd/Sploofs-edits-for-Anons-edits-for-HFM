@@ -1,1 +1,69 @@
-#
+political_decisions = {
+	give_lands_to_viceroy = {
+           picture = "dmitry_milyutin"
+           potential = {
+            OR = {
+             tag = SPA
+             tag = SPN
+            }
+             any_owned_province = {
+                OR = {
+                   is_core = CYC
+                   is_core = CGU
+                   is_core = CVN
+                   is_core = VNS
+                   is_core = VNG
+                   is_core = VOP
+                   is_core = CGC
+                 }
+               }               
+            }
+           allow = {
+
+           }
+           effect = {
+             any_owned = {
+                   limit = {
+                   is_core = CYC
+                  }
+                secede_province = CGU
+               }
+              any_owned = {
+                   limit = {
+                   is_core = CGU
+                  }
+                secede_province = CGU
+               }
+              any_owned = {
+                   limit = {
+                   is_core = CVN
+                  }
+                secede_province = CVN
+               }
+              any_owned = {
+                   limit = {
+                   is_core = VNS
+                  }
+                secede_province = VNS
+               }
+              any_owned = {
+                   limit = {
+                   is_core = VNG
+                  }
+                secede_province = VNG
+               }
+              any_owned = {
+                   limit = {
+                   is_core = VOP
+                  }
+                secede_province = VOP
+               }
+                any_owned = {
+                   limit = {
+                   is_core = GCG
+                  }
+                secede_province = GCG
+               }          
+            }
+      }
+}

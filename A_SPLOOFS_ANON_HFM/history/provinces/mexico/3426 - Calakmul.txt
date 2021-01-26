@@ -2,7 +2,7 @@ owner = CGU
 controller = CGU
 add_core = CGU
 add_core = MEX
-add_core = ATG
+
 add_core = YUC
 add_core = GUA
 add_core = UCA

@@ -1,0 +1,29 @@
+army = {
+	name = "Army of the Republicans"
+	location = 2278
+	regiment = {
+		name= "1st Rebel Brigade"
+		type = infantry
+		home = 3602
+	}
+        regiment = {
+		name= "2st Rebel Brigade"
+		type = infantry
+		home = 2262
+	}
+         regiment = {
+		name= "3rd Rebel Brigade"
+		type = infantry
+		home = 2278
+	}
+}
+
+
+leader = {
+	name = "Manuel Piar"
+	date = 1816.1.1
+	type = land
+	personality = merciless
+	background = adventurer
+	prestige = 0.1
+}

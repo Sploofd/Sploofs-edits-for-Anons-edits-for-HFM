@@ -1,129 +1,3 @@
-country_event = {
-
-	id = 79551
-        title = "79551_TITLE"
-	desc = "79551_DESC"
-	picture = "MEX_independance"
-	trigger = {
-               tag = VNS
-               VNS = {
-                any_owned_province = { 
-                              
-                                     is_core = ATG
-                                     controlled_by = ATG
-                                      
-                               }	      
-	             } 
-	}
- 
-	mean_time_to_happen =  {
-		months = 0
-        }
-
-	option = {
-             name = "79551_OP1"
-             any_owned = { 
-                              limit = {
-                                     is_core = ATG
-                                     controlled_by = ATG
-                                     }	 
-                                  secede_province = ATG
-                               }	      
-	     
-        }
-
-}
-
-country_event = {
-
-	id = 79552
-        title = "79552_TITLE"
-	desc = "79552_DESC"
-	picture = "MEX_independance"
-	trigger = {
-               tag = ATG
-               ATG = {
-                any_owned_province = { 
-                              
-                                     is_core = VNS
-                                     controlled_by = SPA
-                                      
-                               } 	      
-	             } 
-	}
- 
-	mean_time_to_happen =  {
-		months = 0
-        }
-
-	option = {
-             name = "79551_OP1"
-             any_owned = { 
-                              limit = {
-                                     is_core = VNS
-                                     controlled_by = SPA
-                                     }	 
-                                  secede_province = VNS
-                               }	      
-	     
-        }
-
-}
-
-country_event = {
-
-	id = 79554
-        title = "79554_TITLE"
-	desc = "79554_DESC"
-	picture = "MEX_independance"
-	trigger = {
-               tag = ATG
-	}
- 
-	mean_time_to_happen =  {
-		months = 0
-        }
-
-        fire_only_once = yes
-
-	option = {
-             name = "79554_OP1"
-             add_province_modifier = {
-	     name = spirit_of_revolution_1
-	     duration = 2000
-             }
-          
-        }
-
-}
-
-country_event = {
-
-	id = 79555
-        title = "79555_TITLE"
-	desc = "79555_DESC"
-	picture = "MEX_independance"
-	trigger = {
-               tag = VNS
-	}
- 
-	mean_time_to_happen =  {
-		months = 0
-        }
-
-        fire_only_once = yes
-
-	option = {
-             name = "79555_OP1"
-             add_province_modifier = {
-	     name = spirit_of_revolution_2
-	     duration = 2000
-             }
-             militancy = 6
-          
-        }
-
-}
 
 
 country_event = {
@@ -133,34 +7,22 @@ country_event = {
 	desc = "42069_DESC"
 	picture = "MEX_city"
         trigger = {
-              2172 = { controlled_by = ATG }
-              tag = VNS
-        }
-        mean_time_to_happen = {
-              months = 0
-        }
-	option = {
-             name = "42069_OP1"
-             prestige = -30
-             annex_to = ATG
-             ATG = { country_event = 42071 }
+             	tag = VNS
+                year = 1820      
+                has_global_flag = consitution_reinstated
+        } 
+     
+        mean_time_to_happen =  {
+		months = 3
         }
 
-}
-
-country_event = {
-
-	id = 42071
-        title = "42069_TITLE"
-	desc = "42069_DESC"
-	picture = "MEX_city"
-        is_triggered_only = yes
+        fire_only_once = yes
 
 	option = {
+             change_tag = MEX
              name = "42071_OP1"
              set_global_flag = mexico_happned
              prestige = 30
-             change_tag = MEX
              MEX = { government = hms_monarchy }
              CYC = { country_event = 42080 }
              CGU = { country_event = 42080 }
@@ -231,7 +93,7 @@ country_event = {
                 }
                 }
                 ai_chance = {
-			factor = 80
+			factor = 90
 		}
         }
 
@@ -257,7 +119,7 @@ country_event = {
 			}
                 }
                 ai_chance = {
-			factor = 80
+			factor = 10
 		}
         }
 
@@ -376,7 +238,26 @@ country_event = {
 	option = {
              name = "42042_OP1"  
              VNG = { country_event = 42043 }
-             set_global_flag = bolivar_returned          
+             set_global_flag = bolivar_returned     
+             war_exhaustion = 30     
+             GCO = {
+                treasury = 500000
+                define_general = {
+	        name = "Simón Bolívar"
+                personality = implacable
+	        background =  experienced_revolutionary
+                }
+             }
+             2278 = { secede_province = GCO }
+             3603 = { secede_province = GCO }
+             3615 = { secede_province = GCO }
+             3608 = { secede_province = GCO }
+             2277 = { secede_province = GCO }
+             3596 = { secede_province = GCO }
+             3373 = { secede_province = GCO }
+             2242 = { secede_province = GCO }
+             3381 = { secede_province = GCO }
+             2275 = { secede_province = GCO }
              any_pop = {
 			scaled_militancy = {
 				ideology = reactionary
@@ -395,9 +276,56 @@ country_event = {
 				factor = 5
 			}
                 } 
+            2213 = {
+            any_pop = {
+			limit = {
+                        OR = {
+                        has_pop_culture = british
+                        has_pop_culture = irish
+                        }
+                       }
+                    move_pop = 2278
+                } 
+            }
+            GCO = {
+                        small_arms = 1000
+                        canned_food = 1000
+                        regular_clothes = 1000
+			any_pop = {
+				limit = {
+					type = soldiers
+				}
+				reduce_pop = 1.75
+			}
+                         any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -5
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -7
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = -8
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = -8
+			}
+            }
+            SPA = {
+            war = {
+	    target = GCO
+	    attacker_goal = { casus_belli = conquest }
+	    defender_goal = { casus_belli = acquire_all_cores}
+	    call_ally = yes
+              }
+            }
         }
 }
-
+#General Militancy increase for spanish new granada when Bolivar arrives
 country_event = {
 
 	id = 42043
@@ -406,7 +334,8 @@ country_event = {
 	picture = "MEX_city"
         is_triggered_only = yes
 	option = {
-             name = "42042_OP1"     
+             name = "42042_OP1"   
+             war_exhaustion = 30    
              any_pop = {
 			scaled_militancy = {
 				ideology = reactionary
@@ -427,3 +356,59 @@ country_event = {
                 } 
         }
 }
+
+#Default Gran columbain rebel victory
+country_event = {
+
+	id = 42099
+        title = "42099_TITLE"
+	desc = "42099_DESC"
+	picture = "MEX_city"
+        trigger = {
+            THIS = { capital_scope = { controlled_by = GCO } }
+            OR = {
+                  tag = CVN
+                  tag = VNG
+            }
+        }
+        mean_time_to_happen = {
+          days = 0
+        }
+	option = {
+             name = "42099_OP1"   
+             war_exhaustion = -30  
+
+     	     any_pop = {
+	                limit = {
+				type = soldiers
+			}
+			reduce_pop = 1.75
+		}
+
+             GCO = { 
+                  prestige = 5 
+                  war_exhaustion = -30  
+                   }
+
+             annex_to = GCO
+             any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = -8
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = -5
+			}
+                } 
+        }
+}
+

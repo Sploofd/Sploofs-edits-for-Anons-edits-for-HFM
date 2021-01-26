@@ -1,5 +1,5 @@
-owner = SIC
-controller = SIC
+owner = SYC
+controller = SYC
 add_core = SIC
 add_core = SYC
 add_core = ITA
@@ -11,8 +11,8 @@ terrain = farmlands
 #	building = winery
 #	upgrade = yes
 #}
-1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	add_core = ITA
+1836.1.1 = {
+	controller = SIC
+	owner = SIC
 }
+

@@ -386,3 +386,76 @@
 		size = 23725
 	}
 }
+
+
+3472 = {
+       aristocrats = {
+		culture = central_american
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = central_american
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = catholic
+		size = 45
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 1000
+	}
+
+	clergymen = {
+		culture = mayan
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = mayan
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = mayan
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = mayan
+		religion = catholic
+		size = 1225
+	}
+	
+	clergymen = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 20
+	}
+	artisans = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 50
+	}
+	farmers = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 500
+	}
+}

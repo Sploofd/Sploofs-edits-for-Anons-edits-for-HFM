@@ -1,0 +1,13 @@
+owner = ATG
+controller = REB
+add_core = VNS
+add_core = MEX
+
+trade_goods = wool
+life_rating = 35
+terrain = forest_farmland
+1836.1.1 = {
+      owner = MEX
+      controller = MEX
+      
+}

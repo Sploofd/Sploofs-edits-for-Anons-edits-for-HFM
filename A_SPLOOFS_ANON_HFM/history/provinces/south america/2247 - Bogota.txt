@@ -2,6 +2,7 @@ owner = VNG
 controller = VNG
 add_core = VNG
 add_core = CLM
+add_core = GCO
 trade_goods = cattle
 life_rating = 35
 terrain = bogota

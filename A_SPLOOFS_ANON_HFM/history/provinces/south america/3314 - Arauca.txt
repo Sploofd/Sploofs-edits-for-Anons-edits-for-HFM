@@ -1,7 +1,8 @@
-owner = VNG
-controller = VNG
+owner = GCO
+controller = GCO
 add_core = VNG
 add_core = CLM
+add_core = GCO
 add_core = AR1
 trade_goods = cattle
 life_rating = 35

@@ -1,5 +1,6 @@
-owner = TUR
-controller = TUR
+owner = MIQ
+controller = MIQ
+add_core = MIQ
 add_core = AHW
 add_core = TUR
 #add_core = PER
@@ -9,3 +10,7 @@ life_rating = 35
 naval_base = 1
 
 terrain = floodplain_farmland
+1836.1.1 = {
+     owner = TUR
+     controller = TUR
+}

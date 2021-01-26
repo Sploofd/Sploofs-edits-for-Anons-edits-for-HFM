@@ -11,8 +11,3 @@ terrain = montane_jungle
         controller = UCA
 
 }
-1861.1.1 = {
-	owner = GUA
-	controller = GUA
-	remove_core = UCA
-}

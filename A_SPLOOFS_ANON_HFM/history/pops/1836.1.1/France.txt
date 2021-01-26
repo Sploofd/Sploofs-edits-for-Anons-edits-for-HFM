@@ -1497,13 +1497,13 @@
 	labourers = {
 		culture = french
 		religion = catholic
-		size = 20650
+		size = 10650
 	}
 
 	labourers = {
 		culture = breton
 		religion = catholic
-		size = 20450
+		size = 10450
 	}
 }
 #Rennes (548000/137000 POPS)
@@ -2140,7 +2140,7 @@
 	labourers = {
 		culture = french
 		religion = catholic
-		size = 79850
+		size = 99850
 	}
 
 }
@@ -3359,13 +3359,13 @@
 	farmers = {
 		culture = occitan
 		religion = catholic
-		size = 80500
+		size = 60500
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 43150
+		size = 33150
 	}
 }
 #Rodez (504000/126000 POPS)
@@ -3435,13 +3435,13 @@
 	farmers = {
 		culture = occitan
 		religion = catholic
-		size = 50000
+		size = 70000
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 12050
+		size = 22050
 	}
 }
 #Perpignan (164000/41000 POPS)

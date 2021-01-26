@@ -1293,3 +1293,43 @@ substate = {
        start_date = 1815.1.1
        end_date = 1936.1.1
 }
+
+#U.K - Sicily yes this was a thing
+substate = {
+       first = ENG
+       second = SYC
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#Ottomans - Mamluk Iraq
+substate = {
+       first = TUR
+       second = MIQ
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#Ottomans - Scutari
+substate = {
+       first = TUR
+       second = SCU
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#Ottomans - SCU
+substate = {
+       first = TUR
+       second = SCU
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#Ottomans - YAN
+substate = {
+       first = TUR
+       second = YAN
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}

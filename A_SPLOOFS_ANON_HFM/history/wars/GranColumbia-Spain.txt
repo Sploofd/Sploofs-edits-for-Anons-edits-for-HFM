@@ -1,0 +1,37 @@
+name = "Gran Columbian Revolt"
+
+1815.1.1 = {        
+        add_attacker = SPA
+	add_attacker = CVN
+        add_attacker = VNG
+	add_defender = GCO
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest_any
+		actor = SPA
+		receiver = GCO
+	}
+	war_goal = {
+		casus_belli = aquire_all_cores
+		actor = GCO
+		receiver = VNG
+	}
+        war_goal = {
+		casus_belli = aquire_all_cores
+		actor = GCO
+		receiver = CVN
+	}
+
+}
+
+1820.1.1 = {
+        rem_attacker = SPA
+	rem_attacker = CVN
+        rem_attacker = VNG
+	rem_defender = GCO
+}

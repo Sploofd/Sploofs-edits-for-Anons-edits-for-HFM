@@ -1,7 +1,12 @@
-owner = ENG
-controller = ENG
-add_core = AST
-trade_goods = grain
-life_rating = 30
-colonial = 2
-terrain = plains
+owner = BO9
+controller = BO9
+add_core = BO9
+add_core = VOP
+add_core = BOL
+trade_goods = iron
+life_rating = 10
+terrain = altiplano
+1836.1.1 = {
+         controller = PBC
+         owner = PBC
+}

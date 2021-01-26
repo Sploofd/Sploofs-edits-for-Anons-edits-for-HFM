@@ -2,6 +2,7 @@ owner = ENG
 controller = ENG
 add_core = TTB
 #add_core = VNZ
+add_core = GCO
 trade_goods = cotton
 life_rating = 35
 colonial = 2

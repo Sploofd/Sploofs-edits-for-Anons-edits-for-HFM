@@ -31,6 +31,18 @@
 		religion = catholic
 		size = 3000
 	}
+ 
+        soldiers = {
+		culture = irish
+		religion = catholic
+		size = 3000
+	}
+
+        soldiers = {
+		culture = british
+		religion = protestant
+		size = 3000
+	}
 
 	farmers = {
 		culture = afro_antillean

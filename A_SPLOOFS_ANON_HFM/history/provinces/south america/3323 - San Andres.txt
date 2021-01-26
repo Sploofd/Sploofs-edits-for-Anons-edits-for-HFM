@@ -2,6 +2,7 @@ owner = CGU
 controller = CGU
 add_core = CGU
 add_core = CLM
+add_core = GCO
 add_core = NIC
 trade_goods = fish
 life_rating = 32

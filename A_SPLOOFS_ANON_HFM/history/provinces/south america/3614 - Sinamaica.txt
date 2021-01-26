@@ -2,6 +2,7 @@ owner = VNG
 controller = VNG
 add_core = VNG
 add_core = VNZ
+add_core = GCO
 add_core = ZLA
 trade_goods = fish
 life_rating = 32

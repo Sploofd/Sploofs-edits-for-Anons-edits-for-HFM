@@ -1,7 +1,8 @@
-owner = VNG
-controller = VNG
+owner = GCO
+controller = GCO
 add_core = VNG
 add_core = VNZ
+add_core = GCO
 #According to some 1860's atlas
 add_core = CLM
 trade_goods = fish

@@ -1648,74 +1648,6 @@ aristocrats = {
 	}
 }
 
-3364 = {
-aristocrats = {
-		culture = south_andean
-		religion = catholic
-		size = 200
-	}
-
-	bureaucrats = {
-		culture = south_andean
-		religion = catholic
-		size = 25
-	}
-
-	officers = {
-		culture = south_andean
-		religion = catholic
-		size = 15
-	}
-
-	clergymen = {
-		culture = south_andean
-		religion = catholic
-		size = 65
-	}
-
-	artisans = {
-		culture = south_andean
-		religion = catholic
-		size = 85
-	}
-
-	soldiers = {
-		culture = south_andean
-		religion = catholic
-		size = 1155
-	}
-
-	farmers = {
-		culture = south_andean
-		religion = catholic
-		size = 1300
-	}
-
-	clergymen = {
-		culture = quechua
-		religion = catholic
-		size = 40
-	}
-
-	artisans = {
-		culture = quechua
-		religion = catholic
-		size = 400
-	}
-
-	soldiers = {
-		culture = quechua
-		religion = catholic
-		size = 1155
-	}
-
-	farmers = {
-		culture = quechua
-		religion = catholic
-		size = 7300
-	}
-
-}
 
 3315 = {
 	aristocrats = {
@@ -1784,4 +1716,72 @@ aristocrats = {
 		size = 7300
 	}
 
+}
+
+2494 = {
+aristocrats = {
+		culture = south_andean
+		religion = catholic
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = south_andean
+		religion = catholic
+		size = 25
+	}
+
+	officers = {
+		culture = south_andean
+		religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = south_andean
+		religion = catholic
+		size = 65
+	}
+
+	artisans = {
+		culture = south_andean
+		religion = catholic
+		size = 85
+	}
+
+	soldiers = {
+		culture = south_andean
+		religion = catholic
+		size = 1155
+	}
+
+	farmers = {
+		culture = south_andean
+		religion = catholic
+		size = 1300
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = catholic
+		size = 40
+	}
+
+	artisans = {
+		culture = quechua
+		religion = catholic
+		size = 400
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = catholic
+		size = 1155
+	}
+
+	farmers = {
+		culture = quechua
+		religion = catholic
+		size = 7300
+	}
 }

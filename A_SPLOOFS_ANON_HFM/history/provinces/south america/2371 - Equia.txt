@@ -7,3 +7,8 @@ add_core = BOL
 trade_goods = wool
 life_rating = 31
 terrain = dry_forest_mountains
+1836.1.1 = {
+         owner = ARC
+         controller = ARC
+}
+

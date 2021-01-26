@@ -1,6 +1,7 @@
 owner = ENG
 controller = ENG
 add_core = VNZ
+add_core = GCO
 add_core = GUY
 trade_goods = fruit
 terrain = floodplain_farmland

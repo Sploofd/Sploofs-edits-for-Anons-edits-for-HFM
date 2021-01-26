@@ -1,6 +1,7 @@
 #South Atlantic Islands (4240/1060 POPS)
 #Ruled by Britain 1836
 #Saint Helena (4000/1000 POPS)
+#added 4 french people for nepoleon
 2129 = {
 	bureaucrats = {
 		culture = british
@@ -43,6 +44,13 @@
 		religion = protestant
 		size = 500
 	}
+
+        
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 4
+	}     
 }
 #Ascension (140/35 POPS)
 2130 = {

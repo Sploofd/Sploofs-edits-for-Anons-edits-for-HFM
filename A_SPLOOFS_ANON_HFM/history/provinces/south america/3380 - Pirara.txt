@@ -3,6 +3,7 @@ controller = PBR
 add_core = PBR
 add_core = BRZ
 add_core = VNZ
+add_core = GCO
 #add_core = GUY
 terrain = savannahills
 trade_goods = cattle

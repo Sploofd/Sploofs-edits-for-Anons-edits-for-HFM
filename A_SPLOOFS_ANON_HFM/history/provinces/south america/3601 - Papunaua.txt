@@ -2,7 +2,9 @@ owner = VNG
 controller = VNG
 add_core = VNG
 add_core = CLM
+add_core = GCO
 add_core = VNZ
+add_core = GCO
 trade_goods = tropical_wood
 life_rating = 20
 

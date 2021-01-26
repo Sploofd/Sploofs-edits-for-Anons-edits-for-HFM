@@ -1,12 +1,7 @@
-owner = TUR
-controller = TUR
+owner = SER
+controller = SER
 add_core = SER
 #add_core = SIE
 trade_goods = coal
 life_rating = 35
 terrain = montane_farmlands
-1836.1.1 = {
-     owner = SER
-     controller = SER
-}
-

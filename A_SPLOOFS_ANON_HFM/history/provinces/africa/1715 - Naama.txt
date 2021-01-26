@@ -1,15 +1,7 @@
-owner = TUR
-controller = TUR
+owner = ASS
+controller = ASS
+add_core = ASS
 add_core = ALD
 trade_goods = wool
 life_rating = 31
 terrain = dryhills
-1836.1.1 = {
-        owner = ALD
-        controller = ALD
-}
-1861.1.1 = {
-	owner = FRA
-	controller = FRA
-	colonial = 2
-}

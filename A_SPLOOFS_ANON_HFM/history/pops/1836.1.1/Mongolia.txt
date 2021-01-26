@@ -244,11 +244,43 @@
 		religion = gelugpa
 		size = 175
 	}
+     
+        
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 125
+	}
+	
 
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 16200
+		size = 5200
+	}
+
+        farmers = {
+		culture = kazak
+		religion = sunni
+		size = 4300
 	}
 }
 
@@ -257,31 +289,61 @@
 	aristocrats = {
 		culture = mongol
 		religion = gelugpa
-		size = 750
+		size = 300
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = gelugpa
-		size = 375
+		size = 150
 	}
 
 	artisans = {
 		culture = mongol
 		religion = gelugpa
-		size = 1500
+		size = 700
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = gelugpa
-		size = 375
+		size = 275
+	}
+   
+        aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 400
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 800
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 300
 	}
 
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 35000
+		size = 4000
+	}
+
+        farmers = {
+		culture = kazak
+		religion = sunni
+		size = 5000
 	}
 }
 #Bulgan (84000/21000 POPS)   
@@ -345,7 +407,7 @@
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 16400
+		size = 12400
 	}
 
 	aristocrats = {
@@ -375,7 +437,7 @@
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 10975
+		size = 4000
 	}
 	
 	slaves = {

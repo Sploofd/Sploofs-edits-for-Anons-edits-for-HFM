@@ -1,0 +1,16 @@
+owner = VNG
+controller = VNG
+add_core = VNG
+add_core = VNZ
+add_core = GCO
+#According to some 1860's atlas
+add_core = CLM
+add_core = GCO
+trade_goods = fish
+terrain = savanna
+life_rating = 35
+1836.1.1 = {
+         owner = VNZ
+         controller = VNZ
+}
+

@@ -29,13 +29,25 @@
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 100
+		size = 3000
+	}
+ 
+        soldiers = {
+		culture = irish
+		religion = catholic
+		size = 3000
+	}
+
+        soldiers = {
+		culture = british
+		religion = protestant
+		size = 3000
 	}
 
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 68300
+		size = 65400
 	}
 }
 #Cap Haitien (204000/51000 POPS)
@@ -61,13 +73,13 @@
 	soldiers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 200
+		size = 2700
 	}
 
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 36825
+		size = 34725
 	}
 	
 	# Yes, this is real.

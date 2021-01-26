@@ -351,3 +351,45 @@
 }
 #Islas de la Bahia
 
+
+3364 = {
+
+	aristocrats = {
+		culture = british
+		religion = protestant
+		size = 125
+	}
+	artisans = {
+		culture = british
+		religion = protestant
+		size = 150
+	}
+	farmers = {
+		culture = british
+		religion = protestant
+		size = 400
+	}
+	
+	aristocrats = {
+		culture = central_american
+		religion = protestant
+		size = 125
+	}
+	artisans = {
+		culture = central_american
+		religion = protestant
+		size = 350
+	}
+	farmers = {
+		culture = central_american
+		religion = protestant
+		size = 750
+	}
+		
+	farmers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 500
+	}
+
+}

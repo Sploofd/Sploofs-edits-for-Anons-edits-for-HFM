@@ -1,5 +1,6 @@
-owner = TUR
-controller = TUR
+owner = YAN
+controller = YAN
+add_core = YAN
 add_core = TUR
 add_core = GRE
 trade_goods = cotton
@@ -7,5 +8,6 @@ life_rating = 35
 1836.1.1 = {
 	controller = GRE
 	owner = GRE
+        remove_core = YAN
 }
 

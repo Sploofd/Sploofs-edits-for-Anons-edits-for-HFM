@@ -3793,59 +3793,7 @@
 	}
 }
 #Qaleh Ganj
-3472 = {
-	aristocrats = {
-		culture = persian
-		religion = shiite
-		size = 150
-	}
-	clergymen = {
-		culture = persian
-		religion = shiite
-		size = 150
-	}
-	artisans = {
-		culture = persian
-		religion = shiite
-		size = 200
-	}
-	soldiers = {
-		culture = persian
-		religion = shiite
-		size = 250
-	}
-	farmers = {
-		culture = persian
-		religion = shiite
-		size = 10675
-	}
-	
-	aristocrats = {
-		culture = turkic_minor
-		religion = shiite
-		size = 100
-	}
-	clergymen = {
-		culture = turkic_minor
-		religion = shiite
-		size = 75
-	}
-	artisans = {
-		culture = turkic_minor
-		religion = shiite
-		size = 500
-	}
-	soldiers = {
-		culture = turkic_minor
-		religion = shiite
-		size = 125
-	}
-	farmers = {
-		culture = turkic_minor
-		religion = shiite
-		size = 3750
-	}
-}
+
 #Kerman Region (332000)
 #under the rule of Persia in 1836
 #Kerman (80000/20000 POPS)

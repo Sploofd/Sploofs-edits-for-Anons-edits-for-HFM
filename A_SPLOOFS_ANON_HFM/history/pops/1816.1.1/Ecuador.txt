@@ -36,14 +36,14 @@
 		culture = north_andean
 		religion = catholic
 		size = 2200                rebel_type = gran_columbian_independance_rebels
-                militancy = 7
+                militancy = 9
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = catholic
 		size = 25600                rebel_type = gran_columbian_independance_rebels
-                militancy = 7
+                militancy = 9
 	}
 
 	clergymen = {
@@ -106,7 +106,7 @@
 		culture = north_andean
 		religion = catholic
 		size = 8275                rebel_type = gran_columbian_independance_rebels
-                militancy = 7
+                militancy = 9
 	}
 	
 	aristocrats = {
@@ -283,14 +283,14 @@
 		culture = north_andean
 		religion = catholic
 		size = 2200                rebel_type = gran_columbian_independance_rebels
-                militancy = 7
+                militancy = 9
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = catholic
 		size = 30150                rebel_type = gran_columbian_independance_rebels
-                militancy = 7
+                militancy = 9
 	}
 
 	clergymen = {
@@ -353,7 +353,7 @@
 		culture = north_andean
 		religion = catholic
 		size = 17200                rebel_type = gran_columbian_independance_rebels
-                militancy = 7
+                militancy = 9
 	}
 
 	clergymen = {
@@ -416,7 +416,7 @@
 		culture = north_andean
 		religion = catholic
 		size = 13000                rebel_type = gran_columbian_independance_rebels
-                militancy = 7
+                militancy = 9
 	}
 
 	

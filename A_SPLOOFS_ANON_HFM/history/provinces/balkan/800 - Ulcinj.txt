@@ -1,8 +1,13 @@
-owner = TUR
-controller = TUR
+owner = SCU
+controller = SCU
+add_core = SCU
 add_core = TUR
 add_core = MON
 add_core = ALB
 trade_goods = grain
 life_rating = 35
 terrain = montane_farmlands
+1836.1.1 = {
+      owner = TUR
+      controller = TUR
+}

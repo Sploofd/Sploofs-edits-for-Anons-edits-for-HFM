@@ -901,13 +901,23 @@ SMN		= "countries/Seminole.txt" #Freshly yoinked from AoE thanks guys ;)
 CYC             = "countries/Colonial Yucatan.txt" 
 CGU             = "countries/Colonial Guatemala.txt" 
 CVN             = "countries/Colonial Venezuala.txt" 
-ATG             = "countries/Army of the Three Guarantees.txt"
 KOH             = "countries/Kingdom of Haiti.txt"
 AIN             = "countries/Ainu.txt"
-KVD             = "countries/Kobdo.txt" #Thanks again
+KVD             = "countries/Kobdo.txt" #Thanks again AoE
 ULI             = "countries/Uliastai.txt"
 FEN             = "countries/Fengtian.txt"
 LIA             = "countries/Liaodong.txt"
+NAP             = "countries/Naples.txt"
+MIQ             = "countries/Mamluk Iraq.txt"
+SCU             = "countries/Scutari.txt"
+YAN             = "countries/Yanina.txt"
+
+#Sploofs Algerian Minors
+ASS             = "countries/Awlad Sidi Shaykh.txt" #Finally have an excuse to make the tag "ass"
+AMD             = "countries/Ain Madhi.txt"
+MZA             = "countries/Mzab.txt"
+ORL             = "countries/Ouargla.txt"
+TUG             = "countries/Tuggurt.txt"
 
 # Bolivian microrebels
 

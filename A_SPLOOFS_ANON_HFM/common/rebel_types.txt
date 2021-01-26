@@ -6348,14 +6348,14 @@ gran_columbian_independance_rebels = {
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 
 	will_rise = {
-		factor = 5
+		factor = 50
                  modifier = {
 			factor = 20
                         has_global_flag = consitution_reinstated
                         NOT = { year = 1821 }
 		}
                 modifier = {
-			factor = 5000
+			factor = 50000000000000000000000000000000000000000
                         has_global_flag = bolivar_returned
                         NOT = { year = 1819 }
 		}
@@ -6379,7 +6379,7 @@ gran_columbian_independance_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked                                 
 	spawn_chance = {
-		factor = 8
+		factor = 0.5
                  modifier = {
 			factor = 0
 			location = {
@@ -6391,10 +6391,6 @@ gran_columbian_independance_rebels = {
                                 }
                         }
                 }
-                modifier = {
-			factor = 0
-			country = { is_vassal = no }
-		}
                 modifier = {
 			factor = 15
                         has_global_flag = consitution_reinstated

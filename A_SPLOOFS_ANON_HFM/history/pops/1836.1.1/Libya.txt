@@ -1,5 +1,5 @@
 #Tripolitania Region (396000)
-#under the rule of Ottoman Empire in 1836
+#under the rule of Ottoman Empire in 1816
 #Tripoli (172000/43000 POPS)
 1731 = {
 	aristocrats = {
@@ -333,8 +333,9 @@
 	}
 }
 #Cyrenaica Region (232000)
-#under the rule of Ottoman Empire in 1836
+#under the rule of Ottoman Empire in 1816 
 #Benghazi (124000/31000 POPS)
+#SPlOOF - Added 10000 berebers for an ottoman event
 1735 = {
 	aristocrats = {
 		culture = maghrebi
@@ -405,7 +406,7 @@
 	farmers = {
 		culture = berber
 		religion = sunni
-		size = 9424.5
+		size = 19424.5
 	}
 
 	slaves = {

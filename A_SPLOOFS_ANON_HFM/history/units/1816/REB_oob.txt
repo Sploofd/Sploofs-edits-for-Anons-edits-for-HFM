@@ -16,11 +16,6 @@ army = {
 		type = infantry
 		home = 2177
 	}
-	regiment = {
-		name = "4. Regiment"
-		type = infantry
-		home = 2177
-	}
 }
 
 army = {
@@ -65,3 +60,24 @@ army = {
 
 }
 
+
+army = {
+	name = "4th Mexican Rebels"
+	location = 2170
+	regiment = {
+		name = "1. Regiment"
+		type = infantry
+		home = 2170
+	}
+	regiment = {
+		name = "2. Regiment"
+		type = infantry
+		home = 2170
+	}
+	regiment = {
+		name = "3. Regiment"
+		type = irregular
+		home = 2170
+	}
+
+}

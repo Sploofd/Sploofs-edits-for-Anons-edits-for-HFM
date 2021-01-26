@@ -1,12 +1,12 @@
-owner = SIC
-controller = SIC
+owner = NAP
+controller = NAP
+add_core = NAP
 add_core = SIC
 add_core = ITA
 trade_goods = fruit
 life_rating = 35
 terrain = farmlandhills
-1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	add_core = ITA
+1836.1.1 = {
+          owner = SIC
+          controller = SIC
 }

@@ -1880,29 +1880,7 @@
 }
 
 #Chincha Islands (?? POPS)
-3315 = {
-	aristocrats = {
-		culture = south_andean
-		religion = catholic
-		size = 100
-	}
-	farmers = {
-		culture = south_andean
-		religion = catholic
-		size = 500
-	}
-	soldiers = {
-		culture = south_andean
-		religion = catholic
-		size = 75
-	}
-	slaves = {
-		culture = afro_caribeno
-		religion = catholic
-		size = 2000
-	}
 
-}
 
 # Pasco
 3377 = {

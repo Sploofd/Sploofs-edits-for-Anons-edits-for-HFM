@@ -4,7 +4,7 @@ SPA = {
 }
 
 leader = {
-          name = "Antonio López de Santa Anna"
+          name = "Agustín de Iturbide"
 	  type = land
 	  date= 1816.1.1
 	  personality = au_fait
@@ -14,52 +14,36 @@ leader = {
 
 
 army = {
-	name = "1st Royalist Army"
-	location = 2166
+	name = "Agustín de Iturbide's Army"
+	location = 2172
 	regiment = {
 		name= "1.Division Comonfort"
 		type = irregular
 		home = 2177
 	}
-       
-
-
-}
-
-army = {
-	name = "2nd Royalist Army"
-	location = 2178
-	regiment = {
-		name= "1.Division Comonfort"
+        regiment = {
+		name= "2.Division Comonfort"
 		type = infantry
 		home = 2176
 	}
-
-
-}
-
-army = {
-	name = "3rd Royalist Army"
-	location = 2174
-	regiment = {
-		name= "1.Division Comonfort"
+        regiment = {
+		name= "3.Division Comonfort"
 		type = infantry
 		home = 2167
 	}
-
-}
-
-army = {
-	name = "4th Royalist Army"
-	location = 2172
-	regiment = {
-		name= "1.Division Comonfort"
+        regiment = {
+		name= "4.Division Comonfort"
+		type = infantry
+		home = 2172
+	}
+        regiment = {
+		name= "5.Division Comonfort"
 		type = infantry
 		home = 2172
 	}
 
-
 }
+
 navy = {
 	name = "Armada de México"
 	location = 2162

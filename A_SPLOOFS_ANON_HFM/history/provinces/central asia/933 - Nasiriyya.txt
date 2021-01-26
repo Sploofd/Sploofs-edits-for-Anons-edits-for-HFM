@@ -1,8 +1,13 @@
-owner = TUR
-controller = TUR
+owner = MIQ
+controller = MIQ
+add_core = MIQ
 add_core = TUR
 add_core = IRQ
 trade_goods = fruit
 life_rating = 35
 
 terrain = floodplain_farmland
+1836.1.1 = {
+     owner = TUR
+     controller = TUR
+}

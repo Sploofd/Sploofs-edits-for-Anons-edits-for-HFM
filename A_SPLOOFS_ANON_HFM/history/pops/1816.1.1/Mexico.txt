@@ -1341,7 +1341,7 @@
 		culture = nahua #native_american_minor
 		religion = animist
 		size = 7200
-                militancy = 7
+                militancy = 9
 	}
 }
 #Santa Maria del Oro (44000/11000 POPS)
@@ -2597,7 +2597,7 @@
 		culture = nahua #tarascan
 		religion = catholic
 		size = 12000
-                militancy = 7
+                militancy = 9
 	}
 }
 #Morelia (348000/87000 POPS)
@@ -2636,13 +2636,15 @@
 		culture = mexican
 		religion = catholic
 		size = 10525
+                militancy = 9
+                rebel_type = mexican_independance_rebels
 	}
 
 	farmers = {
 		culture = mexican
 		religion = catholic
-		size = 35300
-                
+                militancy = 9
+                rebel_type = mexican_independance_rebels
         }
 	clergymen = {
 		culture = nahua #tarascan
@@ -2660,14 +2662,19 @@
 		culture = nahua #tarascan
 		religion = catholic
 		size = 375
+                militancy = 9
+                rebel_type = mexican_independance_rebels
 	}
 
 	farmers = {
 		culture = nahua #tarascan
 		religion = catholic
 		size = 33650
-                militancy = 7
+                militancy = 9
+                rebel_type = mexican_independance_rebels
 	}
+
+
 }
 #Los Alaniles (112000/28000 POPS)
 2171 = {
@@ -2693,12 +2700,16 @@
 		culture = mexican
 		religion = catholic
 		size = 2200
+                militancy = 9
+                rebel_type = mexican_independance_rebels
 	}
 
 	farmers = {
 		culture = mexican
 		religion = catholic
 		size = 6025
+                militancy = 9
+                rebel_type = mexican_independance_rebels
                 
 	}
 
@@ -2767,21 +2778,21 @@
 		culture = mexican
 		religion = catholic
 		size = 10000
-                militancy = 7
+                militancy = 9
 	}
 	
 	artisans = {
 		culture = mexican
 		religion = catholic
 		size = 7000
-                militancy = 7
+                militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = catholic
 		size = 1200
-                militancy = 7
+                militancy = 9
 	}
 
 	farmers = {
@@ -2823,7 +2834,7 @@
 		culture = nahua
 		religion = catholic
 		size = 29000
-                militancy = 7
+                militancy = 9
 	}
 }
 #Toluca (212000/53000 POPS)
@@ -3013,7 +3024,7 @@
 		culture = nahua
 		religion = catholic
 		size = 65375 
-                militancy = 7
+                militancy = 9
 	}
 }
 #Oaxaca Region (452000)
@@ -3192,12 +3203,16 @@
 		culture = mexican
 		religion = catholic
 		size = 5250
+                militancy = 9
+                rebel_type = mexican_independance_rebels
 	}
 
 	farmers = {
 		culture = mexican
 		religion = catholic
 		size = 18250
+                militancy = 9
+                rebel_type = mexican_independance_rebels
 	}
 
 	clergymen = {
@@ -3222,6 +3237,8 @@
 		culture = nahua #tarascan
 		religion = catholic
 		size = 19625
+                militancy = 9
+                rebel_type = mexican_independance_rebels
 	}
 }
 #Chilpancingo (80000/20000 POPS)
@@ -3254,6 +3271,8 @@
 		culture = mexican
 		religion = catholic
 		size = 7850
+                militancy = 9
+                rebel_type = mexican_independance_rebels
 	}
 
 	clergymen = {
@@ -3278,6 +3297,8 @@
 		culture = nahua #tarascan
 		religion = catholic
 		size = 10275
+                militancy = 9
+                rebel_type = mexican_independance_rebels
 	}
 }
 #Chiapas Region (124000)

@@ -2,7 +2,7 @@ owner = VNS
 controller = VNS
 add_core = VNS
 add_core = MEX
-add_core = ATG
+
 add_core = CAL
 trade_goods = fruit
 life_rating = 35
@@ -11,7 +11,7 @@ colonial = 2
 1836.1.1 = {
       owner = MEX
       controller = MEX
-      remove_core = ATG
+      
 }
 
 1861.1.1 = {

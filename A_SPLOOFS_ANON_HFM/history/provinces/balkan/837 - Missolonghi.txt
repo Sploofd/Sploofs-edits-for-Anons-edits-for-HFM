@@ -1,5 +1,6 @@
-owner = TUR
-controller = TUR
+owner = YAN
+controller = YAN
+add_core = YAN
 add_core = TUR
 add_core = GRE
 trade_goods = grain
@@ -8,5 +9,6 @@ terrain = dry_forest_hills
 1836.1.1 = {
 	controller = GRE
 	owner = GRE
+        remove_core = YAN
 }
 

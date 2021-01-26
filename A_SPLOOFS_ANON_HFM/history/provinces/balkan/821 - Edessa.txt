@@ -1,7 +1,16 @@
-owner = TUR
-controller = TUR
+owner = YAN
+controller = YAN
+add_core = YAN
 add_core = TUR
 add_core = GRE
 trade_goods = silk
 life_rating = 35
 terrain = farmlandhills
+1836.1.1 = {
+         owner = TUR
+         controller = TUR
+         remove_core = YAN
+}
+
+
+

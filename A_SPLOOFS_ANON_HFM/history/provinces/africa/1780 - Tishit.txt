@@ -1,5 +1,6 @@
-owner = TUR
-controller = TUR
+owner = YAN
+controller = YAN
+add_core = YAN
 add_core = TUR
 add_core = BUL
 add_core = SER
@@ -8,3 +9,11 @@ add_core = ALB
 trade_goods = fruit
 life_rating = 35
 terrain = montane_forest
+1836.1.1 = {
+         owner = TUR
+         controller = TUR
+         remove_core = YAN
+}
+
+
+

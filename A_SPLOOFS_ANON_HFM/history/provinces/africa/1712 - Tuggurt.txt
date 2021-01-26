@@ -1,14 +1,6 @@
-owner = TUR
-controller = TUR
+owner = TUG
+controller = TUG
+add_core = TUG
 add_core = ALD
 trade_goods = iron
 life_rating = 10
-1836.1.1 = {
-        owner = ALD
-        controller = ALD
-}
-1861.1.1 = {
-	owner = FRA
-	controller = FRA
-	colonial = 2
-}

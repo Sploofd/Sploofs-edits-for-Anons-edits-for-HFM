@@ -5844,120 +5844,83 @@
 3328 = {
 
 	clergymen = {
-		culture = cossack
-		religion = orthodox
+		culture = turkish
+		religion = sunni
+		size = 10
+	}
+	artisans = {
+		culture = turkish
+		religion = sunni
 		size = 50
 	}
-	artisans = {
-		culture = cossack
-		religion = orthodox
-		size = 1350
-	}
 	farmers = {
-		culture = cossack
-		religion = orthodox
-		size = 6600
+		culture = turkish
+		religion = sunni
+		size = 300
 	}
 	
 	aristocrats = {
 		culture = circassian
 		religion = sunni
-		size = 2750
+		size = 300
 	}
 	clergymen = {
 		culture = circassian
 		religion = sunni
-		size = 1500
+		size = 20
 	}
 	artisans = {
 		culture = circassian
 		religion = sunni
-		size = 5000
+		size = 1000
 	}
 	soldiers = {
 		culture = circassian
 		religion = sunni
-		size = 5000
+		size = 500
 	}
 	farmers = {
 		culture = circassian
 		religion = sunni
-		size = 25000
+		size = 5000
 	}
 	
 	artisans = {
 		culture = circassian
 		religion = orthodox
+		size = 100
+	}
+	
+	artisans = {
+		culture = circassian
+		religion = animist
+		size = 500
+	}
+	soldiers = {
+		culture = circassian
+		religion = animist
+		size = 1000
+	}
+	farmers = {
+		culture = circassian
+		religion = sunni
 		size = 2000
-	}
-	soldiers = {
-		culture = circassian
-		religion = orthodox
-		size = 4000
-	}
-	farmers = {
-		culture = circassian
-		religion = orthodox
-		size = 10000
-	}
-	
-	artisans = {
-		culture = circassian
-		religion = animist
-		size = 500
-	}
-	soldiers = {
-		culture = circassian
-		religion = animist
-		size = 1000
-	}
-	farmers = {
-		culture = circassian
-		religion = animist
-		size = 5000
-	}
-	
-	aristocrats = {
-		culture = turkish
-		religion = sunni
-		size = 500
-	}
-	clergymen = {
-		culture = turkish
-		religion = sunni
-		size = 100
-	}
-	artisans = {
-		culture = turkish
-		religion = sunni
-		size = 1500
-	}
-	soldiers = {
-		culture = turkish
-		religion = sunni
-		size = 1000
-	}
-	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 10000
-	}
-	
+	}	
 	
 	clergymen = {
 		culture = greek #pontic_greek
 		religion = orthodox
-		size = 25
+		size = 5
 	}
 	artisans = {
 		culture = greek #pontic_greek
 		religion = orthodox
-		size = 100
+		size = 10
 	}
 	farmers = {
 		culture = greek #pontic_greek
 		religion = orthodox
-		size = 500
+		size = 50
 	}
 }
 #Maykop
@@ -6397,6 +6360,122 @@
 		culture = cossack
 		religion = orthodox
 		size = 10000
+	}
+        clergymen = {
+		culture = cossack
+		religion = orthodox
+		size = 50
+	}
+	artisans = {
+		culture = cossack
+		religion = orthodox
+		size = 1350
+	}
+	farmers = {
+		culture = cossack
+		religion = orthodox
+		size = 6600
+	}
+	
+	aristocrats = {
+		culture = circassian
+		religion = sunni
+		size = 2750
+	}
+	clergymen = {
+		culture = circassian
+		religion = sunni
+		size = 1500
+	}
+	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 5000
+	}
+	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 5000
+	}
+	farmers = {
+		culture = circassian
+		religion = sunni
+		size = 25000
+	}
+	
+	artisans = {
+		culture = circassian
+		religion = orthodox
+		size = 2000
+	}
+	soldiers = {
+		culture = circassian
+		religion = orthodox
+		size = 4000
+	}
+	farmers = {
+		culture = circassian
+		religion = orthodox
+		size = 10000
+	}
+	
+	artisans = {
+		culture = circassian
+		religion = animist
+		size = 500
+	}
+	soldiers = {
+		culture = circassian
+		religion = animist
+		size = 1000
+	}
+	farmers = {
+		culture = circassian
+		religion = animist
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 500
+	}
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 100
+	}
+	artisans = {
+		culture = turkish
+		religion = sunni
+		size = 1500
+	}
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 1000
+	}
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 10000
+	}
+	
+	
+	clergymen = {
+		culture = greek #pontic_greek
+		religion = orthodox
+		size = 25
+	}
+	artisans = {
+		culture = greek #pontic_greek
+		religion = orthodox
+		size = 100
+	}
+	farmers = {
+		culture = greek #pontic_greek
+		religion = orthodox
+		size = 500
 	}
 		
 }

@@ -1335,31 +1335,7 @@
 	}
 }
 #Tindouf (8000/2000 POPS)
-1716 = {
-	aristocrats = {
-		culture = tuareg
-		religion = sunni
-		size = 25
-	}
 
-	clergymen = {
-		culture = tuareg
-		religion = sunni
-		size = 15
-	}
-
-	soldiers = {
-		culture = tuareg
-		religion = sunni
-		size = 65
-	}
-
-	farmers = {
-		culture = tuareg
-		religion = sunni
-		size = 1900
-	}
-}
 #Chenachene (8000/2000 POPS)
 1717 = {
 	aristocrats = {

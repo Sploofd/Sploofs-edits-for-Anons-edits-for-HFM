@@ -1,5 +1,6 @@
-owner = TUR
-controller = TUR
+owner = YAN
+controller = YAN
+add_core = YAN
 add_core = TUR
 add_core = BUL
 add_core = SER
@@ -7,3 +8,11 @@ add_core = MCD
 trade_goods = coal
 life_rating = 35
 terrain = foresthills
+1836.1.1 = {
+         owner = TUR
+         controller = TUR
+         remove_core = YAN
+}
+
+
+

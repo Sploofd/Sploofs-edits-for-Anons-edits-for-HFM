@@ -636,4 +636,9 @@ background = {
 	incompetent = {
 		reliability = -0.03
 	}
+        experienced_revolutionary = {
+                defence = 3
+                attack = 3
+                morale = 0.4
+        }
 }

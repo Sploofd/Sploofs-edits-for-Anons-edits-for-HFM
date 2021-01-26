@@ -1,9 +1,13 @@
-owner = BAV
-controller = BAV
+owner = AUS
+controller = AUS
+add_core = AUS
 add_core = BAV
 add_core = GER
 trade_goods = fruit
 life_rating = 40
 terrain = forest_farmland
-
-1861.1.1 = { railroad = 3 }
+1836.1.1 = {
+         owner = BAV
+         controller = BAV
+         remove_core = BAV
+}
