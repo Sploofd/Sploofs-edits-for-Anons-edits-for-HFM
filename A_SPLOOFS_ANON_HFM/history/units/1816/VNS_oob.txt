@@ -41,6 +41,11 @@ army = {
 		type = infantry
 		home = 2172
 	}
+        regiment = {
+		name= "6.Division Comonfort"
+		type = infantry
+		home = 2150
+	}
 
 }
 

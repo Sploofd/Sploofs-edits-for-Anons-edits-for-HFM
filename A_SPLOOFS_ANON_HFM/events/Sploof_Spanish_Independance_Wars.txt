@@ -33,7 +33,7 @@ country_event = {
 country_event = {
 
 	id = 42073
-        title = "42073_TITLE"
+    title = "42073_TITLE"
 	desc = "42073_DESC"
 	picture = "MEX_city"
         
@@ -239,43 +239,17 @@ country_event = {
              name = "42042_OP1"  
              VNG = { country_event = 42043 }
              set_global_flag = bolivar_returned     
-             war_exhaustion = 30     
              GCO = {
                 treasury = 500000
+                country_event = 42016
                 define_general = {
 	        name = "Simón Bolívar"
                 personality = implacable
 	        background =  experienced_revolutionary
                 }
              }
-             2278 = { secede_province = GCO }
-             3603 = { secede_province = GCO }
-             3615 = { secede_province = GCO }
-             3608 = { secede_province = GCO }
-             2277 = { secede_province = GCO }
-             3596 = { secede_province = GCO }
-             3373 = { secede_province = GCO }
-             2242 = { secede_province = GCO }
-             3381 = { secede_province = GCO }
-             2275 = { secede_province = GCO }
-             any_pop = {
-			scaled_militancy = {
-				ideology = reactionary
-				factor = 3
-			}
-			scaled_militancy = {
-				ideology = conservative
-				factor = 5
-			}
-			scaled_militancy = {
-				ideology = liberal
-				factor = 8
-			}
-			scaled_militancy = {
-				ideology = anarcho_liberal
-				factor = 5
-			}
-                } 
+             #Tried just giving GCO a couple states but they were too weak
+             annex_to = GCO
             2213 = {
             any_pop = {
 			limit = {
@@ -295,7 +269,7 @@ country_event = {
 				limit = {
 					type = soldiers
 				}
-				reduce_pop = 1.75
+				reduce_pop = 1.5 # Might be OP havnt tested
 			}
                          any_pop = {
 			scaled_militancy = {
@@ -314,6 +288,7 @@ country_event = {
 				ideology = anarcho_liberal
 				factor = -8
 			}
+                 }
             }
             SPA = {
             war = {
@@ -324,7 +299,24 @@ country_event = {
               }
             }
         }
+        
 }
+
+#Lets GCO know
+country_event = {
+
+	id = 42016
+        title = "42016_TITLE"
+	desc = "42016_DESC"
+	picture = "MEX_city"
+        is_triggered_only = yes
+	option = {
+             name = "42016_OP1"  
+             prestige = 3
+        }
+        
+}
+
 #General Militancy increase for spanish new granada when Bolivar arrives
 country_event = {
 
@@ -365,24 +357,24 @@ country_event = {
 	desc = "42099_DESC"
 	picture = "MEX_city"
         trigger = {
-            THIS = { capital_scope = { controlled_by = GCO } }
+            capital_scope = { controlled_by = GCO }
             OR = {
                   tag = CVN
                   tag = VNG
             }
         }
         mean_time_to_happen = {
-          days = 0
+		months = 0
         }
 	option = {
              name = "42099_OP1"   
              war_exhaustion = -30  
-
+             GCO = { country_event = 42017 }
      	     any_pop = {
 	                limit = {
 				type = soldiers
 			}
-			reduce_pop = 1.75
+			reduce_pop = 1.5
 		}
 
              GCO = { 
@@ -412,3 +404,272 @@ country_event = {
         }
 }
 
+#Lets GCO know
+country_event = {
+
+	id = 42017
+        title = "42017_TITLE"
+	desc = "42017_DESC"
+	picture = "MEX_city"
+        is_triggered_only = yes
+	option = {
+             name = "42017_OP1"  
+             prestige = 3
+        }
+        
+}
+
+
+#Default collapse of the Repuliques
+country_event = {
+
+	id = 42031
+        title = "42099_TITLE"
+	desc = "42099_DESC"
+	picture = "MEX_city"
+        trigger = {
+            any_owned_province = { 
+            controlled_by = SPA
+            }
+            OR = {
+                  tag = BO1
+                  tag = BO2
+                  tag = BO3
+                  tag = BO4
+                  tag = BO5
+                  tag = BO6
+                  tag = BO7
+                  tag = BO8
+                  tag = BO9
+                  tag = B10
+            }
+        }
+        mean_time_to_happen = {
+		months = 0
+        }
+	option = {
+             name = "42099_OP1" 
+              any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 2
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 8
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 5
+			}
+                }   
+             any_owned = { 
+             limit = {
+             controlled_by = SPA
+             }
+             secede_province = SPA
+            }
+             
+        }
+}
+
+#Cleaning up event for if Argentina liberates chilla. Just secedes san tiago
+country_event = {
+
+	id = 42035
+        title = "42035_TITLE"
+	desc = "42035_DESC"
+	picture = "MEX_city"
+        trigger = {
+           2326 = { owned_by = CHL }
+           2325 = { owned_by = CHL }
+           2327 = { owned_by = CHL }
+           tag = CGC
+        }
+        mean_time_to_happen = {
+		months = 0
+        }
+	option = {
+             name = "42035_OP1" 
+                2324 = { secede_province = CHL }
+            			any_pop = {
+				limit = {
+					type = soldiers
+				}
+				reduce_pop = 5 # Gave chile awful soldier amouts in 1816 to make sure they lose to la plata
+			}
+             
+        }
+}
+
+
+#Custom cb event that liberates VOP
+country_event = {
+
+	id = 496758
+        title = "496758_TITLE"
+	desc = "496758_DESC"
+	picture = "MEX_city"
+        is_triggered_only = yes
+
+	option = {
+             name = "496758_OP1" 
+             prestige = -5
+             VOP = { country_event = 496759 }
+             
+        }
+}
+
+#dissolves viceroy of peru has part of the liberate_vop cb
+country_event = {
+
+	id = 496759
+        title = "496759_TITLE"
+	desc = "496759_DESC"
+	picture = "MEX_city"
+        is_triggered_only = yes
+
+	option = {
+             name = "496759_OP1" 
+             any_owned = {
+               limit = {
+               is_core = PEU
+               NOT = { is_core = BOL }
+               }
+              secede_province = PEU
+             }          
+            3378 = { secede_province = PEU }
+            2301 = { secede_province = PEU }
+            2322 = { secede_province = CHL }  
+            annex_to = BOL            
+        }
+}
+
+#starts the revolution of san martin
+country_event = {
+
+	id = 496771
+        title = "496771_TITLE"
+	desc = "496771_DESC"
+	picture = "MEX_city"
+        fire_only_once = yes
+
+        trigger = {
+         GCO = { war_with = VOP }
+         year = 1821
+         tag = VOP
+        }
+
+        mean_time_to_happen = {
+        months = 3
+        }
+
+        #San martin declares peruvian independance
+	option = {
+             name = "496771_OP1" 
+             2295 = { secede_province = PEU }
+             3377 = { secede_province = PEU }  
+             2293 = { secede_province = PEU }       
+             2298 = { secede_province = PEU }   
+             2296 = { secede_province = PEU } 
+             2297 = { secede_province = PEU }
+             any_pop = {
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 8
+			}
+			scaled_militancy = {
+				ideology = anarcho_liberal
+				factor = 5
+			}
+                } 
+
+        }
+}
+
+
+#Guayaquil conference
+country_event = {
+
+	id = 496772
+        title = "496772_TITLE"
+	desc = "496772_DESC"
+	picture = "MEX_city"
+        fire_only_once = yes
+
+        trigger = {
+         GCO = { war_with = VOP }
+         year = 1822
+         tag = PEU
+        }
+
+        mean_time_to_happen = {
+        months = 3
+        }
+
+        # Guayaquil conference - become a monarchy
+	option = {
+             name = "496772_OP1" 
+             change_government = hms_monarchy
+             set_country_flag = martin_will_leave #forshadowing
+             relation = {
+	     who = GCO
+	     value = -50
+             }           
+        }
+
+        #Become a democracy  - This enables the "appoint bolivar dictator"
+        option = {
+             name = "496772_OP2" 
+             change_government = democracy
+             set_country_flag = peru_democracy
+             relation = {
+	     who = GCO
+	     value = 50
+             }           
+        }
+}
+
+#Abdication of san martin (IRL the man just left after disagreeing with bolivar over republic or monarchy) - This enables the "appoint bolivar dictator"
+country_event = {
+
+	id = 496773
+        title = "496773_TITLE"
+	desc = "496773_DESC"
+	picture = "MEX_city"
+        fire_only_once = yes
+
+        trigger = {
+         GCO = { war_with = VOP }
+         has_country_flag = martin_will_leave 
+         tag = PEU
+        }
+
+        mean_time_to_happen = {
+        months = 3
+        }
+        
+	option = {
+             name = "496773_OP1" 
+             war_exhaustion = 20
+             set_country_flag = martin_has_left #forshadowing
+             create_alliance = GCO
+             GCO = { create_vassal = PEU }
+             relation = {
+	     who = GCO
+	     value = 50
+             }           
+        }
+}

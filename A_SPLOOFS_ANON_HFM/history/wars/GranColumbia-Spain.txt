@@ -4,6 +4,7 @@ name = "Gran Columbian Revolt"
         add_attacker = SPA
 	add_attacker = CVN
         add_attacker = VNG
+        add_attacker = VOP
 	add_defender = GCO
 	
 	# actor
@@ -16,15 +17,15 @@ name = "Gran Columbian Revolt"
 		actor = SPA
 		receiver = GCO
 	}
-	war_goal = {
-		casus_belli = aquire_all_cores
+        war_goal = {
+		casus_belli = liberate_VNG#Also custom, two aquire all cores cost 200 in  a peace deal so am forced to do this
 		actor = GCO
 		receiver = VNG
 	}
         war_goal = {
-		casus_belli = aquire_all_cores
+		casus_belli = liberate_vop #custom cb used only for this
 		actor = GCO
-		receiver = CVN
+		receiver = SPA
 	}
 
 }
@@ -33,5 +34,6 @@ name = "Gran Columbian Revolt"
         rem_attacker = SPA
 	rem_attacker = CVN
         rem_attacker = VNG
+        rem_attacker = VOP
 	rem_defender = GCO
 }

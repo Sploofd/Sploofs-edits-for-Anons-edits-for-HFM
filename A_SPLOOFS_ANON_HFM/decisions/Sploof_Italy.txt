@@ -1,0 +1,27 @@
+
+political_decisions = {		
+#Unite Naples and Siciliy
+	unite_sicilies = {
+		picture = st_helena
+		potential = {
+			tag = ENG
+                        SYC = { vassal_of = ENG }
+                        exists = NAP
+                        year = 1817
+			}
+			
+			allow = { 
+
+			}
+			
+			effect = { 
+                        SYC = { annex_to = NAP }
+                        NAP = { change_tag = = SIC }
+                        NAP = { prestige = 5 }
+                                         
+                        }
+                        ai_will_do = {
+			factor = 1
+		        }			
+		}
+}

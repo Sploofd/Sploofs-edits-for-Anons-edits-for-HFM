@@ -5,6 +5,7 @@ Added an "Unruly tribes" event for the ottomans
 Railroaded a British Nepali War 
 Fixed the Brazillian-Liga war
 Railroaded the Third Anglo-Maratha war and added event chains related to this
+
 26/01/2021 -
 Added an Iturbide betrayal for Mexico to become independant
 Added Gran Columbian Revolt (Needs Balance)
@@ -20,4 +21,22 @@ Added Various extra Chinese substate, EG Thicc Tannu Tuva and Ladakh
 #WARNING#
 #########
 All localisation and Pictures for new events is currently not finished, this will be done in a later update
+
+02/02/2021 - 
+Fixed localization of an Algerian tag
+Added Various puppets and vilayets in central asia, split Khiva in Half
+Shrunk Russian Alaska to their defacto control - Also did the provinces for a defacto canada but will impliment this later as I need to make this consistant with the US and Mexico as well, along with adding a system that prevents the others from taking these land without a war
+Added decision for Sicily and Naples to unite
+Added new casus bellis for Gran Columbia that dissolve the spanish puppets
+Added San Martins Peruvian Revolution
+Added the treaty of Adams-Onis (Sale of Florida and US-Mexico border)
+Added second Serbian Uprising (Currently start in a broken war)
+Fixed the Bolivian Rebel War
+Added decisions to free Chile
+#########
+#WARNING#
+#########
+All localisation and Pictures for new events is still currently not finished, this will be done in a later update
+
+
 

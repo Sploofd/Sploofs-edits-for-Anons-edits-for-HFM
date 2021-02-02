@@ -1,5 +1,4 @@
-owner = LSK
-controller = LSK
+
 add_core = LSK
 trade_goods = precious_goods
 terrain = montane_boreal

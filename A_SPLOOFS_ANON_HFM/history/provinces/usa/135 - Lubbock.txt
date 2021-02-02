@@ -1,6 +1,5 @@
 owner = USA
 controller = USA
-add_core = MEX
 
 add_core = TEX
 trade_goods = sulphur
@@ -10,4 +9,5 @@ colonial = 2
 1836.1.1 = {
 	controller = MEX
 	owner = MEX
+        add_core = MEX
 }

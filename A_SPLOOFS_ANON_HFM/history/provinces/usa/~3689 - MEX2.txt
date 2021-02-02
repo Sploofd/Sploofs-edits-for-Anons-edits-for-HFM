@@ -1,0 +1,12 @@
+owner = USA
+controller = USA
+add_core = MEX
+
+trade_goods = coal
+life_rating = 20
+terrain = dry_forest_mountains
+1836.1.1 = {
+     controller = MEX
+     owner = MEX
+}
+

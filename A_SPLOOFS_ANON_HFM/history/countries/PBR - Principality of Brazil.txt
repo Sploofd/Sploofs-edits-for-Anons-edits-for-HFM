@@ -54,7 +54,7 @@ upper_house = {
 }
 
 set_country_flag = new_world_nation
-oob = "BRZ_oob.txt"
+oob = "/1816/PBR_oob.txt"
 
 # Technologies
 #hot_blast = 1

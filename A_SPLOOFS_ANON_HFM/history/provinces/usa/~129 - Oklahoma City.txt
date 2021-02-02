@@ -1,0 +1,13 @@
+owner = USA
+controller = USA
+add_core = MEX
+
+colonial = 2
+trade_goods = coal
+life_rating = 35
+terrain = steppe
+1836.1.1 = {
+     controller = MEX
+     owner = MEX
+}
+

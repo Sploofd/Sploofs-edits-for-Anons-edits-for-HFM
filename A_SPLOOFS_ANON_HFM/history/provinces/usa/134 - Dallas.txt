@@ -1,12 +1,12 @@
 owner = USA
 controller = USA
-add_core = MEX
 
 trade_goods = coal
 life_rating = 35
 terrain = new_world_semidesert
 1836.1.1 = {
      controller = TEX
-     owner = TEX
+     owner = TEX 
+     add_core = MEX
 }
 

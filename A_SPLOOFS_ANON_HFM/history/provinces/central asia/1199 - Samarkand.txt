@@ -1,5 +1,6 @@
-owner = BUK
-controller = BUK
+owner = URT
+controller = URT
+add_core = URT
 add_core = BUK
 add_core = DWZ
 add_core = KOK

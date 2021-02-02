@@ -118,6 +118,8 @@ dismantle_factories
 take_puppet
 acquire_vassal_core_region
 liberate_puppet
+liberate_vop
+liberate_VNG
 }
 
 # Great War CB's
@@ -8363,4 +8365,84 @@ liberate_puppet = {
 			country_event = 19370
 		}
 	}
+}
+
+liberate_vop = {
+    sprite_index = 7
+    is_triggered_only = yes
+    months = 0
+    always = yes
+
+    constructing_cb = no
+
+    badboy_factor = 0
+    prestige_factor = 0
+    peace_cost_factor = 20
+    penalty_factor = 0
+
+    break_truce_prestige_factor = 0
+    break_truce_infamy_factor = 0
+    break_truce_militancy_factor = 0
+    truce_months = 120
+
+    good_relation_prestige_factor = 0
+    good_relation_infamy_factor = 0
+    good_relation_militancy_factor = 0
+
+    can_use = {
+        always = no
+    }
+
+    po_remove_prestige = yes
+
+    tws_battle_factor = 1.0
+
+    war_name = VOP_liberation #wont be used anyway
+
+    on_add = {
+    }
+
+    on_po_accepted = {
+        SPA = { country_event = 496758 }
+    }
+}
+
+liberate_VNG = {
+    sprite_index = 7
+    is_triggered_only = yes
+    months = 0
+    always = yes
+
+    constructing_cb = no
+
+    badboy_factor = 0
+    prestige_factor = 0
+    peace_cost_factor = 20
+    penalty_factor = 0
+
+    break_truce_prestige_factor = 0
+    break_truce_infamy_factor = 0
+    break_truce_militancy_factor = 0
+    truce_months = 120
+
+    good_relation_prestige_factor = 0
+    good_relation_infamy_factor = 0
+    good_relation_militancy_factor = 0
+
+    can_use = {
+        always = no
+    }
+
+    po_remove_prestige = yes
+
+    tws_battle_factor = 1.0
+
+    war_name = VNG_liberation #wont be used anyway
+
+    on_add = {
+    }
+
+    on_po_accepted = {
+        VNG = { annex_to = GCO }
+    }
 }

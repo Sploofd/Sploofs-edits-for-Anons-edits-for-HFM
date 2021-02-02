@@ -1,0 +1,451 @@
+#Treaty of adams-onis event chain
+country_event = {
+
+	id = 36465 #Spa can decide to either offer just florida, just northern mexico, or both 
+        title = "36465_TITLE"
+	desc = "36465_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36465OP1" # Just Florida
+                USA = { country_event = 36480 } 
+                ai_chance = { factor = 0 }             
+        }
+
+        option = {
+		name = "36465OP2" #Just northern mexico - note to self, the Americans had virtually invaded florida at this point, so this event should incerease tensions between the countries, mabye lead to a war
+                USA = { country_event = 36481 } 
+                ai_chance = { factor = 0 }
+        }
+
+        option = {
+		name = "36465OP3" #Both
+                USA = { country_event = 36482 } 
+                ai_chance = { factor = 100 }
+        }
+    
+}
+
+#Mini event chain for spanish florida offer
+country_event = {
+
+	id = 36480 #Spain offers florida
+        title = "36480_TITLE"
+	desc = "36480_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36480OP1" # accept
+                money = -200000
+                SPA = { country_event = 36483 }
+                198 = { add_core = USA}    
+                200 = { add_core = USA}   
+                relation = {
+	        who = SPA
+	        value = 20
+                }   
+                ai_chance = { factor = 95 }       
+        }
+
+        option = {
+		name = "36480OP2" #deny                
+                SPA = { country_event = 36484 }
+                relation = {
+	        who = SPA
+	        value = -10
+                }    
+                ai_chance = { factor = 2 }     
+        }
+
+        option = {
+		name = "36480OP3" #deny, and push for florida with no payment
+                SPA = { country_event = 36484 }
+                badboy = 3
+                198 = { add_core = USA}    
+                200 = { add_core = USA}  
+                relation = {
+	        who = SPA
+	        value = -50
+                }
+                ai_chance = { factor = 3 }         
+        }
+
+        option = {
+		name = "36480OP4" #deny, and push for florida and spanish lousianna
+                SPA = { country_event = 36484 }
+                badboy = 5
+                141 = { add_core = USA}                
+                198 = { add_core = USA}    
+                200 = { add_core = USA}   
+                relation = {
+	        who = SPA
+	        value = -100
+                } 
+                ai_chance = { factor = 0 }   
+        }
+
+}
+
+country_event = {
+
+	id = 36483 #They accepted
+        title = "36483_TITLE"
+	desc = "36483_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36483OP1" 
+                money = 200000
+                198 = { secede_province = USA }
+                200 = { secede_province = USA }
+                relation = {
+	        who = USA
+	        value = 20
+                }          
+        }
+}
+
+country_event = {
+
+	id = 36484 #They denied
+        title = "36484_TITLE"
+	desc = "36484_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36483OP1"   
+        }
+}
+
+#Mini event chain for only mexico border offer
+country_event = {
+
+	id = 36481 #Spain offers only mexico border
+        title = "36481_TITLE"
+	desc = "36481_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36481OP1" # accept, withdraw from florida
+                prestige = -3
+                end_war = SMN
+                105 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                110 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                107 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                3701 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                109 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                3689 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                103 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                128 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                129 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                135 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                134 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                43 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                SPA = { country_event = 36485 }
+                relation = {
+	        who = SPA
+	        value = 20
+                }      
+                ai_chance = { factor = 30 }    
+        }
+
+        option = {
+		name = "36481OP2" #deny                
+                SPA = { country_event = 36484 }
+                relation = {
+	        who = SPA
+	        value = -10
+                }
+                ai_chance = { factor = 5}         
+        }
+
+        option = {
+		name = "36480OP3" #deny, and push for florida
+                SPA = { country_event = 36484 }
+                badboy = 3
+                198 = { add_core = USA}    
+                200 = { add_core = USA}  
+                relation = {
+	        who = SPA
+	        value = -50
+                }         
+                ai_chance = { factor = 65 }
+        }
+
+        option = {
+		name = "36480OP4" #deny, and push for florida and spanish lousianna
+                SPA = { country_event = 36484 }
+                badboy = 5
+                141 = { add_core = USA}                
+                198 = { add_core = USA}    
+                200 = { add_core = USA}   
+                relation = {
+	        who = SPA
+	        value = -100
+                }    
+                ai_chance = { factor = 0 }
+        }
+
+}
+
+country_event = {
+
+	id = 36485 #They accept northern border change
+        title = "36485_TITLE"
+	desc = "36485_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36485OP1"  
+                VNS = { country_event = 36471 }
+                prestige = 3                
+        }
+}
+
+country_event = {
+
+	id = 36471 #They accept northern border change VNS
+        title = "36471_TITLE"
+	desc = "36471_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36485OP1"  
+                141 = { secede_province = USA add_core = USA remove_core = VNS remove_core = MEX }  
+                3691 = { secede_province = SUC remove_core = VNS remove_core = MEX } #Not sure if this works, SUC is the non existant tag that I use in history files for stuff like this
+                3388 = { secede_province = SUC remove_core = VNS remove_core = MEX }
+                83 = { secede_province = SUC remove_core = VNS remove_core = MEX } 
+                3688 = { secede_province = VNS add_core = VNS add_core = MEX }                  
+        }
+}
+
+#IRL treaty
+country_event = {
+
+	id = 36482 
+        title = "36482_TITLE"
+	desc = "36482_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36482OP1" # accept
+                money = -200000
+                SPA = { country_event = 36486 }
+                105 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                110 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                107 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                3701 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                109 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                3689 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                103 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                128 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                129 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                135 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                134 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                43 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+                3398 = { secede_province = VNS add_core = VNS add_core = MEX remove_core = USA }
+
+
+                relation = {
+	        who = SPA
+	        value = 20
+                }  
+                ai_chance = { factor = 100 }        
+        }
+
+        option = {
+		name = "36482OP2" #deny                
+                SPA = { country_event = 36484 }
+                relation = {
+	        who = SPA
+	        value = -10
+                }   
+                ai_chance = { factor = 0 }      
+        }
+
+        option = {
+		name = "36482OP3" #deny, and push for florida with no payment (war)
+                SPA = { country_event = 36484 }
+                badboy = 3
+                198 = { add_core = USA}    
+                200 = { add_core = USA}  
+                relation = {
+	        who = SPA
+	        value = -50
+                }         
+                ai_chance = { factor = 0 }
+        }
+
+        option = {
+		name = "36482OP4" #deny, and push for florida and spanish lousianna
+                SPA = { country_event = 36484 }
+                badboy = 5
+                141 = { add_core = USA}                
+                198 = { add_core = USA}    
+                200 = { add_core = USA}   
+                relation = {
+	        who = SPA
+	        value = -100
+                }    
+                ai_chance = { factor = 0 }
+        }
+
+}
+
+country_event = {
+
+	id = 36486 #They accepted IRL
+        title = "36486_TITLE"
+	desc = "36486_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36486OP1" 
+                money = 200000
+                VNS = { country_event = 36470 }
+                198 = { secede_province = USA add_core = USA }
+                200 = { secede_province = USA add_core = USA }
+                141 = { secede_province = USA add_core = USA remove_core = VNS remove_core = MEX }                 
+                relation = {
+	        who = USA
+	        value = 20
+                }        
+        }
+}
+
+
+country_event = {
+
+	id = 36470 #They accepted IRL vns
+        title = "36470_TITLE"
+	desc = "36470_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36470" 
+                141 = { secede_province = USA add_core = USA remove_core = VNS remove_core = MEX } 
+                3691 = { secede_province = SUC remove_core = VNS remove_core = MEX } #Not sure if this works, SUC is the non existant tag that I use in history files for stuff like this
+                3388 = { secede_province = SUC remove_core = VNS remove_core = MEX }
+                83 = { secede_province = SUC remove_core = VNS remove_core = MEX }    
+                3688 = { secede_province = VNS add_core = VNS add_core = MEX }              
+                relation = {
+	        who = USA
+	        value = 20
+                }        
+        }
+}
+
+country_event = {
+
+	id = 36490 #Spain only had florida and offers it
+        title = "36490_TITLE"
+	desc = "36490_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36490OP1" # accept
+                money = -200000
+                SPA = { country_event = 36483 }
+                198 = { add_core = USA}    
+                200 = { add_core = USA}   
+                relation = {
+	        who = SPA
+	        value = 20
+                }
+                ai_chance = { factor = 95 }          
+        }
+
+        option = {
+		name = "36480OP2" #deny                
+                SPA = { country_event = 36484 }
+                prestige = -3
+                end_war = SMN
+                relation = {
+	        who = SPA
+	        value = -10
+                }   
+                ai_chance = { factor = 5 }          
+        }
+
+        option = {
+		name = "36480OP3" #deny, and push for florida with no payment 
+                SPA = { country_event = 36484 }
+                badboy = 3
+                198 = { add_core = USA}    
+                200 = { add_core = USA}  
+                relation = {
+	        who = SPA
+	        value = -50
+                }   
+                ai_chance = { factor = 0 }          
+        }
+
+
+}
+
+#mexico exists and wants border change
+country_event = {
+
+	id = 36491 #mexico offers only mexico border
+        title = "36491_TITLE"
+	desc = "36491_DESC"
+	picture = "nepoleon_returns"	
+	is_triggered_only = yes
+
+	option = {
+		name = "36491OP1" # accept
+                105 = { secede_province = VNS add_core = MEX remove_core = USA }
+                110 = { secede_province = VNS add_core = MEX remove_core = USA }
+                107 = { secede_province = VNS add_core = MEX remove_core = USA }
+                3701 = { secede_province = VNS add_core = MEX remove_core = USA }
+                109 = { secede_province = VNS add_core = MEX remove_core = USA }
+                3689 = { secede_province = VNS add_core = MEX remove_core = USA }
+                103 = { secede_province = VNS add_core = MEX remove_core = USA }
+                128 = { secede_province = VNS add_core = MEX remove_core = USA }
+                129 = { secede_province = VNS add_core = MEX remove_core = USA }
+                135 = { secede_province = VNS add_core = MEX remove_core = USA }
+                134 = { secede_province = VNS add_core = MEX remove_core = USA }
+                43 = { secede_province = VNS add_core = MEX remove_core = USA }
+                MEX = { country_event = 36471 }
+                relation = {
+	        who = MEX
+	        value = 20
+                }      
+                ai_chance = { factor = 100 }        
+        }
+
+        option = {
+		name = "36491OP2" #deny                
+                SPA = { country_event = 36484 }
+                relation = {
+	        who = MEX
+	        value = -10
+                } 
+                ai_chance = { factor = 0 }            
+        }
+
+
+        option = {
+		name = "36491OP3" #deny, and push for mexican luisiana
+                SPA = { country_event = 36484 }
+                badboy = 3
+                141 = { add_core = USA}                
+                relation = {
+	        who = MEX
+	        value = -100
+                }    
+                ai_chance = { factor = 0 }    
+        }
+
+}

@@ -1,7 +1,7 @@
-owner = SPA
-controller = SPA
-add_core = SPA
+#Island was unhinhabited at this time
 add_core = ENG
+add_core = LPL
+add_core = SBA
 add_core = ARC
 trade_goods = wool
 life_rating = 30

@@ -152,9 +152,9 @@ ENG_300 = { 300 294 301 302 303 3269 } #South East England
 
 ### Scandinavia
 
-DEN_251 = { 251 253 2636 } #Iceland & Greenland, now just Greenland, modified by ANON
+DEN_251 = { 251 253 2636 3344  } #Iceland & Greenland, now just Greenland, modified by ANON
 
-DEN_252 = { 252 3343 3344 3345 } #Iceland, added by ANON
+DEN_252 = { 252 3343 3345 } #Iceland, added by ANON
 
 SWE_308 = { 308 305 306 307 } #Nordnoge
 
@@ -534,7 +534,7 @@ TUR_935 = { 932 935 933 930 } #Basra
 
 RUS_1090 = { 1090 3287 1091 1093 3490 } #East Georgia, added by ANON
 
-RUS_1092 = { 1092 1094 1095 3298 3274 } #West Georgia, added by ANON
+RUS_1092 = { 1092 1094 1095 3298 3274 1716 } #West Georgia, added by ANON
 
 RUS_1098 = { 1098 1099 1101 3438 } #Armenia/Yerevan
 
@@ -1006,13 +1006,13 @@ FRA_1700 = { 1700 1701 1709 } #Algiers
 
 ALD_1704 = { 1704 1705 1706 1707 1703 } #Oran
 
-ALD_1708 = { 1708 1710 1702 } #Constantine
+ALD_1708 = { 1708 1702 } #Constantine
 
-ALD_1713 = { 1713 1715 1711 1712 } #North Central Sahara
+ALD_1713 = { 1713 1715 1711 1712 1720 1710 1719 } #North Central Sahara
 
-#ALD_1714 = { 1714 1716 1717 1720 } #West Sahara / Saoura
+#ALD_1714 = { 1714 1716 1717 } #West Sahara / Saoura
 
-ALD_1718 = { 1720 1718 1719 1721 1722 1716 1717 } #Sahara
+ALD_1718 = { 1720 1718 1721 1722 1717 } #Sahara
 
 TUN_1726 = { 1725 1726 1727 1728 1729 1730 3346 } #Tunisia
 
@@ -1267,7 +1267,7 @@ UCA_2186 = { 2186 2187 2188 2628 } #Guatemala
 
 UCA_2191 = { 2191 2192 } #El Salvador
 
-UCA_2193 = { 2193 2194 2195 } #Honduras
+UCA_2193 = { 2193 2194 2195 3364 } #Honduras
 
 UCA_2197 = { 2197 2198 2199 } #Nicaragua
 
@@ -1351,7 +1351,7 @@ PEU_2300 = { 2295 2293 2296 2298 3377  } #Lima
 
 PEU_2303 = { 2303 2304 2578 } #Arequipa
 
-BOL_2305 = { 2313 2314 3364 3447 3315 3296 } #Atacama
+BOL_2305 = { 2313 2314 3447 3315 3296 } #Atacama
 
 BOL_2315 = { 2315 2371 3385 } #Tarija, added by ANON
 
@@ -1423,7 +1423,7 @@ ARG_2554 = { 2554 2462 } #Misiones, added by ANON
 
 ARG_2368 = { 2368 2372 2369 } #Jujuy, renamed to Salta by ANON
 
-BOL_2370 = { 2370 2375 1714 3387 } #Puna de Atacama, added by ANON
+BOL_2370 = { 2370 2375 1714 3387 2494 } #Puna de Atacama, added by ANON
 
 ARG_2374 = { 2374 2385 2386 2387 2388 2373 } #Catamarca, renamed to Cuyo by dima
 
@@ -1451,7 +1451,7 @@ ENG_2476 = { 2476 2477 2478 2479 2480 2481 2482 } #Victoria
 
 ENG_2483 = { 2483 2484 2485 2486 2487 2488 2489 2490 2604 } #Queensland
 
-ENG_2491 = { 2491 2492 2493 2494 2495 2496 } #South Australia
+ENG_2491 = { 2491 2492 2493 2495 2496 } #South Australia
 
 ENG_2497 = { 2497 2498 2499 2500 2501 2502 2503 2504 2601 2602 2605 } #Western Australia
 

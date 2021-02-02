@@ -911,8 +911,11 @@ NAP             = "countries/Naples.txt"
 MIQ             = "countries/Mamluk Iraq.txt"
 SCU             = "countries/Scutari.txt"
 YAN             = "countries/Yanina.txt"
+URT             = "countries/Ura Tube.txt"
+CCR             = "countries/Chahar.txt"
+KUL             = "countries/Kulab.txt"
 
-#Sploofs Algerian Minors
+#Algerian Minors
 ASS             = "countries/Awlad Sidi Shaykh.txt" #Finally have an excuse to make the tag "ass"
 AMD             = "countries/Ain Madhi.txt"
 MZA             = "countries/Mzab.txt"

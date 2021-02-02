@@ -2,12 +2,3 @@
 add_core = COL
 trade_goods = grain
 life_rating = 30
-1836.1.1 = {
-        owner = RPL
-        controller = RPL
-}  
-1861.1.1 = {
-	owner = ENG
-	controller = ENG
-	colonial = 2
-}

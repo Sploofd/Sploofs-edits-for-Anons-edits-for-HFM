@@ -1,0 +1,11 @@
+army = {
+	name = "Army of the People"
+	location = 2359         
+        regiment = {
+		name= "1.Liga Contingent"
+		type = infantry
+		home = 2344
+	}
+
+}
+

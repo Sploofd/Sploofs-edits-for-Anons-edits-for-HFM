@@ -66,4 +66,175 @@ political_decisions = {
                }          
             }
       }
+
+      
+	liberate_chile = {
+           picture = "dmitry_milyutin"
+           potential = {
+            NOT = { has_country_flag = chile_liberate }
+            OR = {
+             tag = ARC
+             tag = LPL
+             tag = GCO
+             tag = BOL
+             tag = PEU
+            }
+           exists = CGC
+           NOT = { date = 1830 }
+            }
+           allow = {
+             war = no
+           }
+           effect = {
+            prestige = 2
+            set_country_flag = chile_liberate
+            war = {
+	    target = CGC
+	     attacker_goal = { casus_belli = liberate_country
+                     country = CHL
+             }
+	     call_ally = yes
+            }
+           }
+            ai_will_do = {
+			factor = 1
+		}
+      }
+
+
+#Treaties of adams-onis, 3 versions, 1 for both us-spanish mexico and florida border if spain controlls this, one for mexico, one for spainish florida
+      
+
+	treaty_of_adams-onis_SPA_1 = {          #IRL treaty
+           picture = "dmitry_milyutin"
+           potential = {
+                  exists = USA
+                   tag = SPA
+                   NOT = { exists = MEX }
+                   141 = { owned_by = VNS }
+                   3691 = { owned_by = VNS }
+                   3388 = { owned_by = VNS }
+                   83 = { owned_by = VNS }
+                   105 = { owned_by = USA }
+                   200 = { owned_by = SPA }
+                   198 = { owned_by = SPA }
+                   NOT = { had_country_flag = TOAOSPA1 } 
+            
+            }
+           allow = {
+             has_global_flag = 1_seminole_war
+             year = 1819
+           }
+           effect = {
+            set_country_flag = TOAOSPA1
+            country_event  = 36465 #Spa can decide to either offer just florida, just northern mexico, or both 
+            }
+            ai_will_do = {
+			factor = 1
+		}
+      }
+
+      treaty_of_adams-onis_SPA_2 = {           #Spain only has florida
+           picture = "dmitry_milyutin"
+           potential = {
+                  exists = USA
+                   tag = SPA
+                   exists = MEX 
+                   200 = { owned_by = SPA }
+                   198 = { owned_by = SPA }  
+                   NOT = { had_country_flag = TOAOSPA2 }          
+            }
+           allow = {
+             has_global_flag = 1_seminole_war
+             year = 1819
+           }
+           effect = {
+            set_country_flag = TOAOSPA2
+            USA = { country_event = 36480 } 
+            ai_will_do = {
+			factor = 1
+		}
+      }
+  
+      	treaty_of_adams-onis_MEX = {          #If mex brakes free treaty
+           picture = "dmitry_milyutin"
+           potential = {
+                  exists = USA
+                   tag = MEX    
+                   NOT = { had_country_flag = TOAOMEX }
+                   NOT = { exists = VNS }
+                   141 = { owned_by = MEX }
+                   3691 = { owned_by = MEX }
+                   3388 = { owned_by = MEX }
+                   83 = { owned_by = MEX }
+                   105 = { owned_by = MEX }
+            }
+           allow = {
+             has_global_flag = 1_seminole_war
+             year = 1819
+           }
+           effect = {   
+            set_country_flag = TOAOMEX  
+            USA = { country_event = 36491 } 
+            }
+            ai_will_do = {
+			factor = 1
+		}
+      }
+
+      appoint_bolivar_dictator = {          
+           picture = "dmitry_milyutin"
+           potential = {
+                  exists = GCO
+                  GCO = { war_with = SPA }  
+                  OR = {
+                  has_country_flag = peru_democracy
+                  has_country_flag = martin_has_left 
+                  }               
+            }
+           allow = {
+             war_with = VOP
+           }
+           effect = {   
+            war_exhaustion = -20
+             change_government = presidential_dictatorship
+             GCO = { create_vassal = PEU }
+             relation = {
+	     who = GCO
+	     value = 200
+             }          
+            }
+            ai_will_do = {
+			factor = 1
+		}
+      }
+
+     unite_with_bolivia = {          
+           picture = "dmitry_milyutin"
+           potential = {
+                  exists = BOL
+                  OR = {
+                  tag = BO1
+                  tag = BO2
+                  tag = BO3
+                  tag = BO4
+                  tag = BO5
+                  tag = BO6
+                  tag = BO7
+                  tag = BO8
+                  tag = BO9
+                  tag = B10
+                  }                   
+            }
+           allow = {
+           }
+           effect = {   
+            annex_to = BOL
+            capital_scope = { remove_core = THIS }
+           }
+            ai_will_do = {
+			factor = 1
+		}
+      }
+
 }

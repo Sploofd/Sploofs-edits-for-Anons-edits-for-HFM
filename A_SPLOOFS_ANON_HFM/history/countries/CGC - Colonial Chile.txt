@@ -73,7 +73,6 @@ mechanical_production = 1
 # Inventions
 
 
-oob = "CHL_oob.txt"
 
 #Starting Consciousness
 consciousness = 8

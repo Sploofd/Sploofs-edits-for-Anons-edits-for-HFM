@@ -114,6 +114,7 @@ political_decisions = {
 	GCO_capital = {
 		picture = unite_gran_colombia
 		potential = {
+                        war = no
 			tag = GCO
 			NOT = { has_country_flag = GCO_capital }
 			NOT = { has_country_flag = GCO_capital_selected }

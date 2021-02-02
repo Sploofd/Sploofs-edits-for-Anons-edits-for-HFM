@@ -4,10 +4,4 @@ trade_goods = coal
 life_rating = 31
 terrain = victoriaisland
 colonial = 2
-1836.1.1 = {
-        owner = RPL
-        controller = RPL
-}  
-1861.1.1 = {
-	naval_base = 1
-}
+

@@ -229,12 +229,13 @@ vassal = {
 	start_date = 1814.11.1
 	end_date = 1962.1.1
 }
-vassal = {
-	first = BDK
-	second = KUN
-	start_date = 1814.11.1
-	end_date = 1962.1.1
-}
+#From what I could tell badashkan when virtually independant
+#vassal = {
+#	first = BDK
+#	second = KUN
+#	start_date = 1814.11.1
+#	end_date = 1962.1.1
+#}
 ############
 
 #AOG
@@ -1330,6 +1331,22 @@ substate = {
 substate = {
        first = TUR
        second = YAN
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#Bukharra - Ura tube
+vassal = {
+       first = BUK
+       second = URT
+       start_date = 1815.1.1
+       end_date = 1936.1.1
+}
+
+#Bukharra - Chahar
+vassal = {
+       first = BUK
+       second = CCR
        start_date = 1815.1.1
        end_date = 1936.1.1
 }

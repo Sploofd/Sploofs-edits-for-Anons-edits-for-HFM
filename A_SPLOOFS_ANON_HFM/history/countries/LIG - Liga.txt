@@ -52,3 +52,4 @@ upper_house = {
 }
 
 set_country_flag = new_world_nation
+oob = "/1816/LIG_oob.txt"

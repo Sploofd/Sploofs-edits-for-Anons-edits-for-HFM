@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 75
+		size = 10
 	}
 
 	farmers = {
@@ -59,7 +59,7 @@
 	soldiers = {
 		culture = aimara
 		religion = catholic
-		size = 125
+		size = 25
 	}
 
 	farmers = {
@@ -91,7 +91,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 50
+		size = 10
 	}
 
 	farmers = {
@@ -115,7 +115,7 @@
 	soldiers = {
 		culture = aimara
 		religion = catholic
-		size = 50
+		size = 10
 	}
 
 	farmers = {
@@ -148,7 +148,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 25
+		size = 5
 	}
 
 	farmers = {
@@ -172,7 +172,7 @@
 	soldiers = {
 		culture = aimara
 		religion = catholic
-		size = 75
+		size = 12
 	}
 
 	farmers = {
@@ -204,7 +204,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 10
+		size = 2
 	}
 
 	farmers = {
@@ -228,7 +228,7 @@
 	soldiers = {
 		culture = aimara
 		religion = catholic
-		size = 50
+		size = 10
 	}
 
 	farmers = {
@@ -256,7 +256,7 @@
 	soldiers = {
 		culture = aimara
 		religion = catholic
-		size = 50
+		size = 10
 	}
 	farmers = {
 		culture = aimara
@@ -285,7 +285,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 1125
+		size = 225
 	}
 
 	farmers = {
@@ -329,7 +329,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 175
+		size = 30
 	}
 
 	farmers = {
@@ -404,7 +404,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 7000
+		size = 500
 	}
 
 	farmers = {
@@ -465,7 +465,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 1100
+		size = 200
 	}
 
 	farmers = {
@@ -497,7 +497,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 1100
+		size = 200
 	}
 
 	farmers = {
@@ -600,7 +600,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 1100
+		size = 200
 	}
 
 	farmers = {
@@ -630,7 +630,7 @@
 	soldiers = {
 		culture = mapuche
 		religion = animist
-		size = 75
+		size = 20
 	}
 
 	farmers = {
@@ -662,7 +662,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 50
+		size = 10
 	}
 
 	farmers = {
@@ -692,7 +692,7 @@
 	soldiers = {
 		culture = mapuche
 		religion = animist
-		size = 3500
+		size = 350
 	}
 
 	farmers = {
@@ -724,7 +724,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 1100
+		size = 110
 	}
 
 	farmers = {
@@ -781,7 +781,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 75
+		size = 20
 	}
 
 	farmers = {
@@ -811,7 +811,7 @@
 	soldiers = {
 		culture = mapuche
 		religion = animist
-		size = 25
+		size = 5
 	}
 
 	farmers = {
@@ -887,7 +887,7 @@
 	soldiers = {
 		culture = mapuche
 		religion = animist
-		size = 50
+		size = 10
 	}
 
 	farmers = {
@@ -920,7 +920,7 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 25
+		size = 5
 	}
 
 	farmers = {
@@ -952,7 +952,7 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 25
+		size = 5
 	}
 
 	farmers = {
@@ -984,7 +984,7 @@
 	soldiers = {
 		culture = patagonian
 		religion = animist
-		size = 15
+		size = 2
 	}
 
 	farmers = {

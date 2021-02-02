@@ -4,6 +4,7 @@ political_decisions = {
 		picture = "population_growth"
 		potential = {
 			NOT = { has_country_flag = population_growth_fix_phase_1 }
+                        tag = WTF #seriously this just crashes the game so ive disabled it
 		}
 		
 		allow = {

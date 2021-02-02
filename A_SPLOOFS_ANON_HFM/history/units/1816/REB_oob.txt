@@ -20,21 +20,21 @@ army = {
 
 army = {
 	name = "2nd Mexican Rebels"
-	location = 3441
+	location = 2162
 	regiment = {
 		name = "1. Regiment"
 		type = infantry
-		home = 3441
+		home = 2162
 	}
 	regiment = {
 		name = "2. Regiment"
 		type = infantry
-		home = 3441
+		home = 2162
 	}
 	regiment = {
 		name = "3. Regiment"
 		type = irregular
-		home = 3441
+		home = 2162
 	}
 
 }

@@ -104,11 +104,12 @@ basic_chemistry = 1
 consciousness = 3
 nonstate_consciousness = 1
 
-oob = "SPA_oob.txt"
+oob = ".1816/SPA_oob.txt"
 1836.1.1 = {
        government = hms_government
-     vote_franschise = wealth_voting
-      public_meetings = yes_meeting
+      vote_franschise = wealth_voting
+      public_meetings = yes_meeting     
+      oob = "SPA_oob.txt"
 
 }
 1837.1.1 = {

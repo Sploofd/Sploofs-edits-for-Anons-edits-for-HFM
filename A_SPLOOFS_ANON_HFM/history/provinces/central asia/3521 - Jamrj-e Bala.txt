@@ -1,5 +1,6 @@
-owner = DWZ
-controller = DWZ
+owner = KUL
+controller = KUL
+add_core = KUL
 add_core = DWZ
 add_core = KUN
 add_core = BDK

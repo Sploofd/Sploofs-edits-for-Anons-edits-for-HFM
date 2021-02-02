@@ -4,7 +4,3 @@ trade_goods = precious_goods
 life_rating = 35
 terrain = vancouver
 colonial = 2
-1836.1.1 = {
-        owner = RPL
-        controller = RPL
-}  

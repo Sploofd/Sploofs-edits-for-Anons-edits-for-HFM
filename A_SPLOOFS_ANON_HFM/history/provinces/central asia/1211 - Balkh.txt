@@ -1,5 +1,5 @@
-owner = BDK
-controller = BDK
+owner = CCR
+add_core = CCR
 add_core = BDK
 add_core = DWZ
 add_core = BUK

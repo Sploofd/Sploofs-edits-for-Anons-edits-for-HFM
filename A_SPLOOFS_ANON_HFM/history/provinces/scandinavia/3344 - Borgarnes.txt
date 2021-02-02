@@ -1,8 +1,6 @@
-owner = DEN
-controller = DEN
+
+add_core = GRN
 add_core = DEN
-add_core = ICL
-trade_goods = cattle
-life_rating = 32
+trade_goods = fish
+life_rating = 10
 colonial = 2
-terrain = arctic
